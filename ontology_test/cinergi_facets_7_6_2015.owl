@@ -1,0 +1,878 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Activity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agriculture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atmosphere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atmospheric_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atmospheric_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biological_Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biological_Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemical_Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemical_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemical_Substance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Climate_Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer_Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dataset"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Document"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Earth_Science"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Earth_Surface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ecology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Environmental_Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Experiment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geographic_Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geologic_Age"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geologic_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geosphere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Glacial_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Habitat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydrologic_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hydrosphere"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instrument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marine_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Meeting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mineral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Observation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ocean_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherEquipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherFeature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherMethod"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherRealm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherResourceType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OtherScienceDomain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical_Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physiographic_Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Platform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Property"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Realm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Repository"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resource_Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rock_Material"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SatellitePlatform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Science_Domain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sediment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sensor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Soil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Statistical_Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surficial_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tectonic_Process"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toxicity_Assay_Method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_Service"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Activity"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agriculture"/>
+        <Class IRI="#Science_Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atmosphere"/>
+        <Class IRI="#Realm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atmospheric_Feature"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atmospheric_Process"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biological_Material"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biological_Method"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biology"/>
+        <Class IRI="#Science_Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemical_Method"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemical_Process"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemical_Substance"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemistry"/>
+        <Class IRI="#Science_Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Climate_Science"/>
+        <Class IRI="#Science_Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer_Science"/>
+        <Class IRI="#Science_Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dataset"/>
+        <Class IRI="#Resource_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Document"/>
+        <Class IRI="#Resource_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earth_Science"/>
+        <Class IRI="#Science_Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Earth_Surface"/>
+        <Class IRI="#Realm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ecology"/>
+        <Class IRI="#Science_Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Environmental_Material"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Equipment"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Experiment"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geologic_Feature"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geosphere"/>
+        <Class IRI="#Realm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Glacial_Process"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Habitat"/>
+        <Class IRI="#Realm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human_Feature"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydrologic_Process"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hydrosphere"/>
+        <Class IRI="#Realm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Instrument"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marine_Feature"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medicine"/>
+        <Class IRI="#Science_Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meeting"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mineral"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Observation"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ocean_Process"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherActivity"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherEquipment"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherFeature"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherMaterial"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherMethod"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherProcess"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherRealm"/>
+        <Class IRI="#Realm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherResourceType"/>
+        <Class IRI="#Resource_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OtherScienceDomain"/>
+        <Class IRI="#Science_Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical_Method"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physics"/>
+        <Class IRI="#Science_Domain"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physiographic_Feature"/>
+        <Class IRI="#Feature"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Platform"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Project"/>
+        <Class IRI="#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Repository"/>
+        <Class IRI="#Resource_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rock_Material"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SatellitePlatform"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sediment"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sensor"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Software"/>
+        <Class IRI="#Resource_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soil"/>
+        <Class IRI="#Material"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specification"/>
+        <Class IRI="#Resource_Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Statistical_Method"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surficial_Process"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tectonic_Process"/>
+        <Class IRI="#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toxicity_Assay_Method"/>
+        <Class IRI="#Method"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_Service"/>
+        <Class IRI="#Resource_Type"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Activity</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Agriculture</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Agricultural Science</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Atmosphere</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Atmosphere</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Atmospheric_Feature</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Atmospheric Feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Atmospheric_Process</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Atmospheric Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biological_Material</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Biological Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biological_Method</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Biological Method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biology</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Biology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Chemical_Method</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chemical Method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Chemical_Process</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chemical Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Chemical_Substance</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chemical Substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Chemistry</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Chemistry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Climate_Science</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Climate Science</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Computer_Science</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Computer Science</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Dataset</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Data Set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Document</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Document</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Earth_Science</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Earth Science</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Earth_Surface</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Earth Surface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ecology</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ecology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Environmental_Material</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Environmental Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Equipment</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Equipment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Experiment</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Experiment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Feature</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Geographic_Location</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Geographic Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Geologic_Age</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Geologic Time</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Geologic_Feature</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Geologic Feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Geosphere</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Geosphere</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Glacial_Process</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Glacial Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Habitat</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Habitat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Human_Feature</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Human Feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hydrologic_Process</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hydrologic Processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hydrosphere</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Hydrosphere</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Instrument</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Instrument</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Marine_Feature</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Marine Feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Material</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Medicine</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Medicine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Meeting</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Meeting</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Method</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Mineral</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Mineral</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Observation</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Observation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ocean_Process</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Ocean Processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Organization</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OtherActivity</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Human Activity (Other)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OtherEquipment</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Equipment (Other)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OtherFeature</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Feature (Other)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OtherMaterial</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Material (Other)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OtherMethod</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Method (Other)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OtherProcess</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Process (Other)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OtherRealm</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Realm (Other)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OtherResourceType</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Resource (Other)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OtherScienceDomain</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Science Domain (Other)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physical_Method</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Physical Method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physics</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Physics</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Physiographic_Feature</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Physiographic Feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Platform</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Platform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Process</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Project</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Project</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Property</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Named Property</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Realm</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Realm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Repository</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Repository</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Resource_Type</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Resource Type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rock_Material</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Rock Material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SatellitePlatform</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SATELLITES</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Science_Domain</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Science Domain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sediment</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sediment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Sensor</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Sensor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Software</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Soil</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Soil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Specification</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Specification</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Statistical_Method</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Statistical Method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Surficial_Process</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Surficial Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Tectonic_Process</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Tectonic Processes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Toxicity_Assay_Method</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Toxicity Assay Method</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Web_Service</IRI>
+        <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Web Service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Thing</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,54 @@
+Facet removed from: Temporal Object
+Facet removed from: Data Set
+Facet removed from: Measure
+Facet removed from: Environmental Material
+Facet removed from: sediment
+Facet removed from: material entity
+Facet removed from: Process
+Facet removed from: Biological Process
+Facet removed from: Feature
+Facet removed from: service resource
+Facet removed from: Biological Material
+Facet removed from: Physiographic Feature
+Facet removed from: software resource
+Facet removed from: Project
+Facet removed from: Sensor
+Facet removed from: Soil
+Facet removed from: Experiment
+Facet removed from: Agricultural Science
+Facet removed from: Science Domain
+Facet removed from: Resource
+Facet removed from: Atmospheric Sciences
+Facet removed from: Human Activities
+Facet removed from: Equipment
+Facet removed from: namedProperty
+Facet removed from: Ecology
+Facet removed from: rock
+Facet removed from: geographic location
+Facet removed from: instrument_package
+Facet removed from: Earth Science
+Facet removed from: Bibliographic Resource
+Facet removed from: life sciences
+Facet removed from: chemical substance
+Facet removed from: sediment
+Facet removed from: Organization
+Facet removed from: human processes
+Facet removed from: Meeting
+Facet removed from: GeologicTime
+Facet removed from: Science Domain (Other)
+Facet removed from: Material (Other)
+Facet removed from: Mineral
+Facet removed from: Human Activity (Other)
+Facet removed from: Computer science
+Facet removed from: specification
+Facet removed from: Platform
+Facet removed from: Observation
+Facet removed from: Instruments
+Facet removed from: Instrument
+Facet removed from: Chemistry
+Facet removed from: natural processes
+Facet removed from: Physics
+Facet removed from: Medicine
+Facet removed from: SATELLITES
+Facet removed from: chemical process
+Facet removed from: Chemical Entity

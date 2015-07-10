@@ -1,0 +1,278 @@
+could not find Tectonic Processes
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Tectonic Processes"@en)
+cinergiFacet added to class: tectonic-processes
+Annotation(rdfs:label "Process"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Mineral"@en)
+cinergiFacet added to class: CHEBI_46662
+Annotation(rdfs:label "Material"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Sediment"@en)
+cinergiFacet added to class: sediment
+Annotation(rdfs:label "Material"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Material"@en)
+cinergiFacet added to class: BFO_0000040
+Annotation(rdfs:label "Thing")
+could not find Thing
+could not find Document
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Document"@en)
+cinergiFacet added to class: IAO_0000310
+Annotation(rdfs:label "Resource Type"@en)
+could not find Resource Type
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Geologic Time"@en)
+cinergiFacet added to class: GeologicTime
+Annotation(rdfs:label "Thing")
+could not find Thing
+could not find Habitat
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Habitat"@en)
+cinergiFacet added to class: ENVO_0002036
+Annotation(rdfs:label "Realm"@en)
+could not find Realm
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Earth Science"@en)
+cinergiFacet added to class: earth-sciences
+Annotation(rdfs:label "Science Domain"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Science Domain"@en)
+cinergiFacet added to class: sciences
+Annotation(rdfs:label "Thing")
+could not find Thing
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Human Activity (Other)")
+cinergiFacet added to class: ActivityUnclassified
+Annotation(rdfs:label "Activity"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Activity"@en)
+cinergiFacet added to class: Activity
+Annotation(rdfs:label "Thing")
+could not find Thing
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Realm (Other)")
+cinergiFacet added to class: RealmUnclassified
+Annotation(rdfs:label "Realm"@en)
+could not find Realm
+could not find Realm
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Realm"@en)
+cinergiFacet added to class: PlanetaryRealm
+Annotation(rdfs:label "Thing")
+could not find Thing
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Biological Method"@en)
+cinergiFacet added to class: Biological_Method
+Annotation(rdfs:label "Method"@en)
+could not find Method
+could not find Method
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Method"@en)
+cinergiFacet added to class: method
+Annotation(rdfs:label "Thing")
+could not find Thing
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Geographic Location"@en)
+cinergiFacet added to class: GAZ_00000448
+Annotation(rdfs:label "Thing")
+could not find Thing
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Atmospheric Feature"@en)
+cinergiFacet added to class: Atmospheric_Feature
+Annotation(rdfs:label "Feature"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Feature"@en)
+cinergiFacet added to class: Realm
+Annotation(rdfs:label "Thing")
+could not find Thing
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Chemical Process"@en)
+cinergiFacet added to class: D055599
+Annotation(rdfs:label "Process"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Process"@en)
+cinergiFacet added to class: BFO_0000015
+Annotation(rdfs:label "Thing")
+could not find Thing
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Science Domain (Other)")
+cinergiFacet added to class: scienceDomainUnclassified
+Annotation(rdfs:label "Science Domain"@en)
+could not find Hydrologic Processes
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Hydrologic Processes"@en)
+cinergiFacet added to class: hydrologic-processes
+Annotation(rdfs:label "Process"@en)
+could not find Atmosphere
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Atmosphere"@en)
+cinergiFacet added to class: ENVO_01000267
+Annotation(rdfs:label "Realm"@en)
+could not find Realm
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Environmental Material"@en)
+cinergiFacet added to class: ENVO_00010483
+Annotation(rdfs:label "Material"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Observation"@en)
+cinergiFacet added to class: Observation
+Annotation(rdfs:label "Activity"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Computer Science"@en)
+cinergiFacet added to class: topic_3316
+Annotation(rdfs:label "Science Domain"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Platform"@en)
+cinergiFacet added to class: f3261de5-34c1-4980-af22-f9d7e7206d12
+Annotation(rdfs:label "Equipment"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Project"@en)
+cinergiFacet added to class: Project
+Annotation(rdfs:label "Activity"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Sensor"@en)
+cinergiFacet added to class: Sensor
+Annotation(rdfs:label "Equipment"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Medicine"@en)
+cinergiFacet added to class: topic_3303
+Annotation(rdfs:label "Science Domain"@en)
+could not find Marine Feature
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Marine Feature"@en)
+cinergiFacet added to class: ENVO_01000031
+Annotation(rdfs:label "Feature"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Organization"@en)
+cinergiFacet added to class: OBI_0000245
+Annotation(rdfs:label "Thing")
+could not find Thing
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Statistical Method"@en)
+cinergiFacet added to class: Statistical_Method
+Annotation(rdfs:label "Method"@en)
+could not find Method
+could not find Equipment (Other)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Equipment (Other)")
+cinergiFacet added to class: EquipmentUnclassified
+Annotation(rdfs:label "Equipment"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Physics"@en)
+cinergiFacet added to class: topic_3318
+Annotation(rdfs:label "Science Domain"@en)
+could not find Geosphere
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Geosphere"@en)
+cinergiFacet added to class: Geosphere
+Annotation(rdfs:label "Realm"@en)
+could not find Realm
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Experiment"@en)
+cinergiFacet added to class: EFO_0002694
+Annotation(rdfs:label "Activity"@en)
+could not find Hydrosphere
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Hydrosphere"@en)
+cinergiFacet added to class: Hydrosphere
+Annotation(rdfs:label "Realm"@en)
+could not find Realm
+could not find Web Service
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Web Service"@en)
+cinergiFacet added to class: SWO_9000051
+Annotation(rdfs:label "Resource Type"@en)
+could not find Resource Type
+could not find Resource Type
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Resource Type"@en)
+cinergiFacet added to class: data_0005
+Annotation(rdfs:label "Thing")
+could not find Thing
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Named Property"@en)
+cinergiFacet added to class: namedProperty
+Annotation(rdfs:label "Thing")
+could not find Thing
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Instrument"@en)
+cinergiFacet added to class: Instrument
+Annotation(rdfs:label "Equipment"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "SATELLITES")
+cinergiFacet added to class: b1489c-fba7-4252-bf23-b981148343f1
+Annotation(rdfs:label "Equipment"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Equipment"@en)
+cinergiFacet added to class: Equipment
+Annotation(rdfs:label "Feature"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Meeting"@en)
+cinergiFacet added to class: Meeting
+Annotation(rdfs:label "Activity"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Earth Surface"@en)
+cinergiFacet added to class: Earth_Surface
+Annotation(rdfs:label "Realm"@en)
+could not find Realm
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Chemistry"@en)
+cinergiFacet added to class: Chemistry
+Annotation(rdfs:label "Science Domain"@en)
+could not find Rock Material
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Rock Material"@en)
+cinergiFacet added to class: rock_material
+Annotation(rdfs:label "Material"@en)
+could not find Feature (Other)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Feature (Other)")
+cinergiFacet added to class: FeatureUnclassified
+Annotation(rdfs:label "Feature"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Atmospheric Process"@en)
+cinergiFacet added to class: Atmospheric_Process
+Annotation(rdfs:label "Process"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Ecology"@en)
+cinergiFacet added to class: ecology
+Annotation(rdfs:label "Science Domain"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Human Feature"@en)
+cinergiFacet added to class: Human_Feature
+Annotation(rdfs:label "Feature"@en)
+could not find Repository
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Repository"@en)
+cinergiFacet added to class: Repository
+Annotation(rdfs:label "Resource Type"@en)
+could not find Resource Type
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Soil"@en)
+cinergiFacet added to class: ENVO_00001998
+Annotation(rdfs:label "Material"@en)
+could not find Software
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Software"@en)
+cinergiFacet added to class: SWO_0000001
+Annotation(rdfs:label "Resource Type"@en)
+could not find Resource Type
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Data Set"@en)
+cinergiFacet added to class: DataSet
+Annotation(rdfs:label "Resource Type"@en)
+could not find Resource Type
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Specification"@en)
+cinergiFacet added to class: C73537
+Annotation(rdfs:label "Resource Type"@en)
+could not find Resource Type
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Physiographic Feature"@en)
+cinergiFacet added to class: ENVO_00000191
+Annotation(rdfs:label "Feature"@en)
+could not find Surficial Process
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Surficial Process"@en)
+cinergiFacet added to class: surficial_process
+Annotation(rdfs:label "Process"@en)
+could not find Geologic Feature
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Geologic Feature"@en)
+cinergiFacet added to class: GeologicFeature
+Annotation(rdfs:label "Feature"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Physical Method"@en)
+cinergiFacet added to class: Physical_Method
+Annotation(rdfs:label "Method"@en)
+could not find Method
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Process (Other)")
+cinergiFacet added to class: ProcessUnclassified
+Annotation(rdfs:label "Process"@en)
+could not find Ocean Processes
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Ocean Processes"@en)
+cinergiFacet added to class: ocean-processes
+Annotation(rdfs:label "Process"@en)
+could not find Climate Science
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Climate Science"@en)
+cinergiFacet added to class: climatology
+Annotation(rdfs:label "Science Domain"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Chemical Substance"@en)
+cinergiFacet added to class: CHEBI_59999
+Annotation(rdfs:label "Material"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Agricultural Science"@en)
+cinergiFacet added to class: Agricultural_Science
+Annotation(rdfs:label "Science Domain"@en)
+could not find Glacial Process
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Glacial Process"@en)
+cinergiFacet added to class: GlacialProcess
+Annotation(rdfs:label "Process"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Chemical Method"@en)
+cinergiFacet added to class: Chemical_Method
+Annotation(rdfs:label "Method"@en)
+could not find Method
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Resource (Other)")
+cinergiFacet added to class: ResourceUnclassified
+Annotation(rdfs:label "Resource Type"@en)
+could not find Resource Type
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Method (Other)")
+cinergiFacet added to class: MethodUnclassfied
+Annotation(rdfs:label "Method"@en)
+could not find Method
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Biological Material"@en)
+cinergiFacet added to class: Biological_Material
+Annotation(rdfs:label "Material"@en)
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Toxicity Assay Method"@en)
+cinergiFacet added to class: Toxicity_Assay_Method
+Annotation(rdfs:label "Method"@en)
+could not find Method
+could not find Thing
+cinergiFacet added to class: Thing
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Material (Other)")
+cinergiFacet added to class: MaterialUnclassified
+Annotation(rdfs:label "Material"@en)
+could not find Biology
+removing incorrect cinergiFacet for: Annotation(rdfs:label "Biology"@en)
+cinergiFacet added to class: topic_3070
+Annotation(rdfs:label "Science Domain"@en)

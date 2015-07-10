@@ -1,0 +1,851 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://edamontology.org/data_0005 -->
+
+    <Class rdf:about="http://edamontology.org/data_0005">
+        <rdfs:label>Resource type</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3070 -->
+
+    <Class rdf:about="http://edamontology.org/topic_3070">
+        <rdfs:label>Biology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences"/>
+    </Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3303 -->
+
+    <Class rdf:about="http://edamontology.org/topic_3303">
+        <rdfs:label>Medicine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences"/>
+    </Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3316 -->
+
+    <Class rdf:about="http://edamontology.org/topic_3316">
+        <rdfs:label>Computer science</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences"/>
+    </Class>
+    
+
+
+    <!-- http://edamontology.org/topic_3318 -->
+
+    <Class rdf:about="http://edamontology.org/topic_3318">
+        <rdfs:label>Physics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences"/>
+    </Class>
+    
+
+
+    <!-- http://gcmdservices.gsfc.nasa.gov/kms/concept/b2140059-b3ca-415c-b0a7-3e142783ffe8 -->
+
+    <Class rdf:about="http://gcmdservices.gsfc.nasa.gov/kms/concept/b2140059-b3ca-415c-b0a7-3e142783ffe8">
+        <rdfs:label xml:lang="en">Instruments</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrEquipment.owl#Equipment"/>
+    </Class>
+    
+
+
+    <!-- http://gcmdservices.gsfc.nasa.gov/kms/concept/f3261de5-34c1-4980-af22-f9d7e7206d12 -->
+
+    <Class rdf:about="http://gcmdservices.gsfc.nasa.gov/kms/concept/f3261de5-34c1-4980-af22-f9d7e7206d12">
+        <rdfs:label xml:lang="en">Platform</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrEquipment.owl#Equipment"/>
+    </Class>
+    
+
+
+    <!-- http://gcmdservices.gsfc.nasa.gov/kms/concept/17b1489c-fba7-4252-bf23-b981148343f1 -->
+
+    <Class rdf:about="http://gcmdservices.gsfc.nasa.gov/kms/concept/17b1489c-fba7-4252-bf23-b981148343f1">
+        <rdfs:label xml:lang="en">SATELLITES</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrEquipment.owl#Equipment"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/CGI_Lithology#rock_material -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/CGI_Lithology#rock_material">
+        <rdfs:label>Rock material</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/CGI_Lithology#sediment -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/CGI_Lithology#sediment">
+        <rdfs:label>sediment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/basic#Measure -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/basic#Measure">
+        <rdfs:label xml:lang="fr">Mesure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi#namedProperty"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi#instrument_package -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi#instrument_package">
+        <rdfs:label xml:lang="en">instrument package</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrEquipment.owl#Equipment"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi#method -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi#method">
+        <rdfs:label>Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi#namedProperty -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi#namedProperty">
+        <rdfs:label xml:lang="en">Named Property</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Activity -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Activity">
+        <rdfs:label>Activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#ActivityUnclassified -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#ActivityUnclassified">
+        <rdfs:label>Human Activity (Other)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Activity"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Biological_Material -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Biological_Material">
+        <rdfs:label>Biological Material</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Earth_Surface -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Earth_Surface">
+        <rdfs:label xml:lang="en">Earth Surface</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/realm.owl#PlanetaryRealm"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#EquipmentUnclassified -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#EquipmentUnclassified">
+        <rdfs:label>Equipment (Other)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrEquipment.owl#Equipment"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#FeatureUnclassified -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#FeatureUnclassified">
+        <rdfs:label>Feature (other)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/realm.owl#Realm"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#GeologicTime -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#GeologicTime">
+        <rdfs:label xml:lang="en">Geologic Time</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#MaterialUnclassified -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#MaterialUnclassified">
+        <rdfs:label>Material (Other)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#ProcessUnclassified -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#ProcessUnclassified">
+        <rdfs:label>Process (Other)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#RealmUnclassified -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#RealmUnclassified">
+        <rdfs:label>Realm (Other)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/realm.owl#PlanetaryRealm"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Repository -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Repository">
+        <rdfs:label xml:lang="en">Repository</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0005"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#ResourceUnclassified -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#ResourceUnclassified">
+        <rdfs:label>Resource (Other)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0005"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#human_processes -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#human_processes">
+        <rdfs:label>human processes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#resource -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#resource">
+        <rdfs:label>Resource</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#scienceDomainUnclassified -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#scienceDomainUnclassified">
+        <rdfs:label>Science Domain (Other)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#service_resource -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#service_resource">
+        <rdfs:label>service resource</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#resource"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#surficial_process -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#surficial_process">
+        <rdfs:label>surficial process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl/Agricultural_Science -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl/Agricultural_Science">
+        <rdfs:label>Agricultural Science</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl/Chemistry -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl/Chemistry">
+        <rdfs:label>Chemistry</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/cinergi_base#natural-processes -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/cinergi_base#natural-processes">
+        <rdfs:label>natural processes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/dataset#DataSet -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/dataset#DataSet">
+        <rdfs:label>Data Set</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0005"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/observation#Observation -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/observation#Observation">
+        <rdfs:label xml:lang="en">Observation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Activity"/>
+    </Class>
+    
+
+
+    <!-- http://hydro10.sdsc.edu/cinergi_ontology/temporal#Object -->
+
+    <Class rdf:about="http://hydro10.sdsc.edu/cinergi_ontology/temporal#Object">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temporal Object</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C73537 -->
+
+    <Class rdf:about="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C73537">
+        <rdfs:label>specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0005"/>
+    </Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D006802 -->
+
+    <Class rdf:about="http://purl.bioontology.org/ontology/MESH/D006802">
+        <rdfs:label>Human Activities</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#human_processes"/>
+    </Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D012984 -->
+
+    <Class rdf:about="http://purl.bioontology.org/ontology/MESH/D012984">
+        <rdfs:label>software resource</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#resource"/>
+    </Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D055599 -->
+
+    <Class rdf:about="http://purl.bioontology.org/ontology/MESH/D055599">
+        <rdfs:label>chemical process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
+        <rdfs:label xml:lang="en">Process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <rdfs:label>Material</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chemical Entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46662 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46662">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mineral</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_59999 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59999">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical substance</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00000191 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00000191">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Physiographic Feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/realm.owl#Realm"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00001995 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00001995">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rock</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00001998 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00001998">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soil</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00002007 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00002007">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sediment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_00010483"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_00010483 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/ENVO_00010483">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Environmental Material</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_0002036 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/ENVO_0002036">
+        <rdfs:label xml:lang="en">habitat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/realm.owl#PlanetaryRealm"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000031 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000031">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marine feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/realm.owl#Realm"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ENVO_01000267 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/ENVO_01000267">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">atmosphere</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/realm.owl#PlanetaryRealm"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GAZ_00000448 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/GAZ_00000448">
+        <rdfs:label>geographic location</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Biological Process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310">
+        <rdfs:label>document</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0005"/>
+    </Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000245 -->
+
+    <Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000245">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://purl.oclc.org/NET/ssnx/ssn#Sensor -->
+
+    <Class rdf:about="http://purl.oclc.org/NET/ssnx/ssn#Sensor">
+        <rdfs:label xml:lang="en">Sensor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrEquipment.owl#Equipment"/>
+    </Class>
+    
+
+
+    <!-- http://purl.org/dc/terms/BibliographicResource -->
+
+    <Class rdf:about="http://purl.org/dc/terms/BibliographicResource">
+        <rdfs:label>Bibliographic Resource</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#resource"/>
+    </Class>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/matrEquipment.owl#Equipment -->
+
+    <Class rdf:about="http://sweet.jpl.nasa.gov/2.3/matrEquipment.owl#Equipment">
+        <rdfs:label>Equipment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/realm.owl#Realm"/>
+    </Class>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/matrInstrument.owl#Instrument -->
+
+    <Class rdf:about="http://sweet.jpl.nasa.gov/2.3/matrInstrument.owl#Instrument">
+        <rdfs:label>Instrument</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/matrEquipment.owl#Equipment"/>
+    </Class>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/phenCryo.owl#GlacialProcess -->
+
+    <Class rdf:about="http://sweet.jpl.nasa.gov/2.3/phenCryo.owl#GlacialProcess">
+        <rdfs:label>glacial process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Class>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/realm.owl#Geosphere -->
+
+    <Class rdf:about="http://sweet.jpl.nasa.gov/2.3/realm.owl#Geosphere">
+        <rdfs:label>Geosphere</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/realm.owl#PlanetaryRealm"/>
+    </Class>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/realm.owl#Hydrosphere -->
+
+    <Class rdf:about="http://sweet.jpl.nasa.gov/2.3/realm.owl#Hydrosphere">
+        <rdfs:label>Hydrosphere</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/realm.owl#PlanetaryRealm"/>
+    </Class>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/realm.owl#PlanetaryRealm -->
+
+    <Class rdf:about="http://sweet.jpl.nasa.gov/2.3/realm.owl#PlanetaryRealm">
+        <rdfs:label>Realm</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/realm.owl#Realm -->
+
+    <Class rdf:about="http://sweet.jpl.nasa.gov/2.3/realm.owl#Realm">
+        <rdfs:label>Feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://sweet.jpl.nasa.gov/2.3/realmGeol.owl#GeologicFeature -->
+
+    <Class rdf:about="http://sweet.jpl.nasa.gov/2.3/realmGeol.owl#GeologicFeature">
+        <rdfs:label>Geologic Feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/realm.owl#Realm"/>
+    </Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Meeting -->
+
+    <Class rdf:about="http://vivoweb.org/ontology/core#Meeting">
+        <rdfs:label>Meeting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Activity"/>
+    </Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Project -->
+
+    <Class rdf:about="http://vivoweb.org/ontology/core#Project">
+        <rdfs:label>Project</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Activity"/>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0002694 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002694">
+        <rdfs:label>Experiment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Activity"/>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/swo/SWO_0000001 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/swo/SWO_0000001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">software</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0005"/>
+    </Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/swo/interface/SWO_9000051 -->
+
+    <Class rdf:about="http://www.ebi.ac.uk/swo/interface/SWO_9000051">
+        <rdfs:label>web service</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_0005"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Atmospheric_Feature -->
+
+    <Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Atmospheric_Feature">
+        <rdfs:label xml:lang="en">Atmospheric Feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/realm.owl#Realm"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Atmospheric_Process -->
+
+    <Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Atmospheric_Process">
+        <rdfs:label xml:lang="en">Atmospheric Process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Biological_Method -->
+
+    <Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Biological_Method">
+        <rdfs:label xml:lang="en">Biological Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi#method"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Chemical_Method -->
+
+    <Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Chemical_Method">
+        <rdfs:label xml:lang="en">Chemical Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi#method"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Human_Feature -->
+
+    <Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Human_Feature">
+        <rdfs:label xml:lang="en">Human Feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://sweet.jpl.nasa.gov/2.3/realm.owl#Realm"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#MethodUnclassfied -->
+
+    <Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#MethodUnclassfied">
+        <rdfs:label>Method (Other)</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi#method"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Physical_Method -->
+
+    <Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Physical_Method">
+        <rdfs:label xml:lang="en">Physical Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi#method"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Statistical_Method -->
+
+    <Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Statistical_Method">
+        <rdfs:label>Statistical Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi#method"/>
+    </Class>
+    
+
+
+    <!-- http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Toxicity_Assay_Method -->
+
+    <Class rdf:about="http://www.semanticweb.org/administrator/ontologies/2015/5/untitled-ontology-4#Toxicity_Assay_Method">
+        <rdfs:label xml:lang="en">Toxicity Assay Method</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://hydro10.sdsc.edu/cinergi_ontology/cinergi#method"/>
+    </Class>
+    
+
+
+    <!-- http://www.vocabularyserver.com/usgs/index.php?tema=106&amp;/atmospheric-sciences -->
+
+    <Class rdf:about="http://www.vocabularyserver.com/usgs/index.php?tema=106&amp;/atmospheric-sciences">
+        <rdfs:label>Atmospheric Sciences</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences"/>
+    </Class>
+    
+
+
+    <!-- http://www.vocabularyserver.com/usgs/index.php?tema=1150&amp;/ocean-processes -->
+
+    <Class rdf:about="http://www.vocabularyserver.com/usgs/index.php?tema=1150&amp;/ocean-processes">
+        <rdfs:label>ocean processes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Class>
+    
+
+
+    <!-- http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences -->
+
+    <Class rdf:about="http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences">
+        <rdfs:label>Science Domain</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </Class>
+    
+
+
+    <!-- http://www.vocabularyserver.com/usgs/index.php?tema=1651&amp;/tectonic-processes -->
+
+    <Class rdf:about="http://www.vocabularyserver.com/usgs/index.php?tema=1651&amp;/tectonic-processes">
+        <rdfs:label>tectonic processes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Class>
+    
+
+
+    <!-- http://www.vocabularyserver.com/usgs/index.php?tema=276&amp;/climatology -->
+
+    <Class rdf:about="http://www.vocabularyserver.com/usgs/index.php?tema=276&amp;/climatology">
+        <rdfs:label>Climate Science</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences"/>
+    </Class>
+    
+
+
+    <!-- http://www.vocabularyserver.com/usgs/index.php?tema=442&amp;/earth-sciences -->
+
+    <Class rdf:about="http://www.vocabularyserver.com/usgs/index.php?tema=442&amp;/earth-sciences">
+        <rdfs:label>Earth Science</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences"/>
+    </Class>
+    
+
+
+    <!-- http://www.vocabularyserver.com/usgs/index.php?tema=464&amp;/ecology -->
+
+    <Class rdf:about="http://www.vocabularyserver.com/usgs/index.php?tema=464&amp;/ecology">
+        <rdfs:label>Ecology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences"/>
+    </Class>
+    
+
+
+    <!-- http://www.vocabularyserver.com/usgs/index.php?tema=796&amp;/hydrologic-processes -->
+
+    <Class rdf:about="http://www.vocabularyserver.com/usgs/index.php?tema=796&amp;/hydrologic-processes">
+        <rdfs:label>hydrologic processes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </Class>
+    
+
+
+    <!-- http://www.vocabularyserver.com/usgs/index.php?tema=928&amp;/life-sciences -->
+
+    <Class rdf:about="http://www.vocabularyserver.com/usgs/index.php?tema=928&amp;/life-sciences">
+        <rdfs:label>life sciences</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.vocabularyserver.com/usgs/index.php?tema=1458/sciences"/>
+    </Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:label>Thing</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.2.20150307-2226) http://owlapi.sourceforge.net -->
+
