@@ -119,9 +119,6 @@ public class CinergiFacet {
 		{
 			label = c.getIRI().getShortForm();
 		}
-				//label = ((OWLLiteral) ((OWLAnnotation)(c.getAnnotations(o, df.getRDFSLabel()).toArray()[0])).getValue()).getLiteral();
-				/*label = ((OWLAnnotation)(c.getAnnotations(o, df.getRDFSLabel()).toArray()[0])).getValue().toString();
-				label = label.substring(label.indexOf('"')+1, label.lastIndexOf('"'));*/
 		return label;
 	}
 	
@@ -187,5 +184,22 @@ public class CinergiFacet {
 	        	}
         	};
         	walker.walkStructure(visitor);
+	}
+	
+	public static boolean isTrueFacet(OWLClass c, OWLOntologyManager m, OWLDataFactory df)
+	{
+		for (OWLOntology o : m.getOntologies())
+		{
+			for (OWLAnnotation a : c.getAnnotations(o))
+			{
+				if (a.getProperty().equals(df.getOWLAnnotationProperty(
+						IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#cinergiFacet"))))
+				{	 
+					if (a.getValue().equals(df.getOWLLiteral(true)))
+						return true;
+				}
+			}
+		}
+		return false;
 	}
 }
