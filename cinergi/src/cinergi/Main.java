@@ -19,37 +19,40 @@ public class Main {
 		OutputStream os = new FileOutputStream(new File("cinergiExtensions.owl"));
 		PrintWriter writer = new PrintWriter("description.txt", "UTF-8");
 		OWLOntologyManager manager = OWLManager.createOWLOntologyManager();
-		OWLOntologyManager new_manager = OWLManager.createOWLOntologyManager();
+//		OWLOntologyManager new_manager = OWLManager.createOWLOntologyManager();
 		OWLDataFactory df = manager.getOWLDataFactory();	
 		
-		IRI cinergi = IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl");
-		IRI cinergi_Extensions = IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl");
+//		IRI cinergi = IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl");
+//		IRI cinergi_Extensions = IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl");
 		
-		OWLOntology extensionsOntology = manager.loadOntologyFromOntologyDocument(new File("cinergiExtensions1.owl"));
-		OWLOntology cinergiOntology = new_manager.loadOntologyFromOntologyDocument(new File("cinergi.owl"));
+//		OWLOntology extensionsOntology = manager.loadOntologyFromOntologyDocument(new File("cinergiExtensionsOLD.owl"));
+		OWLOntology cinergiOntology = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl"));
 		//OWLOntology ont = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl"));
 		//OWLOntology ont_facets = facets_manager.loadOntologyFromOntologyDocument(new File("cinergi_facets.owl"));
+		OWLOntology new_ontology = manager.loadOntologyFromOntologyDocument(new File("cinergiExtensionsEDIT.owl"));
 		
 		System.out.println("done loading documents");
-		OWLOntology new_ont = new_manager.createOntology(cinergi_Extensions);
+//		OWLOntology new_ont = new_manager.createOntology(cinergi_Extensions);
+//		
+//		OWLImportsDeclaration importDeclaraton =  df.getOWLImportsDeclaration(cinergi); 
+//		new_manager.applyChange(new AddImport(new_ont, importDeclaraton));
 		
-		OWLImportsDeclaration importDeclaraton =  df.getOWLImportsDeclaration(cinergi); 
-		new_manager.applyChange(new AddImport(new_ont, importDeclaraton));
-		
-		CinergiClassFixer fixer = new CinergiClassFixer(os, writer, manager, new_manager, cinergiOntology, extensionsOntology, new_ont, df);
-		fixer.fixClasses();
+//		CinergiClassFixer fixer = new CinergiClassFixer(os, writer, manager, new_manager, cinergiOntology, extensionsOntology, new_ont, df);
+//		fixer.fixClasses();
+//		fixer.fixLabels();
+		System.out.println(manager.getOntologies());
 		//Tester.test(manager, ont, df, writer);
-		//CinergiLabel labeller = new CinergiLabel(os, writer, manager, ont, df);
+		CinergiLabel labeller = new CinergiLabel(os, writer, manager, cinergiOntology, new_ontology, df);
 		//CinergiFacet faceter = new CinergiFacet(os, writer, manager, facets_manager, ont, ont_facets, df);
 		//CinergiParent parenter = 
 	
 		//labeller.removeDuplicateLabels(); // go through all classes, if that class is not in 
-		//labeller.fixFacetLabels();
+		labeller.fixFacetLabels();
 		
 		//faceter.convertFacetsToBoolean(); // change all cinergiFacets to Boolean True/False
 		//faceter.removeFacets();
 		
-		manager.saveOntology(new_ont, os);
+		manager.saveOntology(new_ontology, os);
 		os.close();
 		writer.close();
 	}

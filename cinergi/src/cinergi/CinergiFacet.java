@@ -193,7 +193,7 @@ public class CinergiFacet {
 			for (OWLAnnotation a : c.getAnnotations(o))
 			{
 				if (a.getProperty().equals(df.getOWLAnnotationProperty(
-						IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#cinergiFacet"))))
+						IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl#cinergiFacet"))))
 				{	 
 					if (a.getValue().equals(df.getOWLLiteral(true)))
 						return true;
