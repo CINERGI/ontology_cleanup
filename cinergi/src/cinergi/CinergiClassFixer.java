@@ -46,7 +46,7 @@ public class CinergiClassFixer {
 		this.new_ont = new_ont;
 		this.df = df;
 	}
-
+	
 	public void fixClasses() 
 	{
 		writer.println("classes \n\n");
