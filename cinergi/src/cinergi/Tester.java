@@ -3,8 +3,10 @@ package cinergi;
 import java.io.File;
 import java.io.OutputStream;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import org.semanticweb.owlapi.apibinding.OWLManager;
@@ -47,23 +49,13 @@ public class Tester {
     				{		
 	        			iri.add(c.getIRI());
 	        			String label = getLabel(c,manager, df);
-	        			if (hasCinergiFacet(c, extensionsOntology, df))
+				
+	        			if (hasCinergiPreferredLabel(c,manager, df))
 	        			{	        				
-	        				writer.printf("facet class: %-20s ", label);
-	        				if (hasParentAnnotation(c, extensionsOntology, df))
-	        				{
-	        					String parentAnnot = getParentAnnotation(c, extensionsOntology, df);
-	        					writer.printf("cinergiParent: %-20s ", label, parentAnnot);
-	        				}	        				
-		        			if (hasCinergiPreferredLabel(c,manager, df))
-		        			{	        				
-		        				String cinergiLabel = getCinergiPreferredLabel(c,manager, df);
-		        				writer.printf("cinergiLabel: %-20s\n", label, cinergiLabel);
-		        			}		        			
-		        			else
-		        				writer.printf("\n");
-	        			}
-	        			
+	        				String cinergiLabel = getCinergiPreferredLabel(c,manager, df);
+	        				writer.printf("label: %-25s ", label);
+	        				writer.printf("cinergiPreferredLabel: %-25s\n", cinergiLabel);
+	        			}		
     				}
 	        		return null;
 	        	}		
@@ -152,15 +144,34 @@ public class Tester {
 		return null;
 	}
 	
-	public static boolean hasCinergiFacet(OWLClass c, OWLOntology o, OWLDataFactory df)
-	{
-		for (OWLAnnotation a : c.getAnnotations(o))
+	private static List<OWLClass> getParentAnnotationClasses(OWLClass c,
+			OWLOntology extensionsOntology, OWLDataFactory df) {
+		
+		List<OWLClass> parents = new ArrayList<OWLClass>();
+		
+		for (OWLAnnotation a : c.getAnnotations(extensionsOntology))
 		{
-			if (isCinergiFacet(a))
+			if (a.getProperty().equals(df.getOWLAnnotationProperty
+					(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl#cinergiParent"))))
 			{
-				if (cinergiFacetTrue(a, df))
+				parents.add(df.getOWLClass((IRI)(a.getValue())));
+			}
+		}
+		return parents;
+	}
+	
+	public static boolean hasCinergiFacet(OWLClass c, OWLOntologyManager m, OWLDataFactory df)
+	{
+		for (OWLOntology o : m.getOntologies())
+		{
+			for (OWLAnnotation a : c.getAnnotations(o))
+			{
+				if (isCinergiFacet(a))
 				{
-					return true;
+					if (cinergiFacetTrue(a, df))
+					{
+						return true;
+					}
 				}
 			}
 		}
@@ -213,9 +224,9 @@ public class Tester {
 		for (OWLOntology o : m.getOntologies())
 		{
 			for (OWLAnnotation a : c.getAnnotations(o, df.getRDFSLabel()))
-			{
-				if (((OWLLiteral)a.getValue()).hasLang("en"))
-				{
+			{				
+				if (((OWLLiteral)a.getValue()).getLang().toString().equals("en"))
+				{					
 					label = ((OWLLiteral)a.getValue()).getLiteral();
 					break;  
 				}
@@ -242,7 +253,7 @@ public class Tester {
 	        		if (!iri.contains(c.getIRI()))
     				{	
 	        			iri.add(c.getIRI());
-	        			if (hasCinergiFacet(c, ont, df)) // has true cinergiFacet
+	        			if (hasCinergiFacet(c, manager, df)) // has true cinergiFacet
 	        			{
 	        				/* if the cinergiParent is Thing, then its a second level facet */
 	        				if ((getParentAnnotationClass(c, ont, df).equals(df.getOWLClass
@@ -302,7 +313,7 @@ public class Tester {
 	        		if (!iri.contains(c.getIRI()))
     				{	
 	        			iri.add(c.getIRI());
-	        			if (hasCinergiFacet(c, ont, df)) // has true cinergiFacet
+	        			if (hasCinergiFacet(c, manager, df)) // has true cinergiFacet
 	        			{
 	        				// get equivalent classes
 	        				Set<OWLClassExpression> equivalentClasses = c.getEquivalentClasses(manager.getOntologies());
@@ -312,7 +323,7 @@ public class Tester {
 	        					// make cls a facet too
 	        					// if c has a preferred label, give cls it too
 	        					// give cls c's cinergiParent
-	        					if (!hasCinergiFacet(cls, ont, df)) // true facet?
+	        					if (!hasCinergiFacet(cls, manager, df)) // true facet?
     							{    							
 	        						OWLAnnotation facetAnnot = df.getOWLAnnotation(			
 	        								df.getOWLAnnotationProperty(IRI.create
@@ -351,7 +362,7 @@ public class Tester {
 	        		if (!iri.contains(c.getIRI()))
     				{	
 	        			iri.add(c.getIRI());
-	        			if (hasCinergiFacet(c, ont, df)) // has true cinergiFacet
+	        			if (hasCinergiFacet(c, manager, df)) // has true cinergiFacet
 	        			{
 	        				/* if the cinergiParent is Thing, then its a second level facet */
 	        				if ((getParentAnnotationClass(c, ont, df).equals(df.getOWLClass
@@ -414,7 +425,7 @@ public class Tester {
 	}
 	
 	public static void makeThirdLevelFacetAnnotationsFixed(OutputStream os,
-			PrintWriter writer, OWLOntologyManager manager, OWLOntology ont,
+			PrintWriter writer, PrintWriter writer4, OWLOntologyManager manager, OWLOntology ont,
 			OWLDataFactory df) {
 		
 		Set<IRI> iri = new HashSet<IRI>();
@@ -428,8 +439,18 @@ public class Tester {
 	        	public Object visit(OWLClass thirdLevel)
 	        	{
 	        		if (!iri.contains(thirdLevel.getIRI()))
-    				{	
+    				{		        			
 	        			iri.add(thirdLevel.getIRI());
+	        			
+	        			String label = getLabel(thirdLevel, manager, df);
+	        			if (label.equals("Software Service Resource") || label.equals("Data Service Resource"))
+	        			{
+	        				System.out.println("found : " + label);
+	        				/* make sure Software Service Resource and Web Service Resource aren't being mapped
+	        				 * Data Service Resource excluded too
+	        				 */
+	        				return null;
+	        			}
 	        			// if (!hasCinergiParent)
 	        				// if super class has cinergiParent
 	        					// if that cinergiparent has cinergiparent which is thing
@@ -440,7 +461,7 @@ public class Tester {
 	        				{
 	        					for (OWLClass secondLevel : oce.getClassesInSignature())
 	        					{	        					
-		        					if (hasParentAnnotation(secondLevel,ont,df))
+		        					if (hasParentAnnotation(secondLevel,ont,df) && hasCinergiFacet(secondLevel, manager, df))	
 		        					{
 		        						OWLClass firstLevel = getParentAnnotationClass(secondLevel, ont, df);
 		        						if (hasParentAnnotation(firstLevel, ont, df))
@@ -452,11 +473,11 @@ public class Tester {
 		    	        								df.getOWLAnnotationProperty(IRI.create
 		    	        										("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl#cinergiParent")),
 		    	        										secondLevel.getIRI() );
-		    	        							OWLAxiom axiom = df.getOWLAnnotationAssertionAxiom(thirdLevel.getIRI(), parentAnnot);
-		    	        							AddAxiom addAxiom = new AddAxiom(ont, axiom);
-		    	        							manager.applyChange(addAxiom);	        						
-		    	        							writer.println(getLabel(firstLevel, manager, df) + " " + firstLevel.getIRI() + " > " + getLabel(secondLevel,manager, df) + " " + secondLevel.getIRI() + " > " + getLabel(thirdLevel,manager, df) + " " + thirdLevel.getIRI());
-		    	        							//writer.println(getLabel(firstLevel, manager, df) + " > " + getLabel(secondLevel,manager, df) + " > " + getLabel(thirdLevel,manager, df));
+	    	        							OWLAxiom axiom = df.getOWLAnnotationAssertionAxiom(thirdLevel.getIRI(), parentAnnot);
+	    	        							AddAxiom addAxiom = new AddAxiom(ont, axiom);
+	    	        							manager.applyChange(addAxiom);	
+	    	        							writer.println(getLabel(firstLevel, manager, df) + " " + firstLevel.getIRI() + " > " + getLabel(secondLevel,manager, df) + " " + secondLevel.getIRI() + " > " + getLabel(thirdLevel,manager, df) + " " + thirdLevel.getIRI());
+	    	        							writer4.println(getLabel(firstLevel, manager, df) + " > " + getLabel(secondLevel,manager, df) + " > " + getLabel(thirdLevel,manager, df));
 		        							}
 		        						}
 		        					}
@@ -466,7 +487,7 @@ public class Tester {
 	        			else // if the class has a cinergiParent
 	        			{
 	        				OWLClass secondLevel = getParentAnnotationClass(thirdLevel, ont, df);
-	        				if (hasParentAnnotation(secondLevel,ont,df)) // if this class has a cinergiParent
+	        				if (hasParentAnnotation(secondLevel,ont,df) && hasCinergiFacet(secondLevel, manager, df)) // if this class has a cinergiParent
         					{
         						OWLClass firstLevel = getParentAnnotationClass(secondLevel, ont, df);
         						if (hasParentAnnotation(firstLevel, ont, df))
@@ -475,7 +496,7 @@ public class Tester {
         									(IRI.create("http://www.w3.org/2002/07/owl#Thing")))))
         							{	        						
     	        							writer.println(getLabel(firstLevel, manager, df) + " " + firstLevel.getIRI() + " > " + getLabel(secondLevel,manager, df) + " " + secondLevel.getIRI() + " > " + getLabel(thirdLevel,manager, df) + " " + thirdLevel.getIRI());
-    	        							//writer.println(getLabel(firstLevel, manager, df) + " > " + getLabel(secondLevel,manager, df) + " > " + getLabel(thirdLevel,manager, df));
+    	        							writer4.println(getLabel(firstLevel, manager, df) + " > " + getLabel(secondLevel,manager, df) + " > " + getLabel(thirdLevel,manager, df));
         							}
         						}
         					}
@@ -486,6 +507,209 @@ public class Tester {
         	};
 		walker.walkStructure(visitor);
 		
+	}
+
+	public static void printFacets(PrintWriter writer, OWLOntology ont,
+			OWLOntologyManager manager, OWLDataFactory df) {
+		
+		Set<IRI> iri = new HashSet<IRI>();
+		
+		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
+        OWLOntologyWalkerVisitor<Object> visitor = 
+        		
+    		new OWLOntologyWalkerVisitor<Object>(walker)    
+        	{
+	        	@Override
+	        	public Object visit(OWLClass c)
+	        	{
+	        		if (!iri.contains(c.getIRI()))
+    				{	
+	        			iri.add(c.getIRI());
+	        			if (hasCinergiFacet(c, manager, df))
+	        			{
+	        				String label = getLabel(c,manager, df);	        			
+    						
+	        				writer.printf("facet: %-25s ", label);
+	        				for (OWLClass parent : getParentAnnotationClasses(c, ont, df))
+	        				{
+	        					writer.printf("cinergiParent: %-25s ", getLabel(parent, manager, df));
+	        				}
+	        				writer.println();
+	        			}	        			
+    				}
+	        		return null;
+	        	}
+        	};
+		walker.walkStructure(visitor);
+	}
+
+	
+	public static void correctElements(PrintWriter writer, OWLOntology ont,
+			OWLOntologyManager manager, OWLDataFactory df, OutputStream os) {
+		
+		Set<IRI> iri = new HashSet<IRI>();
+		
+		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
+        OWLOntologyWalkerVisitor<Object> visitor = 
+        		
+    		new OWLOntologyWalkerVisitor<Object>(walker)    
+        	{
+	        	@Override
+	        	public Object visit(OWLClass c)
+	        	{
+	        		if (!iri.contains(c.getIRI()))
+    				{	
+	        			iri.add(c.getIRI());
+	        			for (OWLOntology o : manager.getOntologies())
+	        			{
+	        				for (OWLAnnotation a : c.getAnnotations(o, df.getRDFSLabel()))
+	        				{
+	        					if (((OWLLiteral)a.getValue()).getLiteral().contains("Elemental"))
+	        					{									
+									OWLAnnotation parentAnnot = df.getOWLAnnotation(			
+	        								df.getOWLAnnotationProperty(IRI.create
+	        										("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl#cinergiParent")),
+	        										IRI.create("http://purl.obolibrary.org/obo/CHEBI_24431") );
+        							OWLAxiom axiom = df.getOWLAnnotationAssertionAxiom(c.getIRI(), parentAnnot);
+        							AddAxiom addAxiom = new AddAxiom(ont, axiom);
+        							manager.applyChange(addAxiom);	
+        							
+        							writer.println("Chemicals parent added to : " + ((OWLLiteral)a.getValue()).getLiteral());
+	        					}
+	        				}
+	        			}
+    				}
+	        		return null;
+	        	}
+        	};
+		walker.walkStructure(visitor);
+		
+	}
+
+	public static void printAllCaps(PrintWriter writer, OWLOntology ont,
+			OWLOntologyManager manager, OWLDataFactory df) {
+		Set<IRI> iri = new HashSet<IRI>();
+		
+		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
+        OWLOntologyWalkerVisitor<Object> visitor = 
+        		
+    		new OWLOntologyWalkerVisitor<Object>(walker)    
+        	{
+	        	@Override
+	        	public Object visit(OWLClass c)
+	        	{
+	        		if (!iri.contains(c.getIRI()))
+    				{	
+	        			String label = getLabel(c, manager, df);
+	        			if (label.toUpperCase().equals(label)) // all upper case
+	        			{
+	        				writer.println(label);
+	        			}
+    				}
+	        		return null;
+	        	}
+        	};
+		walker.walkStructure(visitor);
+		
+	}
+
+	public static void printTop3Levels(PrintWriter writer, OWLOntology ont,
+			OWLOntologyManager manager, OWLDataFactory df) {
+		Set<IRI> iri = new HashSet<IRI>();
+
+		Set<OWLClass> first_level = new HashSet<OWLClass>();
+		
+		OWLClass testClass = df.getOWLClass(IRI.create("http://purl.org/obo/owl/CMO#CMO_0000000"));
+		
+		
+		
+		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
+        OWLOntologyWalkerVisitor<Object> visitor = 
+        		
+    		new OWLOntologyWalkerVisitor<Object>(walker)    
+        	{
+	        	@Override
+	        	public Object visit(OWLClass c)
+	        	{
+	        		if (!iri.contains(c.getIRI()))
+    				{	
+	        			iri.add(c.getIRI());
+	        			for (OWLClassExpression oce : c.getSuperClasses(manager.getOntologies()))
+	        			{
+        					if (oce.getClassExpressionType().toString().equals("Class"))
+        					{
+        						return null;
+        					}
+	        			} 	 
+	        			first_level.add(c);
+    				}
+	        		return null;
+	        	}
+        	};
+		walker.walkStructure(visitor);
+		
+		for (OWLClass first_level_class : first_level)
+		{
+			// if has no subclasses, then print			
+			if (first_level_class.getSubClasses(manager.getOntologies()).isEmpty())
+			{
+				String firstLevel_label = getLabel(first_level_class, manager, df);
+				// no label
+				if (firstLevel_label.equals(""))
+				{
+					firstLevel_label = first_level_class.getIRI().getShortForm();
+				}
+				writer.printf("%-15s\n",firstLevel_label);
+			}
+			else // has children
+			{
+				String label = getLabel(first_level_class, manager, df);
+				// no label
+				if (label.equals(""))
+				{
+					label = first_level_class.getIRI().getShortForm();
+				}
+				writer.printf("%-15s\n",label);
+				
+				// same thing for each child
+				for (OWLClassExpression child_oce : first_level_class.getSubClasses(manager.getOntologies()))
+				{
+					OWLClass second_level_class = (OWLClass)child_oce;
+					if (second_level_class.getSubClasses(manager.getOntologies()).isEmpty())
+					{
+						String secondLevel_label = getLabel(second_level_class, manager, df);
+						// no label
+						if (secondLevel_label.equals(""))
+						{
+							secondLevel_label = second_level_class.getIRI().getShortForm();
+						}
+						writer.printf("%-15s%-15s\n","",secondLevel_label);
+					}
+					else // second level has children
+					{
+						String secondLevel_label = getLabel(second_level_class, manager, df);
+						// no label
+						if (secondLevel_label.equals(""))
+						{
+							secondLevel_label = second_level_class.getIRI().getShortForm();
+						}
+						writer.printf("%-15s%-15s\n","",secondLevel_label);
+
+						for (OWLClassExpression third_oce : second_level_class.getSubClasses(manager.getOntologies()))
+						{
+							OWLClass third_level_class = (OWLClass)third_oce;
+							String thirdLevel_label = getLabel(third_level_class, manager, df);
+							// no label
+							if (thirdLevel_label.equals(""))
+							{
+								thirdLevel_label = third_level_class.getIRI().getShortForm();
+							}
+							writer.printf("%-15s%-15s%-15s\n","","",thirdLevel_label);
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
