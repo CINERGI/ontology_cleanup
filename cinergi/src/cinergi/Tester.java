@@ -711,5 +711,76 @@ public class Tester {
 			}
 		}
 	}
+
+	public static void printFacetsNotMappedTo(PrintWriter writer,
+			OWLOntology ont, OWLOntologyManager manager, OWLDataFactory df,
+			OutputStream os) {
+		
+		Set<IRI> facets = new HashSet<IRI>();
+		Set<IRI> iri = new HashSet<IRI>();
+		
+		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
+        OWLOntologyWalkerVisitor<Object> visitor = 
+        		
+    		new OWLOntologyWalkerVisitor<Object>(walker)    
+        	{
+	        	@Override
+	        	public Object visit(OWLClass c)
+	        	{
+	        		if (!iri.contains(c.getIRI()))
+    				{	
+	        			iri.add(c.getIRI());
+	        			if (hasCinergiFacet(c, manager, df))
+	        			{
+	        				facets.add(c.getIRI());
+	        			}	        			
+    				}
+	        		return null;
+	        	}
+        	};
+		walker.walkStructure(visitor);
+		iri.clear(); // clear iris
+		
+		OWLOntologyWalkerVisitor<Object> visitor2 = 
+        		
+	    		new OWLOntologyWalkerVisitor<Object>(walker)    
+	        	{
+		        	@Override
+		        	public Object visit(OWLClass c)
+		        	{
+		        		if (!iri.contains(c.getIRI()))
+	    				{	
+		        			iri.add(c.getIRI());
+		        			// if cinergiParent or parent is one of the facets, remove the facet from the HashSet
+		        			if  (hasParentAnnotation(c, ont, df))
+		        			{
+		        				IRI facetIRI = getParentAnnotationClass(c, ont, df).getIRI();
+		        				if (facets.contains(facetIRI))		        			
+        						{
+		        					facets.remove(facetIRI);
+        						}
+		        				for (OWLClassExpression oce : c.getSuperClasses(manager.getOntologies()))
+		        				{
+		        					if (oce.getClassExpressionType().toString().equals("Class"))
+		        					{
+			        					IRI parentIRI = ((OWLClass) oce ).getIRI();
+			        					if (facets.contains(parentIRI))
+	        							{
+			        						facets.remove(parentIRI);
+	        							}
+		        					}
+		        				}		        			
+		        			}
+	        			}
+		        		return null;
+		        	}
+	        	};
+    	walker.walkStructure(visitor2);
+    	
+    	for (IRI i : facets)
+    	{
+    		writer.println("facet: " + getLabel(df.getOWLClass(i), manager, df));	
+    	}
+	}
 }
 
