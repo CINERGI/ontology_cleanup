@@ -17,11 +17,14 @@ import org.semanticweb.owlapi.model.IRI;
 import org.semanticweb.owlapi.model.OWLAnnotation;
 import org.semanticweb.owlapi.model.OWLAnnotationObjectVisitorEx;
 import org.semanticweb.owlapi.model.OWLAnnotationSubject;
+import org.semanticweb.owlapi.model.OWLAnnotationValue;
 import org.semanticweb.owlapi.model.OWLAxiom;
 import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLClassExpression;
 import org.semanticweb.owlapi.model.OWLDataFactory;
 import org.semanticweb.owlapi.model.OWLLiteral;
+import org.semanticweb.owlapi.model.OWLNamedIndividual;
+import org.semanticweb.owlapi.model.OWLNamedObject;
 import org.semanticweb.owlapi.model.OWLObject;
 import org.semanticweb.owlapi.model.OWLObjectSomeValuesFrom;
 import org.semanticweb.owlapi.model.OWLOntology;
@@ -33,10 +36,10 @@ import org.semanticweb.owlapi.util.OWLOntologyWalkerVisitor;
 
 public class Tester {
 	
-	public static void printPreferredLabels(PrintWriter writer,	OWLOntology extensionsOntology, 
-			OWLOntologyManager manager, OWLDataFactory df) 
+	public static void printPreferredLabels(final PrintWriter writer,	OWLOntology extensionsOntology, 
+			final OWLOntologyManager manager, final OWLDataFactory df) 
 	{
-		Set<IRI> iri = new HashSet<IRI>();
+		final Set<IRI> iri = new HashSet<IRI>();
 		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
         OWLOntologyWalkerVisitor<Object> visitor = 
         		
@@ -63,10 +66,10 @@ public class Tester {
 		walker.walkStructure(visitor);
 	}
 	
-	public static void test(OWLOntologyManager manager, OWLOntology ont, OWLDataFactory df, PrintWriter writer) throws Exception
+	public static void test(OWLOntologyManager manager, OWLOntology ont, OWLDataFactory df, final PrintWriter writer) throws Exception
 	{
 		
-		Set<OWLAnnotation> anots = new HashSet<OWLAnnotation>();
+		final Set<OWLAnnotation> anots = new HashSet<OWLAnnotation>();
 		
         OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
         
@@ -178,6 +181,21 @@ public class Tester {
 		return false;
 	}
 	
+	public static boolean hasCinergiFacetAnnotation(OWLClass c, OWLOntologyManager m, OWLDataFactory df)
+	{
+		for (OWLOntology o : m.getOntologies())
+		{
+			for (OWLAnnotation a : c.getAnnotations(o))
+			{
+				if (isCinergiFacet(a))
+				{
+					return true;
+				}
+			}
+		}
+		return false;
+	}
+	
 	public static boolean isCinergiFacet(OWLAnnotation a)
 	{
 		return (a.getProperty().getIRI().getShortForm().toString().equals("cinergiFacet"));
@@ -218,6 +236,24 @@ public class Tester {
 		return label;
 	}
 	
+	public static String getLabel(OWLNamedIndividual c, OWLOntologyManager m, OWLDataFactory df)
+	{
+		String label = "";
+		for (OWLOntology o : m.getOntologies())
+		{
+			for (OWLAnnotation a : c.getAnnotations(o, df.getRDFSLabel()))
+			{				
+				if (((OWLLiteral)a.getValue()).getLang().toString().equals("en"))
+				{					
+					label = ((OWLLiteral)a.getValue()).getLiteral();
+					break;  
+				}
+				label = ((OWLLiteral)a.getValue()).getLiteral();
+			}
+		}
+		return label;		
+	}
+	
 	public static String getLabel(OWLClass c, OWLOntologyManager m, OWLDataFactory df)
 	{
 		String label = "";
@@ -237,10 +273,10 @@ public class Tester {
 	}
 
 	public static void makeThirdLevelFacetAnnotations(OutputStream os,
-			PrintWriter writer, OWLOntologyManager manager, OWLOntology ont,
-			OWLDataFactory df) {
+			final PrintWriter writer, final OWLOntologyManager manager, final OWLOntology ont,
+			final OWLDataFactory df) {
 		
-		Set<IRI> iri = new HashSet<IRI>();
+		final Set<IRI> iri = new HashSet<IRI>();
 		
 		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
         OWLOntologyWalkerVisitor<Object> visitor = 
@@ -299,9 +335,9 @@ public class Tester {
 	}
 
 	public static void fixEquivalentFacets(OutputStream os, PrintWriter writer,
-			OWLOntologyManager manager, OWLOntology ont,OWLDataFactory df) {
+			final OWLOntologyManager manager, final OWLOntology ont,final OWLDataFactory df) {
 
-		Set<IRI> iri = new HashSet<IRI>();
+		final Set<IRI> iri = new HashSet<IRI>();
 		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
         OWLOntologyWalkerVisitor<Object> visitor = 
         		
@@ -345,11 +381,11 @@ public class Tester {
 		walker.walkStructure(visitor);
 	}
 
-	public static void printThirdLevelFacets(OutputStream os,PrintWriter writer, OWLOntologyManager manager,
-			OWLOntology ont, OWLDataFactory df) {
+	public static void printThirdLevelFacets(OutputStream os,final PrintWriter writer, final OWLOntologyManager manager,
+			final OWLOntology ont, final OWLDataFactory df) {
 		
-		Set<IRI> iri = new HashSet<IRI>();
-		Set<IRI> second_level = new HashSet<IRI>();
+		final Set<IRI> iri = new HashSet<IRI>();
+		final Set<IRI> second_level = new HashSet<IRI>();
 		
 		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
         OWLOntologyWalkerVisitor<Object> second_level_visitor = 
@@ -379,7 +415,7 @@ public class Tester {
 		
 		for (IRI i : second_level)
 		{
-			OWLClass second_level_class = df.getOWLClass(i);
+			final OWLClass second_level_class = df.getOWLClass(i);
 			writer.printf("%-20s", getLabel(second_level_class,manager, df));	        					
 			// if it has a preferred label, print that too
 			if (!getCinergiPreferredLabel(second_level_class, manager, df).equals(""))
@@ -388,7 +424,7 @@ public class Tester {
 			}
 			writer.println();	
 						
-			Set<IRI> iris = new HashSet<IRI>();
+			final Set<IRI> iris = new HashSet<IRI>();
 			OWLOntologyWalkerVisitor<Object> third_level_visitor = 
 	        		
 		    		new OWLOntologyWalkerVisitor<Object>(walker)    
@@ -425,10 +461,10 @@ public class Tester {
 	}
 	
 	public static void makeThirdLevelFacetAnnotationsFixed(OutputStream os,
-			PrintWriter writer, PrintWriter writer4, OWLOntologyManager manager, OWLOntology ont,
-			OWLDataFactory df) {
+			final PrintWriter writer, final PrintWriter writer4, final OWLOntologyManager manager, final OWLOntology ont,
+			final OWLDataFactory df) {
 		
-		Set<IRI> iri = new HashSet<IRI>();
+		final Set<IRI> iri = new HashSet<IRI>();
 		
 		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
         OWLOntologyWalkerVisitor<Object> visitor = 
@@ -443,6 +479,8 @@ public class Tester {
 	        			iri.add(thirdLevel.getIRI());
 	        			
 	        			String label = getLabel(thirdLevel, manager, df);
+	        			
+	        			// hard coded exclusions
 	        			if (label.equals("Software Service Resource") || label.equals("Data Service Resource"))
 	        			{
 	        				System.out.println("found : " + label);
@@ -509,10 +547,10 @@ public class Tester {
 		
 	}
 
-	public static void printFacets(PrintWriter writer, OWLOntology ont,
-			OWLOntologyManager manager, OWLDataFactory df) {
+	public static void printFacets(final PrintWriter writer, final OWLOntology ont,
+			final OWLOntologyManager manager, final OWLDataFactory df) {
 		
-		Set<IRI> iri = new HashSet<IRI>();
+		final Set<IRI> iri = new HashSet<IRI>();
 		
 		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
         OWLOntologyWalkerVisitor<Object> visitor = 
@@ -544,10 +582,10 @@ public class Tester {
 	}
 
 	
-	public static void correctElements(PrintWriter writer, OWLOntology ont,
-			OWLOntologyManager manager, OWLDataFactory df, OutputStream os) {
+	public static void correctElements(final PrintWriter writer, final OWLOntology ont,
+			final OWLOntologyManager manager, final OWLDataFactory df, OutputStream os) {
 		
-		Set<IRI> iri = new HashSet<IRI>();
+		final Set<IRI> iri = new HashSet<IRI>();
 		
 		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
         OWLOntologyWalkerVisitor<Object> visitor = 
@@ -586,9 +624,9 @@ public class Tester {
 		
 	}
 
-	public static void printAllCaps(PrintWriter writer, OWLOntology ont,
-			OWLOntologyManager manager, OWLDataFactory df) {
-		Set<IRI> iri = new HashSet<IRI>();
+	public static void printAllCaps(final PrintWriter writer, OWLOntology ont,
+			final OWLOntologyManager manager, final OWLDataFactory df) {
+		final Set<IRI> iri = new HashSet<IRI>();
 		
 		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
         OWLOntologyWalkerVisitor<Object> visitor = 
@@ -614,10 +652,10 @@ public class Tester {
 	}
 
 	public static void printTop3Levels(PrintWriter writer, OWLOntology ont,
-			OWLOntologyManager manager, OWLDataFactory df) {
-		Set<IRI> iri = new HashSet<IRI>();
+			final OWLOntologyManager manager, OWLDataFactory df) {
+		final Set<IRI> iri = new HashSet<IRI>();
 
-		Set<OWLClass> first_level = new HashSet<OWLClass>();
+		final Set<OWLClass> first_level = new HashSet<OWLClass>();
 		
 		OWLClass testClass = df.getOWLClass(IRI.create("http://purl.org/obo/owl/CMO#CMO_0000000"));
 		
@@ -713,11 +751,11 @@ public class Tester {
 	}
 
 	public static void printFacetsNotMappedTo(PrintWriter writer,
-			OWLOntology ont, OWLOntologyManager manager, OWLDataFactory df,
+			final OWLOntology ont, final OWLOntologyManager manager, final OWLDataFactory df,
 			OutputStream os) {
 		
-		Set<IRI> facets = new HashSet<IRI>();
-		Set<IRI> iri = new HashSet<IRI>();
+		final Set<IRI> facets = new HashSet<IRI>();
+		final Set<IRI> iri = new HashSet<IRI>();
 		
 		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
         OWLOntologyWalkerVisitor<Object> visitor = 
@@ -782,5 +820,222 @@ public class Tester {
     		writer.println("facet: " + getLabel(df.getOWLClass(i), manager, df));	
     	}
 	}
+
+	// prints any equivalent classes
+	public static void printEquivalentClasses(final PrintWriter writer, OWLOntology ont, final OWLOntologyManager manager,
+			final OWLDataFactory df) {
+		
+		final Set<IRI> iris = new HashSet<IRI>();
+
+		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
+        OWLOntologyWalkerVisitor<Object> visitor = 
+        		
+    		new OWLOntologyWalkerVisitor<Object>(walker)    
+        	{
+	        	@Override
+	        	public Object visit(OWLClass c)
+	        	{
+	        		ArrayList<OWLClass> classes = new ArrayList<OWLClass>();
+	        		boolean hasClassEquivalent = false;
+	        		classes.add(c);
+	        		if (!iris.contains(c.getIRI()))
+    				{	
+	        			iris.add(c.getIRI());
+	        			// check if there are any equivalency axioms
+	        			if (!c.getEquivalentClasses(manager.getOntologies()).isEmpty())
+	        			{
+	        				for (OWLClassExpression oce : c.getEquivalentClasses(manager.getOntologies()))
+	        				{		     
+	        					// set hasClassEquivalent flag if there is a class that is equal	        
+	        					if (oce.getClassExpressionType().toString().equals("Class"))
+	        					{	        						
+	        						hasClassEquivalent = true;
+	        						classes.add((OWLClass) oce);
+		        					// do nothing if this class has already been dealt with
+	        						if (iris.contains(((OWLClass) oce).getIRI()))
+	        						{
+	        							return null;
+	        						}
+	        					}
+	        				}
+	        				if (hasClassEquivalent)
+	        				{
+	        					for (OWLClass cl : classes)
+		        				{
+	        						writer.printf("%-40s", getLabel(cl, manager, df));
+		        				}
+	        					// get URI of the class with the deepest subtree
+	        					writer.printf("%-40s\n", IRIOfDeepest(classes, manager, df) );
+	        				}
+	        			}        			
+    				}
+	        		return null;
+	        	}
+
+				private String IRIOfDeepest(ArrayList<OWLClass> classes, OWLOntologyManager manager,
+						OWLDataFactory df) {
+					// i is index of the class with the deepest subtree
+					int index = 0, max = 0, i = 0;				
+					for (i = 0; i < classes.size(); i++)
+					{
+						int depth = getDepth(classes.get(i), manager, df);
+						if (hasCinergiFacet(classes.get(i), manager, df))
+						{
+							// increase depth by 1000 if the class is a cinergi facet
+							depth+=1000;
+						}
+						if (depth > max)
+						{
+							max = depth;
+							index = i;
+						}
+						System.out.println(" depth of "
+								+ getLabel(classes.get(i), manager, df) +
+								" is " + depth);
+					}				
+					return (classes.get(index)).getIRI().toString();
+				}		
+        	};
+		walker.walkStructure(visitor);
+		
+	}
+
+	public static int getDepth(OWLClass c, OWLOntologyManager manager, OWLDataFactory df) {
+		// TODO Auto-generated method stub
+		if (c.getSubClasses(manager.getOntologies()).isEmpty())
+		{
+			return 0;
+		}
+		int numSubClasses = 0;
+		for (OWLClassExpression oce : c.getSubClasses(manager.getOntologies()))
+		{		     
+			if (oce.getClassExpressionType().toString().equals("Class"))
+			{
+				numSubClasses = numSubClasses + 1 + getDepth(((OWLClass)oce), manager, df);
+			}
+		}
+		return numSubClasses;		
+	}
+
+	public static void geologicTimeImpure(OutputStream os, final PrintWriter writer,
+			final OWLOntologyManager manager, final OWLOntologyManager manager2, final OWLOntology ont, 
+			final OWLOntology ont2, final OWLDataFactory df, final OWLDataFactory df2) {
+		
+		final Set<IRI> iri = new HashSet<IRI>();
+		final ArrayList<OWLAnnotation> annots = new ArrayList<OWLAnnotation>();
+		
+		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
+        
+		final String geochronologyImpure = "http://hydro10.sdsc.edu/cinergi_ontology/geochronologyImpure.owl#";
+		
+		OWLOntologyWalkerVisitor<Object> visitor =         		
+		
+    		new OWLOntologyWalkerVisitor<Object>(walker)    
+        	{
+	        	@Override
+	        	public Object visit(OWLNamedIndividual indiv)
+	        	{
+	        		boolean addedToOntology = false;
+	        		// ensure that we dont process the same individual more than once
+	        		if (iri.contains(indiv.getIRI()))
+	        			return null;
+	        		iri.add(indiv.getIRI());
+	        		
+	        		// wipe the annotations
+	        		annots.clear();	
+	        		
+	        		for (OWLOntology ont : manager.getOntologies())
+	        		{
+	        			for (OWLAnnotation a : indiv.getAnnotations(ont))
+	        			{
+	        				// get all geologic times that have a ranks
+	        				if (a.getProperty().equals(df.getOWLAnnotationProperty
+	        						(IRI.create("http://resource.geosciml.org/ontology/timescale/gts#rank"))))
+	        				{
+	        					OWLAnnotationValue rank = a.getValue();
+	        					writer.println(getLabel(indiv, manager, df) + " == " + ((IRI)rank).getShortForm());
+	        					
+	        					// add the individual as a subclass of the correct rank
+	        					OWLAxiom subclassAxiom = df.getOWLSubClassOfAxiom(df.getOWLClass(
+	        							IRI.create(geochronologyImpure + indiv.getIRI().getShortForm())), 
+	        							df2.getOWLClass(IRI.create(geochronologyImpure + ((IRI)rank).getShortForm())));
+
+    							AddAxiom addAxiom = new AddAxiom(ont2, subclassAxiom);
+    							manager2.applyChange(addAxiom);	 
+    							addedToOntology = true;
+    							
+    							// manually add this annotation to geochronologyImpure
+    							OWLAnnotation rankAnnotation = df.getOWLAnnotation(a.getProperty(), 
+    									IRI.create(geochronologyImpure + ((IRI)rank).getShortForm()));
+    							OWLAxiom axiom = df.getOWLAnnotationAssertionAxiom(
+    									IRI.create(geochronologyImpure + indiv.getIRI().getShortForm()), rankAnnotation);
+								AddAxiom addAxiom2 = new AddAxiom(ont2, axiom);
+								manager2.applyChange(addAxiom2);	
+    							continue;      								
+	        				}
+	        				// add the annotations of that individual to the class
+	        				annots.add(a);
+        				}
+	        		}
+	        		if (addedToOntology)
+	        		{
+	        			for (OWLOntology ont : manager.getOntologies())
+		        		{
+		        			for (OWLAnnotation a : annots)
+		        			{
+		        				OWLAxiom axiom = df.getOWLAnnotationAssertionAxiom(
+		        						IRI.create(geochronologyImpure + indiv.getIRI().getShortForm()), a);
+								AddAxiom addAxiom = new AddAxiom(ont2, axiom);
+								manager2.applyChange(addAxiom);	
+		        			}
+		        		}
+	        		}
+	        		return null;
+	        	}
+        	};
+		walker.walkStructure(visitor);
+
+	}
+
+	// adds a cinergiFacet = false annotation to each class that does not already have a cinergiFacet annotation
+	public static void addMissingFacets(final PrintWriter writer, final OWLOntology ont, final OWLOntologyManager manager,
+			final OWLDataFactory df) {
+		
+		final Set<IRI> iri = new HashSet<IRI>();
+		
+		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
+        OWLOntologyWalkerVisitor<Object> visitor = 
+        		
+    		new OWLOntologyWalkerVisitor<Object>(walker)    
+        	{
+	        	@Override
+	        	public Object visit(OWLClass c)
+	        	{
+	        		if (!iri.contains(c.getIRI()))
+    				{	
+	        			iri.add(c.getIRI());
+	        			// the class is missing a facet annotation
+	        			if (!hasCinergiFacetAnnotation(c, manager, df))
+	        			{
+	        				OWLAnnotation facetAnnot = df.getOWLAnnotation(			
+    								df.getOWLAnnotationProperty(IRI.create
+    										("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl#cinergiFacet")),
+    										df.getOWLLiteral(false) );	        						
+    						OWLAxiom axiom = df.getOWLAnnotationAssertionAxiom(c.getIRI(), facetAnnot);
+	        				AddAxiom addAxiom = new AddAxiom(ont, axiom);
+	        				manager.applyChange(addAxiom);	        						
+	        				writer.println("facet added for " + getLabel(c,manager, df) + " (false)");	 
+	        			}	        			
+    				}
+	        		return null;
+	        	}
+        	};
+		walker.walkStructure(visitor);
+		
+		
+		
+	}
+	
+	
 }
 
