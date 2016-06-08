@@ -20,25 +20,30 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 		OutputStream os = new FileOutputStream(new File("cinergiExtensions.owl"));
-/*		PrintWriter writer1 = new PrintWriter("mappings ids unsorted.txt", "UTF-8");
+	/*	PrintWriter writer1 = new PrintWriter("mappings ids unsorted.txt", "UTF-8");
 		PrintWriter writer2 = new PrintWriter("preferredLabels unsorted.txt", "UTF-8");
 		PrintWriter writer3 = new PrintWriter("facets unsorted.txt", "UTF-8");
 		PrintWriter writer4 = new PrintWriter("mappings unsorted.txt", "UTF-8");
-*/		
+		PrintWriter writer5 = new PrintWriter("parentEdges unsorted.txt", "UTF-8");
+	*/	
 		PrintWriter writer = new PrintWriter("description.txt", "UTF-8");
+		PrintWriter filterList = new PrintWriter("filter.txt", "UTF-8");
+		PrintWriter nullPaths = new PrintWriter("nullPaths.txt", "UTF-8");
 		OWLOntologyManager manager = OWLManager.createOWLOntologyManager();
 	//	OWLOntologyManager manager2 = OWLManager.createOWLOntologyManager();
 		OWLDataFactory df = manager.getOWLDataFactory();
+		System.out.println(manager.getClass());
 	//	OWLDataFactory df2 = manager2.getOWLDataFactory();	
 		manager.setSilentMissingImportsHandling(true);
-//		OWLOntology ont = manager.loadOntologyFromOntologyDocument(new File("C:/eclipse/workspace/Cinergi/ontologies/cinergiExtensions.owl"));
-	//	OWLOntology ont = manager.loadOntologyFromOntologyDocument(IRI.create("http://www.rsc.org/ontologies/CMO/CMO_OWL.owl"));
-//		OWLOntology ont = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl"));
 		System.out.println("loading ontology");
-	//	OWLOntology geochronology2 = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/geochronology2.owl"));
-	//	OWLOntology geochronologyImpure = manager2.loadOntologyFromOntologyDocument(new File("C:/Users/Adam/Desktop/geochronologyImpure.owl"));
-		OWLOntology extensionsOntology = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl"));
-//		OWLOntology cinergiOntology = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl"));
+//		OWLOntology ont = manager.loadOntologyFromOntologyDocument(new File("C:/eclipse/workspace/Cinergi/ontologies/cinergiExtensions.owl"));
+//		OWLOntology ont = manager.loadOntologyFromOntologyDocument(IRI.create("http://www.rsc.org/ontologies/CMO/CMO_OWL.owl"));
+//		OWLOntology ont = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl"));
+		OWLOntology cinergi_ont = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl"));
+//		OWLOntology extensions_ont = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl"));
+//		OWLOntology geochronology2 = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/geochronology2.owl"));
+//		OWLOntology geochronologyImpure = manager2.loadOntologyFromOntologyDocument(new File("C:/Users/Adam/Desktop/geochronologyImpure.owl"));
+//		OWLOntology extensions = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl"));
 		System.out.println("ontology loaded");
 		//CinergiLabelFixer labelFixer = new CinergiLabelFixer(os, writer, manager1, manager2, df, cinergiOntology, old_ontology);
 //		CinergiLabelFixer labelFixer = new CinergiLabelFixer(os, writer, manager, df, cinergiOntology);
@@ -46,34 +51,43 @@ public class Main {
 		
 //		Tester.printPreferredLabels(writer, extensionOntology, manager, df);
 //		Tester.makeThirdLevelFacetAnnotations(os, writer, manager, extensionsOntology, df);
-//		Tester.printThirdLevelFacets(os, writer, manager, ont, df);
-		
-		
+//		Tester.printThirdLevelFacets(os, writer, manager, ont, df);	
 //		Tester.fixEquivalentFacets(os, writer, manager, extensionsOntology, df);
+
 		
-	//	Tester.makeThirdLevelFacetAnnotationsFixed(os, writer1, writer4, manager, ont, df);
-	//	Tester.printPreferredLabels(writer2, ont, manager, df);		
-	//	Tester.printFacets(writer3, ont, manager, df);
-	//	Tester.printEquivalentClasses(writer, ont, manager, df);
-		Tester.addMissingFacets(writer, extensionsOntology, manager, df);
+		// each of these functions take the extensions ontology as parameter
+/*		Tester.makeThirdLevelFacetAnnotationsFixed(os, writer1, writer4, manager, extensions_ont, df);
+		Tester.printCinergiParentEdges(extensions_ont, writer5, manager, df);
+		Tester.printPreferredLabels(writer2, extensions_ont, manager, df);		
+		Tester.printFacets(writer3, extensions_ont, manager, df);
+*/
+//		Tester.printEquivalentClasses(writer, extensions, manager, df);
+//		Tester.addMissingFacets(writer, extensionsOntology, manager, df);
 		
-	//	Tester.geologicTimeImpure(os, writer, manager, manager2, geochronology2, geochronologyImpure, df, df2);
+//		Tester.geologicTimeImpure(os, writer, manager, manager2, geochronology2, geochronologyImpure, df, df2);
 //		Tester.printTop3Levels(writer, ont, manager, df);
 //		Tester.printAllCaps(writer, ont, manager, df);
 //		Tester.correctElements(writer, ont, manager, df, os);
 		
 		// get the facets that have nothing mapped to them
 //		Tester.printFacetsNotMappedTo(writer, ont, manager, df, os);
-		
-		manager.saveOntology(extensionsOntology, os);
+//		Tester.addSynonymsToGeologicTimes(writer, os, cinergi_ont, manager,df);
+//		Tester.synonymsToLabels(writer, os, cinergi_ont, manager, df);
+//		manager.saveOntology(extensions_ont, os);
 		//manager2.saveOntology(geochronologyImpure, os);		
-		os.close();		
-
+		
+		Tester.printSameLabels(writer, filterList, nullPaths, cinergi_ont, manager, df);
+		writer.println("finished");
+		
+//		os.close();	
 		writer.close();
+		filterList.close();
+		nullPaths.close();
 /*		writer1.close();
 		writer2.close();
 		writer3.close();
 		writer4.close();
+		writer5.close();
 */
 	}
 
