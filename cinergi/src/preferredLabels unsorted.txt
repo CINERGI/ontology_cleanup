@@ -1,0 +1,87 @@
+label: Hydrologic Process        cinergiPreferredLabel: Hydrologic Process       
+label: Method                    cinergiPreferredLabel: Method                   
+label: Resource Type             cinergiPreferredLabel: Resource Type            
+label: Realm (Other)             cinergiPreferredLabel: Realm (Other)            
+label: Activity (Other)          cinergiPreferredLabel: Activity (Other)         
+label: Activity                  cinergiPreferredLabel: Activity                 
+label: Hydrographic Feature      cinergiPreferredLabel: Hydrographic Feature     
+label: Sediment                  cinergiPreferredLabel: Sediment                 
+label: Rock                      cinergiPreferredLabel: Rock                     
+label: Atmosphere                cinergiPreferredLabel: Atmosphere               
+label: Marine Feature            cinergiPreferredLabel: Marine Feature           
+label: Chemical                  cinergiPreferredLabel: Chemical                 
+label: Material                  cinergiPreferredLabel: Material                 
+label: Natural Processes         cinergiPreferredLabel: Natural Processes        
+label: Tectonic Process          cinergiPreferredLabel: Tectonic Process         
+label: Ocean Process             cinergiPreferredLabel: Ocean Process            
+label: Rock Material             cinergiPreferredLabel: Rock Material            
+label: Sediment                  cinergiPreferredLabel: Sediment                 
+label: Habitat                   cinergiPreferredLabel: Habitat                  
+label: Software                  cinergiPreferredLabel: Software                 
+label: Web Service               cinergiPreferredLabel: Web Service              
+label: Organization              cinergiPreferredLabel: Organization             
+label: Computer Science          cinergiPreferredLabel: Computer Science         
+label: Resource Type             cinergiPreferredLabel: Resource Type            
+label: Satellites                cinergiPreferredLabel: Satellites               
+label: Geographic Location       cinergiPreferredLabel: Geographic Location      
+label: Property                  cinergiPreferredLabel: Property                 
+label: Service Resource          cinergiPreferredLabel: Service Resource         
+label: Specification             cinergiPreferredLabel: Specification            
+label: Document                  cinergiPreferredLabel: Document                 
+label: Chemical Process          cinergiPreferredLabel: Chemical Process         
+label: Instrument Package        cinergiPreferredLabel: Instrument Package       
+label: Glacial Process           cinergiPreferredLabel: Glacial Process          
+label: Geothermal Feature        cinergiPreferredLabel: Geothermal Feature       
+label: Human Processes           cinergiPreferredLabel: Human Processes          
+label: Software Resource         cinergiPreferredLabel: Software Resource        
+label: Chemical Substance        cinergiPreferredLabel: Chemical Substance       
+label: Carbon                    cinergiPreferredLabel: Carbon                   
+label: Surficial Process         cinergiPreferredLabel: Surficial Process        
+label: Iron                      cinergiPreferredLabel: Iron                     
+label: Boron                     cinergiPreferredLabel: Boron                    
+label: Copper                    cinergiPreferredLabel: Copper                   
+label: Palladium                 cinergiPreferredLabel: Palladium                
+label: Europium                  cinergiPreferredLabel: Europium                 
+label: Cerium                    cinergiPreferredLabel: Cerium                   
+label: Zinc                      cinergiPreferredLabel: Zinc                     
+label: Gadolinium                cinergiPreferredLabel: Gadolinium               
+label: Mercury                   cinergiPreferredLabel: Mercury                  
+label: Manganese                 cinergiPreferredLabel: Manganese                
+label: Vanadium                  cinergiPreferredLabel: Vanadium                 
+label: Calcium                   cinergiPreferredLabel: Calcium                  
+label: Fluorine                  cinergiPreferredLabel: Fluorine                 
+label: Halogen                   cinergiPreferredLabel: Halogen                  
+label: Germanium                 cinergiPreferredLabel: Germanium                
+label: Molybdenum                cinergiPreferredLabel: Molybdenum               
+label: Cadmium                   cinergiPreferredLabel: Cadmium                  
+label: Potassium                 cinergiPreferredLabel: Potassium                
+label: Iodine                    cinergiPreferredLabel: Iodine                   
+label: Selenium                  cinergiPreferredLabel: Selenium                 
+label: Bromine                   cinergiPreferredLabel: Bromine                  
+label: Astatine                  cinergiPreferredLabel: Astatine                 
+label: Lead                      cinergiPreferredLabel: Lead                     
+label: Arsenic                   cinergiPreferredLabel: Arsenic                  
+label: Indium                    cinergiPreferredLabel: Indium                   
+label: Thallium                  cinergiPreferredLabel: Thallium                 
+label: Barium                    cinergiPreferredLabel: Barium                   
+label: Pnictogen                 cinergiPreferredLabel: Pnictogen                
+label: Silicon                   cinergiPreferredLabel: Silicon                  
+label: Sulfur                    cinergiPreferredLabel: Sulfur                   
+label: Hydrogen                  cinergiPreferredLabel: Hydrogen                 
+label: Aluminium                 cinergiPreferredLabel: Aluminium                
+label: Chlorine                  cinergiPreferredLabel: Chlorine                 
+label: Platinum                  cinergiPreferredLabel: Platinum                 
+label: Tin                       cinergiPreferredLabel: Tin                      
+label: Uranium                   cinergiPreferredLabel: Uranium                  
+label: Strontium                 cinergiPreferredLabel: Strontium                
+label: Antimony                  cinergiPreferredLabel: Antimony                 
+label: Xenon                     cinergiPreferredLabel: Xenon                    
+label: Krypton                   cinergiPreferredLabel: Krypton                  
+label: Tellurium                 cinergiPreferredLabel: Tellurium                
+label: Beryllium                 cinergiPreferredLabel: Beryllium                
+label: Neon                      cinergiPreferredLabel: Neon                     
+label: Argon                     cinergiPreferredLabel: Argon                    
+label: Gold                      cinergiPreferredLabel: Gold                     
+label: Helium                    cinergiPreferredLabel: Helium                   
+label: Magnesium                 cinergiPreferredLabel: Magnesium                
+label: Silver                    cinergiPreferredLabel: Silver                   

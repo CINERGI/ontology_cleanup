@@ -2,6 +2,9 @@ package cinergi;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.io.PrintWriter;
@@ -10,6 +13,7 @@ import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
@@ -40,6 +44,7 @@ import org.semanticweb.owlapi.util.OWLOntologyWalker;
 import org.semanticweb.owlapi.util.OWLOntologyWalkerVisitor;
 
 import com.google.gson.Gson;
+import com.google.gson.stream.JsonReader;
 
 public class Tester {
 	
@@ -170,7 +175,7 @@ public class Tester {
 		return parents;
 	}
 	
-	public static boolean hasCinergiFacet(OWLClass c, OWLOntologyManager m, OWLDataFactory df)
+	/*public static boolean hasCinergiFacet(OWLClass c, OWLOntologyManager m, OWLDataFactory df)
 	{
 		for (OWLOntology o : m.getOntologies())
 		{
@@ -184,6 +189,67 @@ public class Tester {
 					}
 				}
 			}
+		}
+		return false;
+	}*/
+	
+	public static boolean hasCinergiFacet(OWLClass c, OWLOntologyManager manager, OWLDataFactory df)
+	{
+		/*boolean hasFacet = true;
+		for (OWLOntology o : manager.getOntologies())
+		{
+			Set<OWLAnnotation> cinergiFacet = c.getAnnotations(o,df.getOWLAnnotationProperty
+					(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl#cinergiFacet")));
+			
+			if (!cinergiFacet.isEmpty() == false) // current ontology is cinergiExtensions
+			{
+				hasFacet = true;
+				System.err.println(c.getIRI());
+				if (cinergiFacet.iterator().hasNext())
+				{
+					OWLAnnotation facet = cinergiFacet.iterator().next();
+					if (facet.getValue().equals(df.getOWLLiteral(true)))
+					{
+						return true;
+					}
+				}
+				else
+				{
+					System.err.println(c.getIRI()+" nonempty cinergiFacet annotations but no next");
+				}
+				return false;
+			}			
+		}
+		if (!hasFacet)
+		{
+			System.out.println("no facet annotation for " + c.getIRI());
+		}
+		
+		return false; */
+		boolean hasFacet = false;
+		for (OWLOntology o : manager.getOntologies())
+		{
+			if (!c.getAnnotations(o,df.getOWLAnnotationProperty(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl#cinergiFacet"))).isEmpty())
+			{
+				hasFacet = true;
+				for (OWLAnnotation facet : c.getAnnotations(o,df.getOWLAnnotationProperty(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl#cinergiFacet"))))				
+				{
+					if (facet.getValue().equals(df.getOWLLiteral(true)))
+					{
+						return true;
+					}
+					if (facet.getValue().toString().equals("true"))
+					{
+						System.err.println("wrong cinergiFacet format for: " + c.getIRI());
+						return true;
+					}
+					return false;
+				}
+			}
+		}
+		if (!hasFacet)
+		{
+			System.err.println("no cinergiFacet annotation in class: " + c.getIRI());
 		}
 		return false;
 	}
@@ -1077,7 +1143,7 @@ public class Tester {
 	}
 
 	// adds a cinergiFacet = false annotation to each class that does not already have a cinergiFacet annotation
-	public static void addMissingFacets(final PrintWriter writer, final OWLOntology ont, final OWLOntologyManager manager,
+	public static void addMissingFacets(final PrintWriter writer, final OWLOntology extensions, final OWLOntologyManager manager,
 			final OWLDataFactory df) {
 		
 		final Set<IRI> iri = new HashSet<IRI>();
@@ -1101,10 +1167,14 @@ public class Tester {
     										("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl#cinergiFacet")),
     										df.getOWLLiteral(false) );	        						
     						OWLAxiom axiom = df.getOWLAnnotationAssertionAxiom(c.getIRI(), facetAnnot);
-	        				AddAxiom addAxiom = new AddAxiom(ont, axiom);
+	        				AddAxiom addAxiom = new AddAxiom(extensions, axiom);
 	        				manager.applyChange(addAxiom);	        						
 	        				writer.println("facet added for " + getLabel(c,manager, df) + " (false)");	 
-	        			}	        			
+	        			}	
+	        			else if (hasCinergiFacet(c, manager, df) && !hasParentAnnotation(c, extensions, df)) // cinergiFacet true && no cinergiParent
+	        			{
+	        				writer.println(getLabel(c,manager,df) + " does not have a cinergiParent. <<< correct this.");
+	        			}
     				}
 	        		return null;
 	        	}
@@ -1550,11 +1620,18 @@ public class Tester {
 		} catch (Exception e) {
 			return null;
 		}
-		Vocab voc = gson.fromJson(urlOut, Vocab.class);
+/*		Vocab voc = gson.fromJson(urlOut, Vocab.class);
 		List<Concept> concepts = voc.concepts;
 		//Concept[] concepts = gson.fromJson(urlOut, Concept[].class);
 		
 		return concepts;
+*/		
+		Concept[] concepts = gson.fromJson(urlOut, Concept[].class);
+		//Vocab vocab = gson.fromJson(urlOut, Vocab.class);
+		ArrayList<Concept> conceptList = new ArrayList<Concept>(Arrays.asList(concepts));
+		Vocab vocab = new Vocab(conceptList);
+		// preliminary check
+		return vocab.concepts;
 	}
 	
 	public static String readUrl(String urlString) throws Exception {
@@ -1575,5 +1652,254 @@ public class Tester {
 	    }
 	}
 	
+	public static void printUnassignedTerms(final PrintWriter writer, final OWLOntology ont,
+			final OWLOntologyManager manager, final OWLDataFactory df) {
+		
+		//OWLClass Feature = df.getOWLClass(IRI.create("http://sweet.jpl.nasa.gov/2.3/realm.owl#Realm"));
+		
+		List<OWLClass> topLevelFacets = getTopLevelFacets(manager, df);
+		
+		for (OWLClass topLevelClass : topLevelFacets)
+		{
+			writer.println(getLabel(topLevelClass, manager, df));
+			System.out.println(getLabel(topLevelClass,manager,df));
+			for (OWLClassExpression subClassExpression : topLevelClass.getSubClasses(manager.getOntologies()))
+			{
+				boolean hasFacetFlag = false; // flag if the class needs to be classified.
+				if (subClassExpression.getClassExpressionType().toString().equals("Class"))
+				{
+				
+					OWLClass subClass = subClassExpression.getClassesInSignature().iterator().next();
+				
+					if (hasCinergiFacet(subClass,  manager,  df))
+					{		
+						hasFacetFlag = true;
+						continue;
+					}
+					if (!subClass.getEquivalentClasses(manager.getOntologies()).isEmpty()) // if it has equivalent classes
+					{
+						System.err.println(getLabel(subClass, manager, df));
+						for (OWLClassExpression oce : subClass.getEquivalentClasses(manager.getOntologies()))
+						{
+							if (oce.getClassExpressionType().toString().equals("Class"))
+							{
+								OWLClass equivalentClass = oce.getClassesInSignature().iterator().next();
+								System.err.println("\t\t" + getLabel(equivalentClass, manager, df));
+								if (hasCinergiFacet(equivalentClass, manager, df))
+								{
+									hasFacetFlag = true;
+								}
+							}				
+						}						
+					}	
+					if (!hasFacetFlag)
+					{
+						writer.println("\t" + getLabel(subClass, manager, df));
+					}
+				}
+			}
+			writer.println("\n");
+		}		
+	}
+      public static List<OWLClass> getTopLevelFacets(final OWLOntologyManager manager, final OWLDataFactory df) {
+		
+		final ArrayList<OWLClass> topLevelClasses = new ArrayList<OWLClass>();
+		final Set<IRI> iri = new HashSet<IRI>();
+		
+		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
+        OWLOntologyWalkerVisitor<Object> visitor = 
+        		
+    		new OWLOntologyWalkerVisitor<Object>(walker)    
+        	{
+	        	@Override
+	        	public Object visit(OWLClass c)
+	        	{
+	        		if (!iri.contains(c.getIRI()))
+    				{	
+	        			iri.add(c.getIRI());
+	        			if (isTopLevelFacet(c, manager, df))
+	        			{
+	        				topLevelClasses.add(c);
+	        			}       					        		
+		        	}
+	        		return null;
+	        	}
+        	};
+			walker.walkStructure(visitor);
+					
+			return topLevelClasses;	
+		
+	}
+
+	public static void printEquivalentFacets(final PrintWriter writer, final OWLOntology ont,
+			final OWLOntologyManager manager, final OWLDataFactory df) {
+		
+		final Set<IRI> iri = new HashSet<IRI>();
+		
+		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
+        OWLOntologyWalkerVisitor<Object> visitor = 
+        		
+    		new OWLOntologyWalkerVisitor<Object>(walker)    
+        	{
+	        	@Override
+	        	public Object visit(OWLClass c)
+	        	{
+	        		if (!iri.contains(c.getIRI()))
+    				{	
+	        			iri.add(c.getIRI());
+	        			if (!hasCinergiFacet(c, manager, df))
+        				{
+		        			for (OWLClassExpression oce : c.getEquivalentClasses(manager.getOntologies()))
+		        			{
+		        				if (oce.getClassExpressionType().toString().equals("Class"))
+		        				{	
+		        					OWLClass equiCl = oce.getClassesInSignature().iterator().next();
+		        					
+		        					if (hasCinergiFacet(equiCl, manager, df))
+		        					{
+		        						writer.println(getLabel(c, manager, df) + " " + c.getIRI());
+		        					}
+		        				}		        		
+		        			}
+        				}
+    				}
+					return null;
+	        	}
+        	};        	
+        walker.walkStructure(visitor);
+		
+	}
+	
+	public static boolean isTopLevelFacet(final OWLClass c, final OWLOntologyManager m, final OWLDataFactory df)
+	{
+		for (OWLOntology o : m.getOntologies())
+		if (hasParentAnnotation( c, o, df))
+		{
+			for (OWLClass cl : getParentAnnotationClasses(c, o, df) )
+			{
+				if (cl.getIRI().equals(IRI.create("http://www.w3.org/2002/07/owl#Thing")))
+				{	
+					if (hasCinergiFacet(c, m, df))						
+						return true;					
+				}
+			}
+		}
+		return false;
+	}
+
+	public static void printTermsNotInTheOntology(PrintWriter writer, PrintWriter writer2) throws FileNotFoundException, IOException {
+		
+		final Gson gson = new Gson();
+		
+		try(BufferedReader br = new BufferedReader(new FileReader("earthchem.txt"))) {
+		    for(String line; (line = br.readLine()) != null; ) {
+		    	String[] splices = line.split(",");
+		    	for (String splice : splices)
+		    	{
+		    		System.out.print(splice.trim());
+		    		if	(vocabTerm(gson, splice.trim()) != null)
+		    		{
+		    			writer.println(splice.trim());
+		    		}
+		    		else
+		    		{
+		    			writer2.println(splice.trim());
+		    		}
+		    	}
+		    	System.out.println();
+	    	}
+		}
+	}
+
+	public static void addToOntology(final PrintWriter writer, final OWLOntology ont, final OWLOntologyManager manager,
+			final OWLDataFactory df) {
+		
+		final Gson gson = new Gson();
+
+		try {
+			
+			JsonReader reader = new JsonReader(new FileReader("ontology.json"));
+			ELSSTClass[] classes = gson.fromJson(reader, ELSSTClass[].class);
+			
+			OWLClass Thing = df.getOWLClass(IRI.create("http://www.w3.org/2002/07/owl#Thing"));
+			for (ELSSTClass cls : classes)
+			{
+				OWLClass owlcls = df.getOWLClass(IRI.create(cls.getLink()));
+				
+				if (cls.getParents()[0].equals("none")) // no parent; should be under Thing
+				{
+					OWLAxiom axiom = df.getOWLSubClassOfAxiom(owlcls, Thing); 
+					AddAxiom addAxiom = new AddAxiom(ont, axiom);
+					manager.applyChange(addAxiom);
+				}
+				else 
+				{
+					for (String parent : cls.getParents()) // has parent(s)
+					{
+						OWLAxiom axiom = df.getOWLSubClassOfAxiom(owlcls, 
+								df.getOWLClass(IRI.create(parent)));
+						AddAxiom addAxiom = new AddAxiom(ont, axiom);
+						manager.applyChange(addAxiom);
+					}
+				}				
+				// add annotations to the class
+				OWLAnnotation labelAnnotation = df.getOWLAnnotation(df.getRDFSLabel(), 
+						df.getOWLLiteral(cls.getKeyword()));
+				OWLAxiom labelAxiom = df.getOWLAnnotationAssertionAxiom(
+						owlcls.getIRI(), labelAnnotation);			
+				manager.applyChange(new AddAxiom(ont, labelAxiom));
+				writer.println(cls.getKeyword());
+				
+				if (!cls.getKeyword().equals(cls.getPreferredTerm())) // if the preferredTerm is different than the term
+				{
+					// add a preferredTerm annotation
+					OWLAnnotation preferredTermAnnotation = df.getOWLAnnotation(df.getOWLAnnotationProperty(IRI.create("#preferredTerm")), 
+							df.getOWLLiteral(cls.getPreferredTerm()));
+					OWLAxiom preferredTermAxiom = df.getOWLAnnotationAssertionAxiom(
+							owlcls.getIRI(), preferredTermAnnotation);			
+					manager.applyChange(new AddAxiom(ont, preferredTermAxiom));
+					writer.println(cls.getPreferredTerm());
+				}
+			}
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			System.err.println(e.getMessage());
+		}		
+	}
+
+public static void secondLevelFacetPrint(final OWLOntologyManager manager, final OWLDataFactory df, final PrintWriter writer) {
+	
+	final List<OWLClass> topLevelClasses = Tester.getTopLevelFacets(manager, df);
+
+	final Set<IRI> iri = new HashSet<IRI>();
+	
+	OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
+    OWLOntologyWalkerVisitor<Object> visitor = 
+    		
+		new OWLOntologyWalkerVisitor<Object>(walker)    
+    	{
+        	@Override
+        	public Object visit(OWLClass c)
+        	{
+        		if (!iri.contains(c.getIRI()))
+				{	
+        			iri.add(c.getIRI());
+        			if (topLevelClasses.contains(c))
+        			{
+        				System.out.println(c.getIRI()+ " is a 1st level");
+        			}
+        			else if (hasCinergiFacet(c, manager, df)){
+        				writer.println(getLabel(c, manager, df) + "\t" + c.getIRI().getNamespace());
+        			}
+	        	}
+        		return null;
+        	}
+    	};
+		walker.walkStructure(visitor);
+				
+		
+	}
 }
+	
 

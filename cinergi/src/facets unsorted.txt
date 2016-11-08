@@ -1,0 +1,86 @@
+facet: Hydrologic Process        cinergiParent: Process                   
+facet: Statistical Method        cinergiParent: Method                    
+facet: Method                    cinergiParent: Thing                     
+facet: Earth Science             cinergiParent: Science Domain            
+facet: Resource (Other)          cinergiParent: Resource Type             
+facet: Resource Type             cinergiParent: Thing                     
+facet: Earth Surface             cinergiParent: Realm                     
+facet: Toxicity Assay Method     cinergiParent: Method                    
+facet: Atmospheric Process       cinergiParent: Process                   
+facet: Process                   cinergiParent: Thing                     
+facet: Biological Method         cinergiParent: Method                    
+facet: Physical Method           cinergiParent: Method                    
+facet: Realm (Other)             cinergiParent: Realm                     
+facet: Process (Other)           cinergiParent: Process                   
+facet: Chemical Method           cinergiParent: Method                    
+facet: Human Feature             cinergiParent: Feature                   
+facet: Feature                   cinergiParent: Thing                     
+facet: Activity (Other)          cinergiParent: Activity                  
+facet: Activity                  cinergiParent: Thing                     
+facet: Method (Other)            cinergiParent: Method                    
+facet: Realm                     cinergiParent: Thing                     
+facet: Atmospheric Feature       cinergiParent: Feature                   
+facet: Glacial Feature           cinergiParent: Feature                   
+facet: Environmental Material    cinergiParent: Material                  
+facet: Sediment                  cinergiParent: Environmental Material    
+facet: Soil                      cinergiParent: Environmental Material    
+facet: Physiographic Feature     cinergiParent: Feature                   
+facet: Rock                      cinergiParent: Material                  
+facet: Atmosphere                cinergiParent: Realm                     
+facet: Chemical                  cinergiParent: Material                  
+facet: Material                  cinergiParent: Thing                     
+facet: Tectonic Process          cinergiParent: Process                   
+facet: Climatology               cinergiParent: Science Domain            
+facet: Atmospheric Sciences      cinergiParent: Science Domain            
+facet: Science Domain            cinergiParent: Thing                     
+facet: Ocean Process             cinergiParent: Process                   
+facet: Data Set                  cinergiParent: Resource Type             
+facet: Measure                   cinergiParent: Property                  
+facet: Vocabulary                cinergiParent: Resource Type             
+facet: Biological Process        cinergiParent: Process                   
+facet: Rock Material             cinergiParent: Material                  
+facet: Equipment                 cinergiParent: Thing                     
+facet: Observation               cinergiParent: Activity                  
+facet: Institution               cinergiParent: Organization              
+facet: Habitat                   cinergiParent: Realm                     
+facet: Software                  cinergiParent: Resource Type             
+facet: Web Service               cinergiParent: Resource Type             
+facet: Organization              cinergiParent: Thing                     
+facet: Medicine                  cinergiParent: Science Domain            
+facet: Biology                   cinergiParent: Science Domain            
+facet: Computer Science          cinergiParent: Science Domain            
+facet: Physics                   cinergiParent: Science Domain            
+facet: platform                  cinergiParent: Equipment                 
+facet: Satellites                cinergiParent: Equipment                 
+facet: Hydrologic Feature        cinergiParent: Feature                   
+facet: Geographic Location       cinergiParent: Thing                     
+facet: Mineral                   cinergiParent: Material                  
+facet: Property                  cinergiParent: Thing                     
+facet: Geologic Feature          cinergiParent: Feature                   
+facet: Agricultural Science      cinergiParent: Science Domain            
+facet: Instrument                cinergiParent: Equipment                 
+facet: Geologic Time             cinergiParent: Thing                     
+facet: Specification             cinergiParent: Resource Type             
+facet: Chemistry                 cinergiParent: Science Domain            
+facet: Biological Material       cinergiParent: Material                  
+facet: Hydrosphere               cinergiParent: Realm                     
+facet: Document                  cinergiParent: Resource Type             
+facet: Government Organization   cinergiParent: Organization              
+facet: Geosphere                 cinergiParent: Realm                     
+facet: Chemical Process          cinergiParent: Process                   
+facet: Material (Other)          cinergiParent: Material                  
+facet: Instrument Package        cinergiParent: Equipment                 
+facet: Ecology                   cinergiParent: Science Domain            
+facet: Glacial Process           cinergiParent: Process                   
+facet: Meeting                   cinergiParent: Activity                  
+facet: Science Domain (Other)    cinergiParent: Science Domain            
+facet: Bibliographic Resource    cinergiParent: Resource Type             
+facet: Project                   cinergiParent: Activity                  
+facet: experimental process      cinergiParent: Activity                  
+facet: Repository                cinergiParent: Resource Type             
+facet: Chemical Substance        cinergiParent: Material                  
+facet: Sensor                    cinergiParent: Equipment                 
+facet: Surficial Process         cinergiParent: Process                   
+facet: Commercial Organization   cinergiParent: Organization              
+facet: Feature (other)           cinergiParent: Feature                   
+facet: Equipment (Other)         cinergiParent: Equipment                 

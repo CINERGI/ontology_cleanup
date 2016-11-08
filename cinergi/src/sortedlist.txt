@@ -1,0 +1,91 @@
+
+
+Abandoned Well                          
+Badlands                                
+Bench                                   
+Bight                                   
+Blow Hole                               
+border land                             
+Boundary Field                          
+Boundary Marker                         
+coal field                              
+Concession Area                         
+Cone                                    
+Cuesta                                  
+Current                                 
+Deep                                    
+Dependent Political Entity              
+Divide                                  
+Dry Stream Bed                          
+Escrapment                              
+Facility                                
+Fan                                     
+finished
+Fissure                                 
+Flat                                    
+Fork                                    
+Former Inlet                            
+Fossilized Forest                       
+Fracture Zone                           
+Furrow                                  
+Gap                                     
+Gasfield                                
+Geological Platform                     
+Gorge                                   
+Gravel Area                             
+Gulf                                    
+Gully                                   
+Headland                                
+Headwaters                              
+Hole                                    
+Icecap Depression                       
+Icecap Dome                             
+Icecap Ridge                            
+Independent Political Entity            
+Interdune Trough                        
+Iron Mine                               
+Karst Area                              
+Knoll                                   
+Lake Region                             
+Ledge                                   
+Median Valley                           
+Meteoreological Station                 
+Mining Area                             
+Moat                                    
+Narrows                                 
+Navigation Channel                      
+Oilfield                                
+Ore Treatment Plan                      
+Outer Space                             
+Petroleum Basin                         
+Placer Mine                             
+Promontory                              
+Province                                
+Quicksand                               
+Ramp                                    
+Ranges                                  
+Ravine                                  
+Reach                                   
+Rise                                    
+Ruined Dam                              
+Saddle                                  
+Salt Area                               
+Salt Mine                               
+Sand Area                               
+Satellite Station                       
+Sea Channel                             
+Shelf                                   
+Shelf Edge                              
+Shelf Valley                            
+Shoal                                   
+Slide                                   
+Snowfield                               
+Spillway                                
+Spur                                    
+Steam Bend                              
+Tablemounts                             
+Trench                                  
+Upland                                  
+Wadi Bend                               
+Wadi Junction                           
+Wreck                                   

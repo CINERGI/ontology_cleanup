@@ -1,0 +1,261 @@
+Lau Basin, Eastern Lau Basin Spreading Center, TUIM05MV, R2K (Ridge 2000) funded
+GLOSS, subduction zone, sediment, trace elements
+basalt, andesite, uranium, thorium
+Gakkel Ridge, MORB, geochemistry, major oxides, trace elements, ICP-MS, HY0102, PS59, Ridge related
+Gakkel Ridge, Arctic Ocean, MORB glass, major oxides, geochemistry, Ridge related
+Cenozoic magmatism in Antractica, diffuse magmatism in western Pacific
+Hydrothermal vent, geochemistry, Medusa, AT15-17, 9N50, East Pacific Rise, EPR, R2K (Ridge 2000) funded, R2K (Ridge 2000) funded
+abyssal peridotites, Kane Fracture Zone, KN180-2, Ridge related
+volatiles, ultra-slow spreading ridges mantle, melting, CO2 fluxes, Ridge related
+Structural geology, tectonics and geodynamics, Geochemistry, Volcanology, mineralogy and petrology, Ridge related
+Lau Basin, glass, back-arc basin, R2K (Ridge 2000) funded
+basalt, glass, Ridge funded, R2K (Ridge 2000) funded
+Carbonate, Calcium Carbonate, Global, CaCO3
+ferromanganese crust, Fe-Mn crust, metal, global
+Hf isotopes, Nd isotopes, mid-ocean ridge basalt, East Pacific Rise, Gorda Ridge, Rano Rahi seamount field, Ridge related
+Gakkel Ridge, mid-ocean ridge basalt, Ridge related
+geochronology, Sm-Nd, 40Ar/39Ar, zircon, mica, U-Pb, ODP Site 740, ODP Site 741, ODP Site 1166, provenance, geochemistry, sediment
+East Tintic Mountains, Utah, volcanic rocks
+vent fluids, EPR, transition metals, AT15-13, R2K (Ridge 2000) funded
+gabbro, plagioclase, pyroxene, Dufek Massif
+seafloor lavas, GeoPRISMS related
+arc magma, petrology, geochemistry, mass balance
+fore arc, basalt, geochemistry, ophiolite
+multivariate statistical analysis, SedDB
+basalt, glass, R2K (Ridge 2000) funded
+basalt, rare earth, R2K (Ridge 2000) funded
+40Ar/39Ar geochronology; guyots; hot spots; seamounts; submarine alteration
+MORB, BABB, subduction zone, Margins related
+LA-ICP-MS, MORB, data file, ocean floor basalt, volcanic glass, Ridge related
+hafnium, mantle melting, sediment, slab-derived component, subduction zone
+subduction, hafnium isotopes, sediment partial melting, cross chain, hafnium concentration anomaly
+tephra, Antarctic Peninsula, volcano, geochemistry
+geochemistry; lavas; major elements; trace elements; isotopes
+noble gas, helium, neon, Bangladesh, groundwater, ldeo, etg
+Hydrothermal Vent, VentDB, Chemistry, Cyanatherm, Geocyarise, Major Element, REE, Stable isotopes, Ridge related
+MORB, mid-ocean ridge basalt, R2K (Ridge 2000) funded
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, Ridge related
+Hydrothermal Vent, VentDB, Chemistry, Ridge related
+Basalt, MORB, R2K (Ridge 2000) funded
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, rare earth elements, Ridge related
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, rare earth elements, Ridge related
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, rare earth elements, Ridge related
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, Rare Earth Elements, Ridge related
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, Rare Earth Elements, R2K (Ridge 2000) funded
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, R2K (Ridge 2000) funded
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, R2K (Ridge 2000) funded
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, R2K (Ridge 2000) funded
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, R2K (Ridge 2000) funded
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, Ridge related
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, Rare Earth Elements, Ridge related
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, Rare Earth Elements, Ridge related
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, Rare Earth Elements, Ridge related
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, Rare Earth Elements, Ridge related
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, Rare Earth Elements, Ridge related
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, Rare Earth Elements, Ridge related
+Hydrothermal Vent, VentDB, Chemistry, Major Elements, Trace Elements, Isotopes, R2K (Ridge 2000) funded
+pedogenic carbonate, carbon isotopes, oxygen isotopes, East Africa
+microprobe, mantle, magmatic injections, hydrothermal alteration, Ridge related
+Soil water geochemistry, major ions, DOC, trace elements, catchment hillslopes, ridge tops, valley floor
+Soil water geochemistry, major ions, DOC, trace elements, catchment, hillslope, ridge top, valley floor
+oil water geochemistry, major ions, DOC, trace elements, catchment, hillslope, ridge top, valley floor
+Soil water geochemistry, major ions, DOC, trace elements, catchment, hillslope, ridge top, valley floor
+Soil water geochemistry, major ions, DOC, trace elements, catchment, hillslope, ridge top, valley floor
+laboratory ultrasonic measurement, seismic velocity, SiO2 content
+Stream water, geochemsitry, DOC, trace elements, major ions
+stream water, geochemistry, DOC, trace elements, major ions
+Stream water, geochemistry, DOC, trace elements, major ions
+Stream water, geochemistry, DOC, trace elements, major ions
+Stream water, geochemistry, DOC, trace elements, major ions
+basalt, glass, Pb, Hf, R2K (Ridge 2000) funded
+amphibolite-facies rocks, chemical composition, meta-igneous, meta-sedimentary
+granulite-facies rocks, chemical composition, meta-igneous, meta-sedimentary
+spinel peridotite, garnet peridotite, massif peridotite, chemical composition
+Hf isotopes, Nd isotopes, mid-ocean ridge basalt, East Pacific Rise, Gorda Ridge, Rano Rahi seamount field, Ridge related
+ocean ridge basalts, major element analyses, trace element analyses, isotopic analyses, Ridge related
+chemical weathering, Li isotopes, Nd isotopes and Columbia River Basalts, continental crust composition
+volcanic rocks
+kimberlite, garnet xenocrysts
+kimberlite, mantle xenocrysts
+delamination magmatism
+trees, species, height, diameter, survey
+U-Pb geochronology, astrochronology, mass extinctions, large igneous provinces
+oxygen fugacity, oxidation state, MORB, mantle, iron, XANES, Ridge related
+stable isotopes, delta 18O, delta D, ldeo, etg, switchyard project
+spreading center, seamount, submarine volcano, basaltic glass, Ridge related
+stable isotopes, delta 18O, delta D, ldeo, etg, NBP0702, Palmer, Antarctica, Amundsen Sea, ASODS
+stable isotopes, delta 18O, delta D, ldeo, etg, Bangladesh, groundwater
+stable isotopes, delta 18O, delta D, ldeo, etg, Bangladesh, groundwater
+stable isotopes, delta 18O, delta D, ldeo, etg, Bangladesh, groundwater
+stable isotopes, delta 18O, delta D, ldeo, etg, Bangladesh, groundwater
+stable isotopes, delta 18O, delta D, ldeo, etg, Iceland
+stable isotopes, delta 18O, delta D, ldeo, etg, switchyard project
+stable isotopes, delta 18O, delta D, ldeo, etg, Vietnam, rainwater
+stable isotopes, delta 18O, delta D, ldeo, etg, HLY1003, Beaufort Sea, Arctic Ocean
+stable isotopes, delta 18O, delta D, ldeo, etg, HLY1003, Antarctica
+stable isotopes, delta 18O, delta D, ldeo, etg, HLY1003, Antarctica
+dredge, manual
+volcanic rocks
+volcanoes, education
+Basalt, MORB, R2K (Ridge 2000) funded
+volcanic rocks
+green glasses, yellow glasses, volcanic glasses, impact glasses, Apollo 15
+orange glasses, Apollo 17, lunar, Moon
+major element composition, intermediate spreading ridges, tephra, Ridge related
+geochemisty, hydrothermal vents, Ridge related
+rock dredges, basalt, pillow basalt, core complex, Ridge related
+GLOSS, GLOSS-II, sediment geochemistry, subduction, mass flux, volcanic arcs, subduction zones, geochemical mass balance, trenches
+multivariate statistical analysis, SedDB
+xenon, volatiles, plume, mantle heterogeneities, R2K (Ridge 2000) related
+mantle heterogeneity, Pb and Hf isotopes, Ridge related
+tonalites
+volatiles, major and trace elements, back-arc basin spreading centers, mantle heterogeneity, R2K (Ridge 2000) funded
+Thermochronology, Slate Range, California
+LR04 stack, Lisiecki stack, benthic delta O18 record, age model, Pliocene-Pleistocene, spectral analysis, orbital tuning, marine isotope stages, foraminiferal calcite tests, benthic foraminifera
+data policy, editors
+helium isotopes, mid-ocean ridge basalt, mantle plume, hotspot-ridge interaction, Ridge related
+spreading center, seamount, submarine volcano, basaltic glass, Ridge related
+Apollo 14, glass
+Apollo 16, glass
+Apollo 16, glass
+Mantle xenoliths, Glass
+lherzolite, harzburgite, websterite, trace elements, glass, metasomatism, mantle xenoliths
+mantle xenoliths, lherzolite, harzburgite, wehrlite, basanites
+basalt, mid-ocean ridges, superfast spreading ridges, Ridge related
+dredge, core, basalt, glass, spreading ridge, Ridge related
+basalt, glass, archipelago, Plume 2, Ridge related
+silicate rocks, chemical analysis, wet chemistry, trace elements, major elements
+basalt, glass, Ridge related
+basalt, mid-ocean ridge, Atlantis II, A125-24, A125-38, A131-08, A131-11, AT03-10, Ridge funded, R2K (Ridge 2000) funded
+glass, basalt, mid-ocean ridge, R2K (Ridge 2000) funded
+Eruption Age, Submarine Volcanism, Boninite Eruption, Lau Basin, 210Po-210Pb dating, Rapid Response Expedition, Ridge 2000 Time Critical Studies, Margins funded, R2K (Ridge 2000) related
+helium isotopes, carbon isotopes, CO2, vesicles, East Pacific Rise, MORB, R2K (Ridge 2000) funded
+water isotopes, hydrology, meromixis
+CFC, hydrology, limnology, meromixis, Lake Kivu
+Apollo 16, glass
+Apollo 16, glass
+lunar meteorite, glass
+Soil water geochemistry, major ions, DOC, trace elements, catchment hillslopes, ridge tops, valley floor
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect, weather
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect, weather
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+precipitation, air temperature, relative humidity, solar radiation, wind speed, soil temperature, soil moisture, soil electrical conductivity, CZO, Shale Transect
+LiDAR, vegetation
+Volatiles, Mid-Atlantic Ridge, Basalt, Ridge related
+tephrochronology, tephra, lake sediments, eruption, Puyehue, Cordon Caulle
+tephrochronology, tephra, pumice, lake sediments, eruption, Puyehue, Cordon Caulle
+microcrustaceans, aquatic ecology, environmental data, saline lakes, high altitude, China
+Acacia raddiana, below-canopy, spatial gradient, hydrophysical properties, arid lands, Tunisia
+Volcanic gas, fumarole, vapor condensates, gas chromatography, volatiles
+Volcanic gas, fumarole, caustic potash solution, vapor, atmospheric air
+Condensate vapors, volcanic gas, fumarole, volcano, NaOH free, temperatures, trace elements.
+Acacia raddiana, below-canopy, soil water balance, arid Tunisia
+magnesite, spatial distribution, dissolution, reaction rate, column experiment
+MORB, OIB, Altered oceanic crust, subduction
+major elements, trace elements, subduction zone, arc, magma, isotope, pluton, GeoPRISMS funded
+meltwater
+Meltwater composition, supraglacial, subglacial, weathering
+meltwater biogeochemistry, stable isotopes
+volatiles, volcanic gas, fumarole gas, volcanoes, vapor condensates
+volatiles, volcanic gas, fumarole gas, volcanoes, vapor condensates, volcanic rock
+volatiles, volcanic gas, fumarole gas, volcanoes,vapor condensates
+volatiles, volcanic gas, fumarole gas, volcanoes, vapor condensates, sublimates
+volatiles, volcanic gas, fumarole gas, volcanoes, vapor condensates, rendered gas by-products, sublimates, lavaflow deposits
+volatiles, volcanic gas, fumarole gas, volcanoes
+volatiles, volcanic gas, fumarole gas, volcanoes
+volatiles, volcanic gas, fumarole gas, volcanoes, vapor condensates, igneous rocks
+seamounts, hotspot, volcanoes, Ridge related
+Russia, Kamchatka, Siberia, Shiveluch, Suelich Dome, Volcanic Gas, Fumarole Gas, Bezymianny
+Volcanic Gas, Fumarole Gas, Volatiles, Volcanoes
+Volcanic Gas, Volatiles, Fumarole Gas, Volcanic emissions, Volcanoes
+Volcanic Gas, Volatiles, Fumarole Gas, Volcanic emissions, Volcanoes, Gas chemistry
+Volcanic Gas, Vapor Condensates, Fumarole Gas, Volatiles, Volcanic emissions, Volcanoes
+Spatial pattern, Cr(VI) sorption, permeability contrast, connectivity, heterogeneity, reactive transport
+Volatiles, Sublimates, Fumarole Gas, Volcanic Gas, Water, Sublimate Water, Vapor Condensates
+volatiles, fumarole gases, volcanic gases
+volatiles, fumarole gases, volcanic gases
+volatiles, fumarole gases, volcanic gases
+nitrogen isotopes, carbon isotopes, total organic carbon, total nitrogen, Cretaceous-Paleogene
+element concentrations, trace metal concentrations, metal concentrations, Cretaceous-Paleogene boundary
+trees, species, height, diameter, survey
+Trees, species, leaf litter, biomass, diameter
+metamorphic, migmatite, metapelite, tonalite
+Dissolved oxygen, marine sediment, Long Core
+extension, Basin and Range, low-angle normal fault, detachment fault, (U-Th)/He, thermochronology
+continental crust, oxidative weathering, redox
+groundwater, arsenic, organic arsenic, methylation
+Basin and Range, volatiles, melt inclusions, scoria, mantle melting
+sulfide/silicate element partitioning
+Tungsten isotopes, siderophile, lunar mantle, impact melt
+XRF, XRD, andosols, weathering
+stable isotopes, delta 18O, delta D, ldeo, etg, switchyard project
+stable isotopes, delta 18O, delta D, ldeo, etg, S4P
+stable isotopes, delta 18O, delta D, ldeo, etg, JR141
+stable isotopes, delta 18O, delta D, ldeo, etg, drip water, Vietnam
+stable isotopes, delta 18O, delta D, ldeo, etg, drip water, Vietnam
+stable isotopes, delta 18O, delta D, ldeo, etg, Bangladesh, groundwater
+stable isotopes, delta 18O, delta D, ldeo, etg, Big Sky
+volcanic rocks
+stakeholder alignment, science funding, science institutions, cyber-infrastructure, earthcube, sharing data
+ultra-slow spreading ridges, hotspot, isotope, uranium-series
+Helium, carbon, isotopes, volcanic gas, geothermal, subduction zone
+Sulpher dioxide flux, volcanic gas, fumarole gas, volcanic glass, subduction zone, arc flux emissions
+Volvanic gas, volatiles, nitrogen flux, noble gases, Iodide, Iodide 129, isotopes, methane, helium, geothermal, suduction zone, volcanic arc
+sediment geochemistry, organic carbon decomposition, in situ temperature, sediment age, age models
+volatiles, isotopes, chemical composition, Helium ratios, volcanic gas, fumaroles, condensates, bubbling springs
+Volatiles, geothermal, Isotopes, Fumaroles, Volcanic Gas
+Diamonds, High-density fluid, Saline, Silicic, Carbonatitic, Subduction
+U-Pb, zircon, geochronology, NALMA, Eocene-Oligocene transition,
+sanidine, argon, geochronology
+trace elements, isotopes
+Mineral compositions, water chemistry, modern lakes, northern China
+tephra, ice core, geochemistry
+Arctic Ocean, intraplate volcanism
+grain size distribution data and total organic carbon contents, NH1108
+Isotopes, Volatiles, Fumaroles, Geochemistry
+Volatiles, Isotopes, Hydrothermal gas, Geochemistry, Fumaroles, Hot Springs, Noble gases, volcanic gas
+Helium, Carbon, Volatiles, Fumaroles, Volcanic Gas, Geothermal wells, hot springs, Geochemistry
+Isotopes, Volcanic Gas, Fumaroles, Geochemistry, Volatiles
+continental rifting, fault zones, volatiles, CO2 Flux, soil emissions,
+Porewater Dissolved Inorganic Carbon, Long Core, KN195-03
+Porewater Alkalinity, Long Core, KN195-03
+Porewater, Dissolved Chloride, Long Core, KN195-03
+Porewater Dissolved Nitrate, Long Core 195-03
+Porewater, Dissolved Sulfate Anomaly, Long Core, KN195-03
+Porewater, Dissolved Ammonium, Long Core, 195-03
+bulk sediment calcium concentration, Long Core KN195-03
+Bulk sediment magnesium concentration, Long Core, KN195-03
+Bulk sediment strontium concentration, Long Core, KN195-03
+volatiles, fumaroles, bubbling gas, gas condensates, volcanic gas
+granite, monzonite
+Geochemistry, volcanic gas, volatiles, fumarole gas, bubbling gas, isotopes
+organic carbon isotopes, total organic carbon, total nitrogen, Bass River, Cretaceous-Paleogene boundary
+organic carbon, Alaska, GeoPRISMS funded
+Indian National Gas Hydrate Program Expedition, sulfate, sediment, porewater
+Indian National Gas Hydrate Program Expedition, dissolved inorganic carbon, sediment, porewater
+organic carbon, nitrogen, stable isotope, GeoPRISMS funded
+organic carbon, stable isotope, active margin, GeoPRISMS funded
+volatiles, noble gases, xenon, CO2
+basalt, basement
+Apollo 14, glass
+zircon U-Pb ages, continental rifting, magmatism
+ophiolite, peridotite, sulfide, platinum group elements
+plant wax, biomarker, carbon isotopes, hydrogen isotopes, sapropel
+basalt, stratigraphy, mantle plume, lava
+basalt, picrite, mantle plume,submarine lavas
+Oceanic Anoxic Event 2, late cretaceous, U-Pb geochronology, palaeocirculation

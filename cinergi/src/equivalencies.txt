@@ -1,0 +1,80 @@
+Temporal Position                       Temporal Position                       http://hydro10.sdsc.edu/cinergi_ontology/temporal#TemporalPosition
+Geometry Object                         Geometric Objects                       http://hydro10.sdsc.edu/cinergi_ontology/geometry#Object
+Geometry Complex                        Geometric Complex                       http://hydro10.sdsc.edu/cinergi_ontology/geometry#Complex
+Water Body                              Body Of Water                           http://purl.obolibrary.org/obo/ENVO_00000063
+hydrographic feature                    Hydrologic Feature                      http://sweet.jpl.nasa.gov/2.3/realmHydro.owl#HydrosphereFeature
+River                                   River                                   http://purl.obolibrary.org/obo/ENVO_00000022
+Waterfall                               Waterfall                               http://purl.obolibrary.org/obo/ENVO_00000040
+sediment                                sediment                                http://purl.obolibrary.org/obo/ENVO_00002007
+Seamount                                Seamount                                http://purl.obolibrary.org/obo/ENVO_00000264
+Well                                    Well                                    http://purl.obolibrary.org/obo/ENVO_00000026
+Vadoze Zone                             Vadose Zone                             http://purl.obolibrary.org/obo/ENVO_00000328
+Spring                                  Spring                                  http://purl.obolibrary.org/obo/ENVO_00000027
+Pond                                    Pond                                    http://purl.obolibrary.org/obo/ENVO_00000033
+Freshwater Lake                         Freshwater Lake                         http://purl.obolibrary.org/obo/ENVO_00000021
+Canal                                   Canal                                   http://purl.obolibrary.org/obo/ENVO_00000014
+Igneous Rock                            Igneous Rock                            http://purl.obolibrary.org/obo/ENVO_00002013
+Lake                                    Lake                                    http://purl.obolibrary.org/obo/ENVO_00000020
+Water                                   water                                   http://purl.obolibrary.org/obo/ENVO_00002006
+Estuary                                 Estuary                                 http://purl.obolibrary.org/obo/ENVO_00000045
+Lagoon                                  Lagoon                                  http://sweet.jpl.nasa.gov/2.3/realmHydroBody.owl#Lagoon
+Volcano                                 Volcano                                 Volcano                                 http://purl.obolibrary.org/obo/ENVO_00000247
+Sand                                    Sand                                    http://purl.obolibrary.org/obo/ENVO_01000017
+rock                                    Rock Material                           http://purl.obolibrary.org/obo/ENVO_00001995
+Watershed                               Watershed                               http://purl.obolibrary.org/obo/ENVO_00000292
+Marsh                                   Marsh                                   http://purl.obolibrary.org/obo/ENVO_00000035
+Bay                                     Bay                                     http://purl.obolibrary.org/obo/ENVO_00000032
+Dam                                     Dam                                     http://purl.obolibrary.org/obo/ENVO_00000074
+Island                                  Island                                  http://purl.obolibrary.org/obo/ENVO_00000098
+National Geopolitical Entity            Independent Political Entity            http://purl.obolibrary.org/obo/ENVO_00000009
+First-order Administrative Region       First Order Administrative Division     http://purl.obolibrary.org/obo/ENVO_00000005
+Wetland                                 Wetland                                 http://purl.obolibrary.org/obo/ENVO_00000043
+Fourth-order Administrative Region      Fourth Order Administrative Division    http://purl.obolibrary.org/obo/ENVO_00000008
+Algal Bloom                             Algal Blooms                            http://purl.obolibrary.org/obo/ENVO_2000004
+Ocean                                   Ocean                                   http://sweet.jpl.nasa.gov/2.3/realm.owl#Ocean
+Polynya                                 Polynya                                 http://purl.obolibrary.org/obo/ENVO_00000484
+Channel                                 Channel                                 http://purl.obolibrary.org/obo/ENVO_00000395
+Crater                                  Crater                                  http://sweet.jpl.nasa.gov/2.3/realmLandform.owl#Crater
+Strait                                  Strait                                  http://purl.obolibrary.org/obo/ENVO_00000394
+Upwelling                               Upwelling                               http://purl.obolibrary.org/obo/ENVO_01000005
+Peatland                                Peatland                                http://purl.obolibrary.org/obo/ENVO_00000044
+Swamp                                   Swamp                                   http://purl.obolibrary.org/obo/ENVO_00000233
+atmosphere                              Atmosphere                              http://purl.obolibrary.org/obo/ENVO_01000267
+Bank                                    Bank                                    http://purl.obolibrary.org/obo/ENVO_00000141
+Hydrothermal Vent                       Hydrothermal Vent                       http://purl.obolibrary.org/obo/ENVO_00000215
+Surface Water                           Surface Water                           http://purl.obolibrary.org/obo/ENVO_00002042
+Landslide                               Landslides                              http://purl.obolibrary.org/obo/ENVO_00000520
+Impact Crater                           Impact Crater                           http://purl.obolibrary.org/obo/ENVO_00000310
+Pelagic Zone                            Pelagic Zone                            http://purl.obolibrary.org/obo/ENVO_00000208
+Flood Plain                             Flood Plain                             http://purl.obolibrary.org/obo/ENVO_00000255
+Check Dam                               Check Dam                               http://purl.obolibrary.org/obo/ENVO_00000555
+quality                                 Quality                                 http://purl.obolibrary.org/obo/PATO_0000001
+Data Set                                Data Set                                http://hydro10.sdsc.edu/cinergi_ontology/dataset#DataSet
+Viridiplantae                           Plants                                  http://purl.obolibrary.org/obo/NCBITaxon_33090
+Eukaryota                               Eukaryotes                              http://purl.obolibrary.org/obo/NCBITaxon_2759
+Organisms                               Organisms                               http://purl.obolibrary.org/obo/NCBITaxon_1
+Role                                    role                                    Role                                    http://purl.obolibrary.org/obo/CHEBI_50906
+Rock material                           Rock Material                           http://hydro10.sdsc.edu/cinergi_ontology/CGI_Lithology#rock_material
+Acidic                                  Siliceous                               http://hydro10.sdsc.edu/cinergi_ontology/CGI_Lithology#acidic
+Quartzose                               QAPF1                                   http://hydro10.sdsc.edu/cinergi_ontology/CGI_Lithology#quartzose
+QAPF15c                                 F_GT90                                  http://hydro10.sdsc.edu/cinergi_ontology/CGI_Lithology#QAPF15c
+Thermometers                            Thermometer                             http://gcmdservices.gsfc.nasa.gov/kms/concept/84496caa-d54c-491a-8ff7-fe0e54851341
+Instruments                             Device                                  Instrument                              http://gcmdservices.gsfc.nasa.gov/kms/concept/b2140059-b3ca-415c-b0a7-3e142783ffe8
+Topic                                   Knowledge Areas                         http://edamontology.org/topic_0003      
+Biology                                 Life Sciences                           http://edamontology.org/topic_3070      
+Biodiversity                            Biodiversity                            http://edamontology.org/topic_3050      
+Metagenomics                            Metagenomics                            http://edamontology.org/topic_3174      
+Chemistry                               Chemistry                               http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl/Chemistry
+Ecology                                 Ecology                                 http://www.vocabularyserver.com/usgs/index.php?tema=464&/ecology
+Geosphere Layer                         Geosphere                               http://sweet.jpl.nasa.gov/2.3/realm.owl#Geosphere
+Tablemounts                             Tablemount                              http://yago-knowledge.org/resource/geoclass_tablemounts
+Temperature                             temperature                             http://sweet.jpl.nasa.gov/2.3/propTemperature.owl#Temperature
+Ridges                                  Ridge                                   http://yago-knowledge.org/resource/geoclass_ridges
+Crater Lakes                            Crater Lake                             http://yago-knowledge.org/resource/geoclass_crater_lakes
+Icecap                                  IceCap                                  http://yago-knowledge.org/resource/geoclass_icecap
+Climate                                 Atmospheric And Climatic Processes      http://www.vocabularyserver.com/usgs/index.php?tema=100&/atmospheric-and-climatic-processes
+Evaporation                             Evaporation                             http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Evaporation
+Intermittent Lake                       Intermittent Lakes                      http://yago-knowledge.org/resource/geoclass_intermittent_lake
+Mass Concentration                      Density                                 http://sweet.jpl.nasa.gov/2.3/propMass.owl#MassConcentration
+Reef                                    Reefs                                   http://yago-knowledge.org/resource/geoclass_reef
+Fjord                                   Fjords                                  http://yago-knowledge.org/resource/geoclass_fjord

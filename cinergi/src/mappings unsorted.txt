@@ -1,0 +1,987 @@
+Process > Hydrologic Process > Impact Cratering
+Feature > Physiographic Feature > Elevation
+Feature > Glacial Feature > Ice Mass
+Feature > Physiographic Feature > Beach
+Material > Rock Material > Piece Of Rock
+Feature > Hydrologic Feature > Water Body
+Feature > Physiographic Feature > Cave Wall
+Feature > Physiographic Feature > Cave
+Feature > Hydrologic Feature > Waterfall
+Material > Environmental Material > Gravel
+Material > Environmental Material > Sediment
+Material > Environmental Material > Soil
+Feature > Hydrologic Feature > Well
+Feature > Hydrologic Feature > Vadoze Zone
+Material > Environmental Material > Ice
+Material > Rock Material > Sedimentary Rock
+Material > Environmental Material > Scum
+Feature > Hydrologic Feature > Levee
+Material > Environmental Material > Water
+Feature > Glacial Feature > Strand Crack
+Feature > Physiographic Feature > Tunnel
+Feature > Physiographic Feature > Volcanic Feature
+Material > Rock Material > Sand
+Material > Rock Material > Endolithic Environment
+Feature > Physiographic Feature > Watershed
+Feature > Physiographic Feature > Slope
+Material > Rock Material > Scree
+Feature > Physiographic Feature > Mineral Deposit
+Feature > Hydrologic Feature > Bar
+Feature > Physiographic Feature > Boulder Field
+Feature > Hydrologic Feature > Phreatic Zone
+Material > Environmental Material > Dust
+Feature > Hydrologic Feature > Island
+Material > Environmental Material > Oil
+Feature > Glacial Feature > Glacial Lake
+Feature > Physiographic Feature > Desert
+Feature > Physiographic Feature > Clearing
+Feature > Physiographic Feature > Depression
+Feature > Glacial Feature > Iceberg
+Feature > Physiographic Feature > Peak
+Feature > Glacial Feature > Permafrost
+Material > Environmental Material > Aerosol
+Material > Environmental Material > Vapour
+Material > Environmental Material > Air
+Feature > Physiographic Feature > Cave System
+Feature > Glacial Feature > Ice Field
+Material > Rock Material > Oasis
+Feature > Physiographic Feature > Rill
+Feature > Hydrologic Feature > Tributary
+Feature > Physiographic Feature > Underground Physiographic Feature
+Feature > Physiographic Feature > Terrace
+Feature > Physiographic Feature > Karst
+Feature > Glacial Feature > Moraine
+Material > Environmental Material > Organic Material
+Realm > Atmosphere > Atmospheric Taylor Column
+Material > Environmental Material > Anthropogenic Environmental Material
+Feature > Physiographic Feature > Plain
+Material > Environmental Material > Clay
+Material > Environmental Material > Mud
+Material > Environmental Material > Silt
+Realm > Atmosphere > Atmospheric Boundary Layer
+Feature > Physiographic Feature > Outcrop
+Material > Biological Material > Anatomical Entity
+Realm > Atmosphere > Atmospheric Water Vapour
+Feature > Hydrologic Feature > Polder
+Feature > Physiographic Feature > Quicksand Area
+Material > Rock Material > Rocky Slope
+Feature > Hydrologic Feature > Distributary
+Material > Environmental Material > Foam
+Material > Environmental Material > Lava
+Feature > Glacial Feature > Talik
+Feature > Physiographic Feature > Badland
+Feature > Hydrologic Feature > Beaver Dam
+Feature > Hydrologic Feature > Alluvial Fan
+Feature > Hydrologic Feature > Abandoned Watercourse
+Feature > Glacial Feature > Snow Field
+Feature > Physiographic Feature > Peninsula
+Feature > Hydrologic Feature > Confluence
+Material > Environmental Material > Mineral
+Material > Environmental Material > Emulsion
+Feature > Physiographic Feature > Landslide
+Feature > Hydrologic Feature > Moatan
+Feature > Physiographic Feature > Cleft
+Feature > Glacial Feature > Dirt Cone
+Feature > Glacial Feature > Arete
+Feature > Physiographic Feature > Gravel Field
+Feature > Physiographic Feature > Natural Arch
+Science Domain > Earth Science > Paleontology
+Science Domain > Earth Science > Geochemistry
+Process > Atmospheric Process > Climate Change
+Science Domain > Earth Science > Geography
+Process > Atmospheric Process > Precipitation
+Science Domain > Earth Science > Geophysics
+Science Domain > Earth Science > Geology
+Process > Chemical Process > Absorption
+Science Domain > Atmospheric Sciences > Meteorology
+Process > Surficial Process > Sediment Transport
+Process > Glacial Process > Glaciology
+Science Domain > Earth Science > Soil Sciences
+Process > Glacial Process > Glaciation
+Process > Hydrologic Process > Hydrology
+Process > Tectonic Process > Neotectonic Processes
+Science Domain > Earth Science > Limnology
+Realm > Habitat > Habitat Alteration
+Material > Mineral > Mineralogy
+Science Domain > Earth Science > Ocean Sciences
+Resource Type > Data Set > Metadata Record
+Property > Measure > Weight
+Property > Measure > Area
+Property > Measure > Time
+Property > Measure > Angular Velocity
+Property > Measure > Scale
+Property > Measure > Volume
+Property > Measure > Velocity
+Property > Measure > Currency
+Property > Measure > Acceleration
+Material > Biological Material > Organisms
+Process > Biological Process > Multi-organism Process
+Process > Biological Process > Response To Stimulus
+Material > Rock Material > Hornblendite
+Material > Rock Material > Pure Dolomitic Sediment
+Material > Rock Material > Foid Diorite
+Material > Rock Material > Rock Salt
+Material > Rock Material > Impure Dolomitic Sediment
+Material > Rock Material > Carbonate Ooze
+Material > Rock Material > Dolomitic Or Magnesian Sedimentary Material
+Material > Rock Material > Impure Calcareous Carbonate Sediment
+Material > Rock Material > Pure Carbonate Mudstone
+Material > Rock Material > High-magnesium Fine-grained Igneous Rock
+Material > Rock Material > Basalt
+Material > Rock Material > Lignite
+Material > Rock Material > Impure Dolostone
+Material > Rock Material > Phonolitic Foidite
+Material > Rock Material > Skarn
+Material > Rock Material > Trachyte
+Material > Rock Material > Ash And Lapilli
+Material > Rock Material > Sapropel
+Material > Rock Material > Doleritic Rock
+Material > Rock Material > Alkali Feldspar Trachyte
+Material > Rock Material > Pebble-gravel-size Sediment
+Material > Rock Material > Quartz Anorthosite
+Material > Rock Material > Foid-bearing Alkali-feldspar Trachyte
+Material > Rock Material > Generic Conglomerate
+Material > Rock Material > Phonolitic Basanite
+Material > Rock Material > Exotic Composition Evaporite
+Material > Rock Material > Pyroxenite
+Material > Rock Material > Mud
+Material > Rock Material > Impure Carbonate Sediment
+Material > Rock Material > Sand-size Sediment
+Material > Rock Material > Syenogranite
+Material > Rock Material > Basanite
+Material > Rock Material > Arenite
+Material > Rock Material > Bituminous Coal
+Material > Rock Material > Organic-bearing Mudstone
+Material > Rock Material > Limestone
+Material > Rock Material > Quartz Alkali-feldspar Trachyte
+Material > Rock Material > Foid-bearing Latite
+Material > Rock Material > Foid Monzosyenite
+Material > Rock Material > Carbonate-rich Mudstone
+Material > Rock Material > Phonolitic Tephrite
+Material > Rock Material > Residual Material
+Material > Rock Material > Impure Carbonate Sedimentary Rock
+Material > Rock Material > Hybrid Sedimentary Rock
+Material > Rock Material > Pure Calcareous Carbonate Sediment
+Material > Rock Material > Alkali Feldspar Granite
+Material > Rock Material > Phyllite
+Material > Rock Material > Chalk
+Material > Rock Material > Orthogneiss
+Material > Rock Material > Material Formed In Surficial Environment
+Material > Rock Material > Quartz Trachyte
+Material > Rock Material > Boninite
+Material > Rock Material > Pure Carbonate Sedimentary Rock
+Material > Rock Material > Anorthosite
+Material > Rock Material > Tephritic Phonolite
+Material > Rock Material > Granulite
+Material > Rock Material > Glass-rich Igneous Rock
+Material > Rock Material > Alkali Feldspar Rhyolite
+Material > Rock Material > Rhyolite
+Material > Rock Material > Tholeiitic Basalt
+Material > Rock Material > Latite
+Material > Rock Material > Foid-bearing Anorthosite
+Material > Rock Material > Clastic Mudstone
+Material > Rock Material > Clay
+Material > Rock Material > Alkali Olivine Basalt
+Material > Rock Material > Metasomatic Rock
+Material > Rock Material > Impure Limestone
+Material > Rock Material > Alkali Feldspar Trachytic Rock
+Material > Rock Material > Monzogranite
+Material > Rock Material > Dioritoid
+Material > Rock Material > Silicate Mudstone
+Material > Rock Material > Label
+Material > Rock Material > Phonolite
+Material > Rock Material > Dacite
+Material > Rock Material > Tephrite
+Material > Rock Material > Gypsum Or Anhydrite
+Material > Rock Material > Cobble-gravel-size Sediment
+Material > Rock Material > Ultramafic Igneous Rock
+Material > Rock Material > Foid Bearing Gabbro
+Material > Rock Material > Pegmatite
+Material > Rock Material > Siltstone
+Material > Rock Material > Sand
+Material > Rock Material > Gravel
+Material > Rock Material > Monzogabbroic Rock
+Material > Rock Material > Foid-bearing Trachyte
+Material > Rock Material > Spilite
+Material > Rock Material > Tephritic Foidite
+Material > Rock Material > Claystone
+Material > Rock Material > Dolomite
+Material > Rock Material > Foidite
+Material > Rock Material > Anthracite Coal
+Material > Rock Material > Silt
+Material > Rock Material > Generic Mudstone
+Material > Rock Material > Generic Sandstone
+Material > Rock Material > Siliceous Ooze
+Material > Rock Material > Trachytic Rock
+Material > Rock Material > Quartz Latite
+Material > Rock Material > Travertine
+Material > Rock Material > Pure Carbonate Sediment
+Material > Rock Material > Bouder-gravel-size Sediment
+Material > Rock Material > Gabbroid
+Equipment > Satellites > Moderate-Resolution Imaging Spectroradiometer
+Equipment > Satellites > Advanced Spaceborne Thermal Emission and Reflection Radiometer
+Activity > Observation > Category Observation
+Activity > Observation > Discrete Coverage Observation
+Activity > Observation > Truth Observation
+Activity > Observation > Temporal Observation
+Activity > Observation > Count Observation
+Activity > Observation > Geometry Observation
+Property > Measure > Measurement
+Activity > Observation > Complex Observation
+Organization > Institution > Providers
+Resource Type > Web Service > UNAVCO
+Resource Type > Software > Oligo
+Resource Type > Software > PkgDepTools
+Resource Type > Software > IRanges
+Resource Type > Software > Weka
+Resource Type > Software > Rtreemix
+Resource Type > Data Set > Text Data Set
+Resource Type > Software > Made4
+Resource Type > Web Service > SOAP Service
+Resource Type > Software > SnpMatrix
+Resource Type > Software > Gaga
+Resource Type > Software > AffyQCReport
+Resource Type > Software > GEOmetadb
+Resource Type > Software > Impute
+Resource Type > Software > Matlab Software
+Resource Type > Software > Fdrame
+Resource Type > Software > Hexbin
+Resource Type > Software > RpsiXML
+Resource Type > Software > Annotare
+Resource Type > Software > OLIN
+Resource Type > Software > 'apComplex'
+Resource Type > Software > Lapmix
+Resource Type > Software > ArrayExpress Bioconductor
+Resource Type > Software > PGSEA
+Resource Type > Software > 'AffyExpress'
+Resource Type > Software > Nudge
+Resource Type > Software > Pamr
+Resource Type > Software > SeqLogo
+Resource Type > Software > ScanArray
+Resource Type > Software > NnNorm
+Resource Type > Software > QpcrNorm
+Resource Type > Software > PpiStats
+Resource Type > Software > OCplus
+Resource Type > Software > Optiquant
+Resource Type > Software > Altcdfenvs
+Resource Type > Software > Agilent Scan Control
+Resource Type > Software > Cytoscape
+Resource Type > Software > SPSS
+Resource Type > Software > Keggorth
+Resource Type > Software > SpkTools
+Resource Type > Software > FlowClust
+Resource Type > Software > AffyContam
+Resource Type > Software > 'betr'
+Resource Type > Software > RMAExpress
+Resource Type > Software > GeneSpring
+Resource Type > Software > Version Name
+Resource Type > Software > HEM
+Resource Type > Software > 'BioMVCClass'
+Resource Type > Software > Bgafun
+Resource Type > Software > 'codelink'
+Resource Type > Software > Rama
+Resource Type > Software > 'annotate'
+Resource Type > Software > AffyImGUI
+Resource Type > Software > Panp
+Resource Type > Software > OLINgui
+Resource Type > Software > Ruuid
+Resource Type > Software > GLEAMS Software
+Resource Type > Software > Safe
+Resource Type > Software > Annotation-Driven Clustering
+Resource Type > Software > EMBOSS Package
+Resource Type > Software > ArrayNorm
+Resource Type > Software > Sagenhaft
+Resource Type > Software > PROcess
+Resource Type > Software > Flagme
+Resource Type > Software > SnapCGH
+Resource Type > Software > SMAP
+Science Domain > Biology > Genetics
+Resource Type > Software > Gene Expression Atlas At EBI R Statistics Package
+Science Domain > Medicine > Dermatology
+Resource Type > Software > IterativeBMA
+Resource Type > Software > MantelCorr
+Resource Type > Software > 'beadarraySNP'
+Resource Type > Software > Rredland
+Resource Type > Software > Resourcerer
+Resource Type > Software > FlowQ
+Resource Type > Software > Tspair
+Resource Type > Software > 'BufferedMatrix'
+Resource Type > Software > 'DFP'
+Resource Type > Software > 'DynDoc'
+Resource Type > Software > LogitT
+Resource Type > Software > Ecolitk
+Resource Type > Software > ITALICS
+Resource Type > Software > 'Biostrings'
+Resource Type > Software > OutlierD
+Resource Type > Software > MANOR
+Resource Type > Software > 'DNAcopy'
+Resource Type > Software > Gene2pathway
+Science Domain > Biology > Molecular Interactions, Pathways And Networks
+Resource Type > Software > Affxparser
+Resource Type > Software > Prada
+Resource Type > Software > GMS
+Resource Type > Software > Sequence Alignment And Modeling System
+Resource Type > Software > Microsoft Windows
+Resource Type > Software > Q
+Science Domain > Biology > Biomedical Science
+Resource Type > Software > Xcms
+Resource Type > Software > 'CALIB'
+Resource Type > Software > Marray
+Resource Type > Software > RMAT
+Resource Type > Software > Microsoft Office 2001
+Resource Type > Software > Timecourse
+Resource Type > Software > KEGGgraph
+Science Domain > Medicine > Anaesthesiology
+Resource Type > Software > IterativeBMAsurv
+Resource Type > Software > GeneticsBase
+Resource Type > Software > Spot Quantification
+Resource Type > Software > Rbsurv
+Resource Type > Software > Occugene
+Resource Type > Software > 'edgeR'
+Resource Type > Software > SLqPCR
+Resource Type > Software > Entrez
+Resource Type > Software > SpikeLI
+Resource Type > Software > Software Suite
+Resource Type > Software > OrderedList
+Science Domain > Medicine > Critical Care Medicine
+Science Domain > Computer Science > Cheminformatics
+Science Domain > Biology > Systems Biology
+Resource Type > Web Service > REST Service
+Resource Type > Software > BAC
+Resource Type > Software > Spotfinder [TIGR]
+Resource Type > Software > FlowCore
+Resource Type > Software > ScISI
+Resource Type > Software > BioJava
+Resource Type > Software > GOstats
+Resource Type > Software > Smultron
+Resource Type > Software > MetaArray
+Resource Type > Software > Segway 1.2
+Resource Type > Software > Bgx
+Resource Type > Software > GeneRecommender
+Science Domain > Medicine > Gender Medicine
+Resource Type > Software > RHVDM
+Resource Type > Software > 'BicARE'
+Science Domain > Medicine > Gynaecology And Obstetrics
+Resource Type > Software > NONMEM
+Resource Type > Software > AnnotationTools
+Resource Type > Software > GeneSelectMMD
+Resource Type > Software > PSI-BLAST
+Resource Type > Software > 'affycoretools'
+Resource Type > Software > TilingArray
+Resource Type > Software > DROID
+Resource Type > Software > GeneticsDesign
+Resource Type > Software > BioDist
+Resource Type > Software > ArrayVision
+Resource Type > Software > Reb
+Resource Type > Software > MUSCLE
+Resource Type > Software > Gene Pix
+Resource Type > Software > Array Comparative Genomic Hybridization
+Resource Type > Software > Limma
+Resource Type > Software > RdbiPgSQL
+Resource Type > Software > GGtools
+Resource Type > Software > TCoffee
+Resource Type > Software > Endnote
+Resource Type > Software > GeneRfold
+Resource Type > Software > GLAD
+Resource Type > Software > Exonmap
+Resource Type > Software > Multiscan
+Resource Type > Software > PCpheno
+Resource Type > Software > PreprocessCore
+Resource Type > Software > Weaver
+Science Domain > Computer Science > Machine Learning
+Science Domain > Computer Science > Data Mining
+Resource Type > Software > OntoTools
+Resource Type > Software > PostgreSQL
+Resource Type > Software > Category
+Resource Type > Software > Search Engine
+Resource Type > Software > GSEABase
+Resource Type > Software > Fbat
+Resource Type > Software > LimmaGUI
+Resource Type > Software > Metahdep
+Resource Type > Software > Affymetrix Software
+Science Domain > Medicine > Hepatic And Biliary Medicine
+Resource Type > Software > TypeInfo
+Resource Type > Software > FlowViz
+Resource Type > Software > Rsbml
+Resource Type > Software > GoTools
+Resource Type > Software > Splicegear
+Resource Type > Software > Adobe Acrobat Reader
+Resource Type > Software > Minet
+Resource Type > Software > CghMCR
+Resource Type > Software > Rintact
+Resource Type > Software > RBGL
+Resource Type > Software > ImaGene
+Resource Type > Software > Rdbi
+Science Domain > Medicine > Pain Medicine
+Resource Type > Software > Maanova
+Resource Type > Software > XDE
+Resource Type > Software > GOSemSim
+Resource Type > Software > 'BSgenome'
+Resource Type > Software > 'BufferedMatrixMethods'
+Resource Type > Software > 'biocGraph'
+Resource Type > Software > Microsoft Excel
+Resource Type > Software > GeneSelector
+Resource Type > Software > Qpgraph
+Resource Type > Software > MAANOVA V1.2 Package For MATLAB
+Resource Type > Software > Simpleaffy
+Resource Type > Software > 'EBImage'
+Resource Type > Software > MEDME
+Resource Type > Software > GeneData Expressionist Analyst V4.0.5
+Resource Type > Software > CARMAweb
+Resource Type > Software > 50-50 MANOVA
+Resource Type > Software > Mdqc
+Resource Type > Software > Plgem
+Resource Type > Software > FlowUtils
+Science Domain > Biology > Computational Biology
+Resource Type > Software > Affypdnn
+Resource Type > Software > 'domainsignatures'
+Resource Type > Software > FlowFlowJo
+Resource Type > Software > PAnnBuilder
+Resource Type > Software > FlowStats
+Resource Type > Software > BioPerl
+Resource Type > Software > RNAither
+Resource Type > Software > 'EBarrays'
+Resource Type > Software > Agi4x44PreProcess
+Science Domain > Medicine > Allergy, Clinical Immunology And Immunotherapeutics.
+Resource Type > Software > SNPchip
+Resource Type > Software > MATLAB
+Resource Type > Software > Protege 4
+Resource Type > Software > 'biocDatasets'
+Science Domain > Physics > Biophysics
+Resource Type > Software > OneChannelGUI
+Resource Type > Software > MCRestimate
+Resource Type > Software > SAS/STAT Software, Version 8
+Resource Type > Software > MaCorrPlot
+Resource Type > Software > R Software
+Science Domain > Biology > Cell Biology
+Science Domain > Biology > Bioinformatics
+Resource Type > Software > OligoClasses
+Resource Type > Software > ArrayQuality
+Resource Type > Software > ChipSkipper
+Resource Type > Software > Twilight
+Resource Type > Software > Sizepower
+Resource Type > Software > Siggenes
+Resource Type > Software > Eclipse
+Resource Type > Software > PLPE
+Resource Type > Software > Adobe Illustrator 10
+Resource Type > Software > 'bridge'
+Resource Type > Software > MaSigPro
+Resource Type > Software > DNDC
+Resource Type > Software > GenomeIntervals
+Resource Type > Software > RBioinf
+Resource Type > Software > BLAST
+Resource Type > Software > Plw
+Resource Type > Software > 'BGmix'
+Resource Type > Software > AIDA
+Resource Type > Software > Algorithms For Calculating Microarray Enrichment
+Resource Type > Software > Nem
+Resource Type > Software > Rmagpie
+Resource Type > Software > SBMLR
+Science Domain > Biology > Structural Biology
+Resource Type > Software > Silicon Genetics Genespring
+Resource Type > Software > CosmoGUI
+Science Domain > Medicine > Trauma Medicine
+Resource Type > Software > 'CGHbase'
+Resource Type > Software > Cosmo
+Resource Type > Software > LBE
+Resource Type > Software > Copa
+Resource Type > Software > Pathways 2.01 Software
+Resource Type > Software > Software With Command Line Interface
+Resource Type > Software > Convert
+Resource Type > Software > Parody
+Resource Type > Software > Macat
+Resource Type > Software > KCsmart
+Resource Type > Software > QuantArray Scanner Software
+Resource Type > Software > PcaMethods
+Resource Type > Software > VanillaICE
+Resource Type > Software > Graph
+Resource Type > Software > ROC
+Resource Type > Software > GC-RMA Quantification
+Resource Type > Software > MassSpecWavelet
+Resource Type > Software > Software With Image Input
+Resource Type > Software > OBO-Edit
+Resource Type > Software > Microsoft Word
+Resource Type > Software > Dropbox
+Science Domain > Medicine > Medical Toxicology
+Resource Type > Software > Ontology Engineering Software
+Resource Type > Software > Pickgene
+Resource Type > Software > Microsoft Developed Software
+Resource Type > Software > LogicFS
+Resource Type > Software > Unix
+Resource Type > Software > DaMA
+Resource Type > Software > Genefilter
+Resource Type > Software > Rflowcyt
+Resource Type > Software > Crlmm
+Resource Type > Software > DChip
+Resource Type > Software > Operating System
+Resource Type > Software > Linux
+Resource Type > Software > Ctc
+Resource Type > Software > ArrayGauge
+Resource Type > Software > Rgraphviz
+Resource Type > Software > ABarray
+Resource Type > Software > Rtracklayer
+Science Domain > Medicine > Urology And Nephrology
+Science Domain > Medicine > Complementary Medicine
+Resource Type > Software > ShortRead
+Science Domain > Biology > Evolutionary Biology
+Science Domain > Medicine > Reproductive Health
+Resource Type > Software > 'ChemmineR'
+Science Domain > Medicine > Surgery
+Resource Type > Software > TargetSearch
+Resource Type > Software > AffyPara
+Resource Type > Software > Gcrma
+Resource Type > Software > RankProd
+Resource Type > Software > Affymetrix Expression Console
+Resource Type > Software > Xmapbridge
+Resource Type > Software > Ensembl
+Resource Type > Software > 'genArise'
+Resource Type > Software > Clustal
+Science Domain > Biology > Developmental Biology
+Science Domain > Computer Science > Medical Informatics
+Resource Type > Software > 'externalVector'
+Resource Type > Software > GGBase
+Resource Type > Software > Puma
+Resource Type > Software > Plier
+Resource Type > Software > 'DEDS'
+Resource Type > Software > Multtest
+Resource Type > Software > 'CORREP'
+Science Domain > Medicine > Musculoskeletal Medicine
+Resource Type > Software > RWebServices
+Resource Type > Software > Geneplotter
+Resource Type > Software > BZScan
+Resource Type > Software > Aroma.light
+Resource Type > Software > GeneRegionScan
+Resource Type > Software > GlobalAncova
+Resource Type > Software > Acuity
+Science Domain > Medicine > Geriatric Medicine
+Resource Type > Software > Sscore
+Resource Type > Software > RLMM
+Science Domain > Medicine > Ear, Nose And Throat Medicine
+Science Domain > Medicine > Dentistry
+Resource Type > Software > SSPA
+Resource Type > Software > GEMTools 2.4
+Resource Type > Software > GeneTraffic
+Science Domain > Medicine > Gastroenterology
+Resource Type > Software > Splots
+Science Domain > Medicine > Haematology
+Science Domain > Medicine > Endocrinology And Metabolism
+Resource Type > Software > RefPlus
+Resource Type > Software > Rdisop
+Resource Type > Software > Quantsmooth
+Resource Type > Software > SLGI
+Resource Type > Software > RbcBook1
+Resource Type > Software > MiRNApath
+Resource Type > Software > Lumi
+Resource Type > Software > Gpls
+Resource Type > Software > WordStar
+Resource Type > Software > HilbertVisGUI
+Resource Type > Software > MIcroarray Analysis Suite
+Science Domain > Medicine > Opthalmology
+Resource Type > Software > 'explorase'
+Resource Type > Software > 'dualKS'
+Resource Type > Software > GeneR
+Resource Type > Software > PathRender
+Resource Type > Software > Pdmclass
+Resource Type > Software > Vsn
+Resource Type > Software > MVCClass
+Resource Type > Software > ArrayMvout
+Resource Type > Web Service > JSON Web Service
+Resource Type > Software > Rosetta Resolver
+Resource Type > Software > BiomaRT
+Resource Type > Software > Annaffy
+Resource Type > Software > Ringo
+Resource Type > Software > GeneTac Analyser
+Resource Type > Software > BasReader 3.01
+Resource Type > Software > Harshlight
+Science Domain > Medicine > Paediatrics
+Resource Type > Software > 'CGHregions'
+Resource Type > Software > Beadstudio
+Resource Type > Software > ArrayWoRx
+Science Domain > Medicine > Psychiatry
+Resource Type > Software > HilbertVis
+Resource Type > Software > IntelliJ IDEA
+Resource Type > Software > SAGx
+Resource Type > Software > GraphAT
+Resource Type > Software > 'BCRANK'
+Resource Type > Software > GEOquery
+Science Domain > Biology > Marine Biology
+Resource Type > Software > 'AffyCompatible'
+Resource Type > Software > GACK
+Resource Type > Software > MicroRNA
+Resource Type > Software > SpotSegmentation
+Resource Type > Software > TopGO
+Resource Type > Software > COPASI
+Resource Type > Software > Xps
+Resource Type > Software > STARLIMS
+Science Domain > Medicine > Veterinary Medicine
+Resource Type > Software > Spotfire
+Resource Type > Software > 'biocViews'
+Resource Type > Software > RMAGEML
+Science Domain > Biology > Molecular Biology
+Resource Type > Software > Edd
+Resource Type > Software > 'CMA'
+Resource Type > Software > 'CGHcall'
+Resource Type > Software > GoProfiles
+Resource Type > Software > FactDesign
+Science Domain > Biology > Biochemistry
+Resource Type > Software > Kakadu
+Science Domain > Medicine > Systems Medicine
+Resource Type > Software > ChipReader 3.1
+Resource Type > Software > MaDB
+Resource Type > Software > OmniOutliner
+Resource Type > Software > ArrayQualityMetrics
+Resource Type > Software > 'cellHTS'
+Resource Type > Software > Agilent Feature Extraction Software
+Science Domain > Biology > Organisms
+Resource Type > Software > MergeMaid
+Resource Type > Software > GridGrinder
+Resource Type > Software > Vbmp
+Resource Type > Software > LPE
+Resource Type > Software > 'CoCiteStats'
+Resource Type > Software > KEGGSOAP
+Resource Type > Software > PgUtils
+Resource Type > Software > LPEadj
+Resource Type > Software > SigPathway
+Resource Type > Software > LMGene
+Resource Type > Software > GeneticsPed
+Resource Type > Software > 'ArrayTools'
+Resource Type > Software > Affycomp
+Resource Type > Software > Idiogram
+Resource Type > Software > Affyio
+Resource Type > Software > Icens
+Science Domain > Medicine > Pathology
+Resource Type > Software > Makecdfenv
+Resource Type > Software > SPIA
+Resource Type > Software > Jaguar
+Resource Type > Software > Initial Microarray Data Processing (data Filtering, Local Normalisation And Quality Control)
+Resource Type > Software > Pcot2
+Resource Type > Software > Genemeta
+Resource Type > Software > GenomeGraphs
+Resource Type > Software > Hypergraph
+Resource Type > Software > Hopach
+Resource Type > Software > ImageReader
+Resource Type > Software > ImageQuant
+Resource Type > Software > SIM
+Resource Type > Software > Mfuzz
+Resource Type > Software > Dyebias
+Resource Type > Software > Affy
+Resource Type > Software > StepNorm
+Resource Type > Software > MiPP
+Resource Type > Software > Globaltest
+Resource Type > Software > MakePlatformDesign
+Resource Type > Software > ICS-501 (version 2.3) Image Capture System
+Resource Type > Software > Qvalue
+Resource Type > Software > SimulatorAPMS
+Resource Type > Software > Heatplus
+Resource Type > Software > MeasurementError.cor
+Resource Type > Software > 'AnnotationDbi'
+Resource Type > Software > GSEAlm
+Resource Type > Software > HELP
+Resource Type > Software > 'CAMERA'
+Resource Type > Software > MaigesPack
+Resource Type > Software > MLInterfaces
+Resource Type > Software > PdInfoBuilder
+Resource Type > Software > Agilent Technologies Software
+Science Domain > Biology > Biotechnology
+Resource Type > Software > Webbioc
+Resource Type > Software > 'gaggle'
+Resource Type > Software > GcRMA Quantification
+Resource Type > Software > AffyTiling
+Resource Type > Software > MAVI Pro
+Resource Type > Software > Scanning Software
+Resource Type > Software > TkWidgets
+Resource Type > Software > 'diffGeneAnalysis'
+Science Domain > Medicine > Cardiology
+Resource Type > Software > BlueFuse
+Resource Type > Software > BioConductor Software
+Resource Type > Software > 'BiocCaseStudies'
+Resource Type > Software > 'Biobase'
+Science Domain > Biology > Ecology
+Resource Type > Software > Matchprobes
+Resource Type > Software > 'cellHTS2'
+Resource Type > Software > GraphAlignment
+Resource Type > Software > Expert 2100
+Science Domain > Medicine > Neurology
+Resource Type > Software > BRB-ArrayTools
+Resource Type > Software > Stam
+Resource Type > Software > Yaqcaffy
+Science Domain > Computer Science > Computational Chemistry
+Resource Type > Software > Applied Biosystems 1700 Expression Array System Software
+Resource Type > Software > AtlasImage
+Resource Type > Software > Ssize
+Resource Type > Software > 'clusterStab'
+Resource Type > Software > WidgetTools
+Resource Type > Software > Affymetrix GeneChip Operating Software
+Resource Type > Software > Cyber-T
+Resource Type > Software > ScanAlyze
+Science Domain > Medicine > Toxicology
+Resource Type > Software > TAS Software
+Resource Type > Software > CodeLink Expression Scanning Software
+Science Domain > Biology > Biomarkers
+Science Domain > Medicine > Oncology
+Science Domain > Medicine > Respiratory Medicine
+Resource Type > Software > CodeLink Expression Analysis Software
+Science Domain > Biology > Chemical Biology
+Resource Type > Software > MAGE-TAB Inputting Software
+Science Domain > Medicine > Physiology
+Resource Type > Software > 'beadarray'
+Resource Type > Software > XDotsReader
+Science Domain > Medicine > Public Health And Epidemiology
+Science Domain > Biology > Omics
+Science Domain > Medicine > Translational Medicine
+Science Domain > Computer Science > Computer Programming
+Resource Type > Software > Software Before Microsoft 2007
+Equipment > platform > Interplanetary Spacecraft
+Equipment > platform > In Situ Land-based Platforms
+Equipment > Satellites > Earth Observation Satellites
+Equipment > platform > In Situ Ocean-based Platforms
+Equipment > platform > Aircraft
+Equipment > Satellites > Solar/Space Observation Satellites
+Equipment > platform > Space Stations/Manned Spacecraft
+Equipment > platform > Balloons/Rockets
+Equipment > platform > Navigation Platforms
+Material > Material (Other) > Maps/Charts/Photographs
+Process > Hydrologic Process > SnowCover
+Feature > Hydrologic Feature > Vadose Zone
+Feature > Hydrologic Feature > Distributary
+Property > Measure > Stomatal Conductance
+Property > Measure > Physical Quantity
+Feature > Hydrologic Feature > Potentiometric Surface
+Feature > Geologic Feature > Vent
+Feature > Hydrologic Feature > Water Table
+Feature > Hydrologic Feature > Waterfall
+Realm > Hydrosphere > Ocean
+Process > Glacial Process > Glacial Landform
+Process > Tectonic Process > Spreading
+Process > Tectonic Process > Plate Divergence
+Process > Tectonic Process > Composite Process
+Property > Measure > Effective Optical Depth
+Activity > Observation > Rock Core
+Feature > Geologic Feature > Basin
+Feature > Hydrologic Feature > Surface Water
+Feature > Hydrologic Feature > Ground Water Level
+Process > Tectonic Process > Tectonics
+
+Feature > Hydrologic Feature > Aquiclude
+Feature > Hydrologic Feature > Body Of Water
+Science Domain > Agricultural Science > Agricultural Plant Science
+Process > Ocean Process > Ocean Circulation
+Process > Ocean Process > Ocean Current
+Realm > Geosphere > Geologic Structure
+Process > Hydrologic Process > LandWater Circulation
+Equipment > Instrument > Radar
+Feature > Geologic Feature > Total Petroleum System
+Resource Type > Repository > Information Repository
+Feature > Physiographic Feature > Seamount
+Activity > Observation > Core section half
+Feature > Hydrologic Feature > Warm Pool
+Activity > Observation > Individual sample
+Resource Type > Web Service > Web Map Service
+Feature > Hydrologic Feature > Well
+Resource Type > Web Service > MG-RAST Server
+Property > Measure > Thermal Maturity
+Activity > Observation > Litter fall digestion
+Material > Chemical > Dissolved Substance
+Property > Measure > Dimensionless Measures
+Process > Tectonic Process > Orogenic Collapse
+Property > Measure > Mean Low Water
+Process > Tectonic Process > Subduction
+Feature > Geologic Feature > Arc
+Equipment > Instrument > Geothermometer
+Activity > experimental process > Assay
+Science Domain > Science Domain (Other) > Food Science
+Process > Ocean Process > Coastal Phenomena
+Activity > Observation > Cuttings
+Equipment > Instrument > LIDAR
+Activity > Observation > Core whole round
+Activity > Observation > Precipitation bulk
+Process > Tectonic Process > Continental Breakup
+Process > Tectonic Process > Seismic Process
+Equipment > Instrument Package > Special Sensors-Ions, Electrons, And Scintillation Thermal Plasma Analysis Package
+Resource Type > Document > Geochemical Atlas
+Feature > Physiographic Feature > Tablemount
+Feature > Geologic Feature > Tectonic Assemblage
+Feature > Geologic Feature > Caldera
+Equipment > Instrument > StowAway Tidbit Temperature Loggers
+Process > Ocean Process > Ocean Mixing
+Activity > Observation > Terrestrial section
+Activity > Observation > Rock powder
+Feature > Hydrologic Feature > Bank
+Material > Chemical > atom
+Material > Environmental Material > Bottom Outlet Sediment BOS Samples
+Science Domain > Chemistry > Photochemistry
+Feature > Hydrologic Feature > Aquifuge
+Feature > Hydrologic Feature > Cascading Water
+Process > Hydrologic Process > Floods
+Realm > Geosphere > Land
+Feature > Geologic Feature > Geologic Province
+Feature > Physiographic Feature > Petroleum Seep
+Activity > Observation > The specimen type is unknown
+Activity > Observation > Core quarter round
+Activity > Observation > Automated
+Science Domain > Ecology > Metagenomics
+Material > Environmental Material > Rock Material
+Science Domain > Climatology > Climate
+Activity > Observation > Foliage leaching
+Equipment > platform > Nancy Foster
+Activity > Observation > Standard reference specimen
+Resource Type > Document > Topographic
+Property > Measure > Air Temperatures
+Process > Tectonic Process > Continental Collision
+Process > Tectonic Process > Intra-plate Process
+Property > Measure > Permeability
+Activity > Observation > Core section
+Resource Type > Document > National Topographic Map Series
+Feature > Physiographic Feature > Continental Shelf
+Feature > Hydrologic Feature > Cone Of Impression
+Feature > Geologic Feature > Mineral Resources
+Activity > Observation > Thin section
+Process > Tectonic Process > Transform Faulting
+Realm > Earth Surface > Digital Elevation Models
+Feature > Geologic Feature > Geothermal Feature
+Equipment > Instrument > HOBO U22 Water Temp Pro V2 Onset Computer Corp.
+Feature > Hydrologic Feature > Cone Of Depression
+Equipment > Instrument > Flux Tower
+Feature > Hydrologic Feature > Water Column
+Realm > Earth Surface > Land Surface
+Activity > Observation > Grab
+Activity > Observation > Other
+Process > Tectonic Process > Extension Event
+Property > Measure > Geothermal Potential
+Process > Tectonic Process > Plate Convergence
+Property > Measure > Infiltration Capacity
+Process > Ocean Process > Coastal Dynamics
+Feature > Hydrologic Feature > Confined Zone
+Realm > Habitat > Shoreline Habitats
+Resource Type > Specification > Accuracy Standards
+Feature > Hydrologic Feature > Confined Bed
+Process > Tectonic Process > Tectonic Uplift
+Activity > Observation > Core piece
+Process > Hydrologic Process > Hydrologic Cycle
+Feature > Hydrologic Feature > Aquifier
+Resource Type > Software > Own Interpolation Software
+Feature > Hydrologic Feature > Aquitard
+Realm > Hydrosphere > Seawater Temperature Data
+Feature > Hydrologic Feature > Waterhole
+Feature > Geologic Feature > Lava Area
+Feature > Physiographic Feature > Fjords
+Resource Type > Web Service > Web Service Resource
+Activity > Activity (Other) > Hydraulic Fracturing
+Activity > Observation > Foliage digestion
+Process > Tectonic Process > Isostatic Rebound
+Realm > Hydrosphere > Overall Water Depth
+Realm > Atmosphere > Atmospheric Vertical Profile Estimates
+Process > Tectonic Process > Creep
+Process > Surficial Process > Bedload
+Material > Material (Other) > subatomic particle
+Science Domain > Ecology > Biodiversity
+Feature > Physiographic Feature > Fjord
+Property > Measure > Surface Temperature
+Method > Method (Other) > Aerial Photography
+Activity > Observation > Core half round
+Feature > Hydrologic Feature > Confined Unit
+Material > Environmental Material > Thermal Waters
+Resource Type > Software > Windows Interpolation software Winter
+Activity > Observation > Dredge
+Equipment > Instrument > 
+Process > Tectonic Process > Continenetal Drift
+Material > Chemical > elemental phosphorus
+Activity > Observation > Petri dish (dry deposition)
+Realm > Earth Surface > Land Cover
+Property > Measure > physical quality
+Material > Chemical > Carbon
+Resource Type > Software > Free Software CARIS Easyview
+Feature > Geologic Feature > Diapir
+Equipment > Instrument > GLORIA Geological Long-Range Inclined Asdic Sidescan-Sonar System
+Feature > Geologic Feature > Footwall
+Activity > Observation > Forest floor digestion
+Realm > Hydrosphere > Mean Sea Level
+Resource Type > Web Service > Web Feature Service
+Material > Chemical > Iron
+Realm > Hydrosphere > Cryosphere
+Activity > Observation > Oriented core
+Process > Ocean Process > Tsunami
+Equipment > Instrument > Datalogger
+Equipment > Instrument > Asdic GLORIA Sidescan-Sonar System
+Feature > Hydrologic Feature > Saturated Zone
+Resource Type > Specification > Environmental Sensitivity Index
+Process > Hydrologic Process > Groundwater Storage
+Process > Tectonic Process > Orogeny
+Science Domain > Ecology > Population And Community Ecology
+Material > Chemical > Particulate Substance
+Activity > Observation > Core sub-piece
+Material > Chemical > elemental oxygen
+Science Domain > Agricultural Science > Agricultural Acquatic Science
+Feature > Physiographic Feature > Estuary
+Feature > Geologic Feature > Volcanic System
+Process > Hydrologic Process > Hydrothermal Alteration
+Resource Type > Software > CARIS Website
+Resource Type > Specification > AMG or MGA post-1993 Datum
+Material > Chemical > elemental nitrogen
+Material > Chemical > mixture
+Material > Chemical > Boron
+Material > Chemical > Copper
+Material > Chemical > molecular entity
+Material > Mineral > phosphate mineral
+Material > Chemical > Palladium
+Material > Chemical > group
+Material > Mineral > azurite
+Material > Chemical > elemental molecule
+Material > Chemical > Europium
+Material > Chemical > Cerium
+Material > Chemical > Zinc
+Material > Chemical > Gadolinium
+Material > Chemical > Mercury
+Material > Chemical > Manganese
+Material > Chemical > Vanadium
+Material > Chemical > Calcium
+Material > Chemical > Fluorine
+Material > Chemical > Halogen
+Material > Chemical > Germanium
+Material > Chemical > Molybdenum
+Material > Chemical > Cadmium
+Material > Chemical > Potassium
+Material > Chemical > elemental sodium
+Material > Chemical > Iodine
+Material > Chemical > Selenium
+Material > Chemical > Bromine
+Material > Chemical > Astatine
+Material > Chemical > Lead
+Material > Chemical > Arsenic
+Material > Chemical > Indium
+Material > Chemical > Thallium
+Material > Chemical > Barium
+Material > Mineral > sulfide mineral
+Material > Mineral > native element mineral
+Material > Chemical > Pnictogen
+Material > Chemical > Silicon
+Material > Chemical > Sulfur
+Material > Mineral > diatomaceous earth
+Material > Mineral > carbonate mineral
+Material > Chemical > Hydrogen
+Material > Chemical > Aluminium
+Material > Chemical > Chlorine
+Material > Chemical > Platinum
+Material > Chemical > Tin
+Material > Chemical > Uranium
+Material > Chemical > Strontium
+Material > Chemical > Antimony
+Material > Chemical Substance > pure substance
+Material > Mineral > hydrated silica
+Material > Chemical > biogenic substance
+Material > Mineral > biogenic mineral
+Material > Mineral > oxide mineral
+Material > Chemical > Xenon
+Material > Chemical > Krypton
+Material > Chemical > Tellurium
+Material > Chemical > Beryllium
+Material > Chemical > Neon
+Material > Chemical > Argon
+Material > Chemical > wax
+Material > Chemical > Gold
+Material > Mineral > silicate mineral
+Material > Chemical > Helium
+Material > Mineral > sulfate mineral
+Material > Mineral > halide mineral
+Material > Chemical > Magnesium
+Material > Chemical > Silver

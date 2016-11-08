@@ -1,0 +1,276 @@
+Environmental Feature
+Ecozone
+Environmental System
+First-order Administrative Region
+Fourth-order Administrative Region
+Ecoregion
+Marine Feature
+Molecular_function
+Era
+Age
+Epoch
+Period
+Sub-Period
+Eon
+Super-Eon
+Device
+Online Resource
+Software Publisher Organization
+Software Developer Organization
+Analytical Resource
+Median Valley
+Narrows
+Dam
+Deep
+Fracture Zone
+Tidal Creek
+Badlands
+Escrapment
+Fossilized Forest
+Oil Spill
+Any Sorting
+Saddle
+First Order Administrative Division
+Ridges
+Shelf Edge
+Drainage Basin
+Any Fabric Type
+Spur
+Geological Platform
+Beach
+Province
+Wadi Bend
+Pinnacle
+Planetary Structure
+Coastal Region
+Critical Zone
+Oasis
+Upland
+Ravine
+Ocean Region
+Sabkha
+Topographic Maps
+Fourth Order Administrative Division
+Mound
+Reef
+Substance Form
+Basin
+Water Resource Assessment
+Forest
+Wadi
+Lopez Rock
+Petroleum Basin
+Santa Rosa Island
+U.S.
+Intermittent Lakes
+Dune
+Digital Data
+Mangrove Island
+Gravel Area
+Hill
+Formal Sciences
+Gap
+Icecap Depression
+Any Shape
+Seat Of A First Order Administrative Division
+Area
+Cutoff
+Planned Process
+Moat
+Promontory
+Lake Bed
+Subsurface
+Shoal
+Points
+Reservoir
+Cirque
+Icecap
+Valley
+Shore
+Lake Channel
+Lake Region
+Great Artesian Basin
+Mud Flat
+Oilfield
+Ore Treatment Plan
+Tablemounts
+Abandoned Well
+Populated Place
+Shelf Valley
+Multibeam Bathymetry
+Third Order Administrative Division
+Second Order Administrative Division
+Ledge
+Headwaters
+Terrace Point
+True Color Imagery
+Rockfall
+Salt Mine
+Ridge
+La Cruz Rock
+Mine
+Moor
+Interfluve
+Spring
+Energy
+Karst Area
+Slope
+Bank
+Nunatak
+Former Inlet
+Glacial Region
+Wadi Junction
+Arch
+Cleft
+Trench
+Crater
+Physical Process
+Plateau
+Stream Mouth
+Intermittent Stream
+Trough
+border land
+Mesa
+Steam Bend
+Hanging Valley
+Oil Well
+Spit
+Delta
+Continuous Imagery
+Entire U.S. Exclusive Economic Zone EEZ
+Peak
+Sill
+Satellite Station
+Dry Stream Bed
+Weir
+Slide
+Big Creek
+Meteoreological Station
+Landfill
+Wetland
+Beach Ridge
+Pressure Levels
+Outer Space
+Current
+Gorge
+Pollution
+Seat Of Government Of A Political Entity
+Northern Australia
+Continental
+Seat Of A Second Order Administrative Division
+Desert
+Swamp
+Plain
+Cape
+NOAA Charts
+Ramp
+Spillway
+Divide
+Pan
+Atmosphere
+Canyon
+Terrace
+Point
+Ranges
+Vertical Resolution
+Cape Elizabeth
+Gully
+Laser
+Sand Area
+Levee
+Sunset Point
+Seat Of A Fourth Order Administrative Division
+Navigation Channel
+Peninsula
+Knoll
+Mining Area
+Butte
+Blow Hole
+Quarry
+Sound
+Murray Basin
+Boundary Field
+Dependent Political Entity
+Canyons
+Furrow
+Caldera
+Intermittent Reservoir
+Salt Area
+Coast
+Volcano
+Ring
+Arrugado
+Sinkhole
+Concession Area
+Moraine
+Facility
+Cone
+coal field
+Continental Rise
+Continent
+Icecap Ridge
+Grassland
+Tools
+Reefs
+Gulf
+Cuesta
+Any Constituent
+Region
+Icecap Dome
+Reach
+Mangrove Swamp
+Depression
+Pass
+Ford
+Fork
+Bench
+Fissure
+Independent Political Entity
+Gasfield
+Seat Of A Third Order Administrative Division
+Interdune Trough
+Fan
+Cove
+Marine Channel
+Strait
+Boundary Marker
+Ruined Dam
+Bight
+Talus Slope
+Sea Channel
+Flat
+Hot Spring
+Glacier
+Any Particle Type
+Headland
+Shelf
+Meander Neck
+Marsh
+Snowfield
+Iron Mine
+Hole
+Mountain
+Ground Elevation
+Latitude And Longitude
+Asphalt Lake
+Dike
+Inlet
+Placer Mine
+Apron
+Bar
+Any Meta Grade
+Blowout
+Quicksand
+Measurement Device
+Cave
+Cliff
+Lithological Classification Scheme
+Wreck
+Rise
+Rapids
+Total Depth
+Isthmus
+Wadi Mouth
+Any Consol Degree
+Any Grain Size
+Any Genetic Categ

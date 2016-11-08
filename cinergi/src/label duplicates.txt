@@ -1,0 +1,663 @@
+Impact Crater                 http://purl.obolibrary.org/obo/ENVO_00000310                                                        Feature                  Crater >  Impact Crater                                                                             
+Impact Cratering              http://www.vocabularyserver.com/usgs/index.php?tema=818&/impact-cratering                           Process                  Natural Processes >  Impact Cratering                                                               
+Impact Crater                 http://sweet.jpl.nasa.gov/2.3/realmLandform.owl#ImpactCrater                                        Realm                    Crater >  Impact Crater                                                                             
+
+Process                       http://purl.obolibrary.org/obo/BFO_0000015                                                          Process                  Occurrent >  Process                                                                                
+PROcess                       http://www.ebi.ac.uk/efo/swo/SWO_0000322                                                            Resource Type            Software >  PROcess                                                                                 
+
+TIMED                         http://gcmdservices.gsfc.nasa.gov/kms/concept/5ab193bc-b931-41ac-819b-e49391abd272                  Equipment                Earth Observation Satellites >  TIMED                                                               
+Time                          http://sweet.jpl.nasa.gov/2.3/propTime.owl#Time                                                     Property                 Physical Quantity >  Time                                                                           
+
+Plateau                       http://purl.obolibrary.org/obo/ENVO_00000182                                                        Feature                  Elevation >  Plateau                                                                                
+Plateau                       http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Plateau                                       Realm                    Mountain Region >  Plateau                                                                          
+
+Mountain                      http://purl.obolibrary.org/obo/ENVO_00000081                                                        Feature                  Mount >  Mountain                                                                                   
+Mountain                      http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Mountain                                      Realm                    Landform >  Mountain                                                                                
+
+Guyot                         http://purl.obolibrary.org/obo/ENVO_00000265                                                        Feature                  Seamount >  Guyot                                                                                   
+Guyot                         http://sweet.jpl.nasa.gov/2.3/realmOceanFloor.owl#Guyot                                             Realm                    Seamount >  Guyot                                                                                   
+
+Seamount                      http://purl.obolibrary.org/obo/ENVO_00000264                                                        Feature                  Mountain >  Seamount                                                                                
+Seamount                      http://sweet.jpl.nasa.gov/2.3/realmOceanFloor.owl#Seamount                                          Realm                    Mountain >  Seamount                                                                                
+
+Tombolo                       http://purl.obolibrary.org/obo/ENVO_00000420                                                        Feature                  Bar >  Tombolo                                                                                      
+Tombolo                       http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Tombolo                                          Realm                    Bar >  Tombolo                                                                                      
+
+Hill                          http://purl.obolibrary.org/obo/ENVO_00000083                                                        Feature                  Mount >  Hill                                                                                       
+Hill                          http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Hill                                          Realm                    Landform >  Hill                                                                                    
+
+Terracette                    http://purl.obolibrary.org/obo/ENVO_00000441                                                        Feature                  Ridge >  Terracette                                                                                 
+Terracette                    http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Terracette                                       Realm                    Coastal Region >  Terracette                                                                        
+
+Ridge                         http://purl.obolibrary.org/obo/ENVO_00000283                                                        Feature                  Elevation >  Ridge                                                                                  
+Ridge                         http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Ridge                                         Realm                    Mountain Region >  Ridge                                                                            
+
+Valley                        http://purl.obolibrary.org/obo/ENVO_00000100                                                        Feature                  Depression >  Valley                                                                                
+Valley                        http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#Valley                                           Realm                    Fluvial Landform >  Valley                                                                          
+
+Planetary Surface             http://purl.obolibrary.org/obo/ENVO_01000324                                                        Feature                  Surface Layer >  Planetary Surface                                                                  
+Planetary Surface             http://sweet.jpl.nasa.gov/2.3/realm.owl#PlanetarySurface                                            Realm                    Planetrary Surface Level >  Planetary Surface                                                       
+
+Delta                         http://purl.obolibrary.org/obo/ENVO_00000101                                                        Feature                  River Mouth >  Delta                                                                                
+Delta                         http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Delta                                            Realm                    Coastal Landform >  Delta                                                                           
+Delta baryon                  http://purl.obolibrary.org/obo/CHEBI_36375                                                          Material                 hyperon >  Delta baryon                                                                             
+
+5-amino-1-(5-phospho-D-ribosyl)imidazolehttp://purl.obolibrary.org/obo/CHEBI_28843                                                          Material                 aminoimidazole >  5-amino-1-(5-phospho-D-ribosyl)imidazole                                          
+Atmospheric Infrared Sounder  http://gcmdservices.gsfc.nasa.gov/kms/concept/a9bd961e-1063-4f37-99b6-ecd77aa9eb40                  Equipment                Profilers/Sounders >  Atmospheric Infrared Sounder                                                  
+
+Atoll                         http://purl.obolibrary.org/obo/ENVO_00000166                                                        Feature                  Oceanic Island >  Atoll                                                                             
+Atoll                         http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Atoll                                            Realm                    Island >  Atoll                                                                                     
+
+River Bed                     http://purl.obolibrary.org/obo/ENVO_00000384                                                        Feature                  Stream Bed >  River Bed                                                                             
+River bed                     http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#RiverBed                                         Realm                    Bedform >  River bed                                                                                
+
+Crater                        http://purl.obolibrary.org/obo/ENVO_00000514                                                        Feature                  Depression >  Crater                                                                                
+Crater                        http://sweet.jpl.nasa.gov/2.3/realmLandform.owl#Crater                                              Realm                    Landform >  Crater                                                                                  
+
+Dune                          http://purl.obolibrary.org/obo/ENVO_00000170                                                        Feature                  Hill >  Dune                                                                                        
+Dune                          http://sweet.jpl.nasa.gov/2.3/realmLandAeolian.owl#Dune                                             Realm                    Aeolian Landform >  Dune                                                                            
+
+Canyon                        http://purl.obolibrary.org/obo/ENVO_00000169                                                        Feature                  Valley >  Canyon                                                                                    
+Canyon                        http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#Canyon                                           Realm                    Fluvial Landform >  Canyon                                                                          
+
+Reef                          http://sweet.jpl.nasa.gov/2.3/realmOceanFloor.owl#Reef                                              Feature                  Ocean Ridge >  Reef                                                                                 
+Reef Environmental Education Foundationhttp://gcmdservices.gsfc.nasa.gov/kms/concept/b982f71a-b33e-4d2e-ade0-7b1d40b9cfc5                  Organization             NON-GOVERNMENT/NON-PROFIT ORGANIZATIONS >  Reef Environmental Education Foundation                  
+
+Upwelling                     http://purl.obolibrary.org/obo/ENVO_01000005                                                        Feature                  Hydroform >  Upwelling                                                                              
+Upwelling                     http://sweet.jpl.nasa.gov/2.3/phenOceanDynamics.owl#Upwelling                                       Process                  Ocean Circulation >  Upwelling                                                                      
+
+Cove                          http://purl.obolibrary.org/obo/ENVO_00000138                                                        Feature                  Coastal Inlet >  Cove                                                                               
+Cove                          http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Cove                                             Realm                    Coastal Region >  Cove                                                                              
+
+Sound                         http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Sound_Energy                                   Property                 Energy >  Sound                                                                                     
+Sound                         http://sweet.jpl.nasa.gov/2.3/realmHydroBody.owl#Sound                                              Feature                  Body Of Water >  Sound                                                                              
+
+Letter                        http://purl.obolibrary.org/obo/ENVO_02000081                                                        Feature                  Paper Product >  Letter                                                                             
+levothyroxine sodium anhydroushttp://purl.obolibrary.org/obo/CHEBI_6446                                                           Material                 organic sodium salt >  levothyroxine sodium anhydrous                                               
+
+Kame                          http://purl.obolibrary.org/obo/ENVO_00000542                                                        Feature                  Elevation >  Kame                                                                                   
+Kame                          http://sweet.jpl.nasa.gov/2.3/realmLandGlacial.owl#Kame                                             Process                  Glacial Landform >  Kame                                                                            
+
+Cirque                        http://purl.obolibrary.org/obo/ENVO_00000155                                                        Feature                  Glacial Valley >  Cirque                                                                            
+Cirque                        http://sweet.jpl.nasa.gov/2.3/realmLandGlacial.owl#Cirque                                           Process                  Glacial Plain >  Cirque                                                                             
+
+Cliff                         http://purl.obolibrary.org/obo/ENVO_00000087                                                        Feature                  Elevation >  Cliff                                                                                  
+Cliff                         http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Cliff                                         Realm                    Hill >  Cliff                                                                                       
+
+Butte                         http://purl.obolibrary.org/obo/ENVO_00000287                                                        Feature                  Elevation >  Butte                                                                                  
+Butte                         http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Butte                                         Realm                    Hill >  Butte                                                                                       
+
+Esker                         http://purl.obolibrary.org/obo/ENVO_00000282                                                        Feature                  Elevation >  Esker                                                                                  
+Esker                         http://sweet.jpl.nasa.gov/2.3/realmLandGlacial.owl#Esker                                            Process                  Glacial Landform >  Esker                                                                           
+
+Sill                          http://purl.obolibrary.org/obo/ENVO_00000539                                                        Feature                  Elevation >  Sill                                                                                   
+Sill                          http://sweet.jpl.nasa.gov/2.3/realmGeol.owl#Sill                                                    Realm                    Plutonic Structure >  Sill                                                                          
+
+Bajada                        http://purl.obolibrary.org/obo/ENVO_00000315                                                        Feature                  Alluvial Fan >  Bajada                                                                              
+Bajada                        http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#Bajada                                           Realm                    Piedmont Slope >  Bajada                                                                            
+
+Prairie                       http://purl.obolibrary.org/obo/ENVO_00000260                                                        Feature                  Grassland >  Prairie                                                                                
+Prairie                       http://sweet.jpl.nasa.gov/2.3/realmLandform.owl#Prarie                                              Realm                    Plain >  Prairie                                                                                    
+
+Mesa                          http://purl.obolibrary.org/obo/ENVO_00000179                                                        Feature                  Elevation >  Mesa                                                                                   
+Miniature Electrostatic Analyzerhttp://gcmdservices.gsfc.nasa.gov/kms/concept/46f0f371-af6e-4125-9b26-edcedad523ac                  Equipment                Electrical Meters >  Miniature Electrostatic Analyzer                                               
+Mesa                          http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Mesa                                          Realm                    Mountain Region >  Mesa                                                                             
+
+Spit                          http://purl.obolibrary.org/obo/ENVO_00000306                                                        Feature                  Bar >  Spit                                                                                         
+Spit                          http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Spit                                             Realm                    Coastal Region >  Spit                                                                              
+
+Sandur                        http://purl.obolibrary.org/obo/ENVO_00000312                                                        Feature                  Plain >  Sandur                                                                                     
+Sandur                        http://sweet.jpl.nasa.gov/2.3/realmLandGlacial.owl#Sandur                                           Process                  Glacial Outwash Plain >  Sandur                                                                     
+
+Impact Crater                 http://purl.obolibrary.org/obo/ENVO_00000310                                                        Feature                  Crater >  Impact Crater                                                                             
+Impact Cratering              http://www.vocabularyserver.com/usgs/index.php?tema=818&/impact-cratering                           Process                  Natural Processes >  Impact Cratering                                                               
+Impact Crater                 http://sweet.jpl.nasa.gov/2.3/realmLandform.owl#ImpactCrater                                        Realm                    Crater >  Impact Crater                                                                             
+
+Outwash Fan                   http://purl.obolibrary.org/obo/ENVO_00000434                                                        Feature                  Plain >  Outwash Fan                                                                                
+OutwashFan                    http://sweet.jpl.nasa.gov/2.3/realmLandGlacial.owl#OutwashFan                                       Process                  Glacial Landform >  OutwashFan                                                                      
+
+Lacustrine Plain              http://purl.obolibrary.org/obo/ENVO_00000259                                                        Feature                  Plain >  Lacustrine Plain                                                                           
+Lacustrine Plain              http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#LacustrinePlain                                  Realm                    Fluvial Plain >  Lacustrine Plain                                                                   
+
+Island Arc                    http://purl.obolibrary.org/obo/ENVO_00000353                                                        Feature                  Archipelago >  Island Arc                                                                           
+Island Arc                    http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#IslandArc                                        Realm                    Coastal Landform >  Island Arc                                                                      
+
+Coastal Plain                 http://purl.obolibrary.org/obo/ENVO_00000090                                                        Feature                  Plain >  Coastal Plain                                                                              
+Coastal Plain                 http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#CoastalPlain                                     Realm                    Coastal Region >  Coastal Plain                                                                     
+
+Ocean Current                 http://purl.obolibrary.org/obo/ENVO_00000147                                                        Feature                  Marine Current >  Ocean Current                                                                     
+Ocean Current                 http://sweet.jpl.nasa.gov/2.3/phenOceanDynamics.owl#OceanCurrent                                    Process                  Ocean Circulation >  Ocean Current                                                                  
+
+Pelagic Zone                  http://purl.obolibrary.org/obo/ENVO_00000208                                                        Feature                  Marine Layer >  Pelagic Zone                                                                        
+Pelagic Zone                  http://sweet.jpl.nasa.gov/2.3/realmOcean.owl#PelagicZone                                            Realm                    Ocean Region >  Pelagic Zone                                                                        
+
+Flood Plain                   http://purl.obolibrary.org/obo/ENVO_00000255                                                        Feature                  Plain >  Flood Plain                                                                                
+Flood Plain                   http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#FloodPlain                                       Realm                    Fluvial Plain >  Flood Plain                                                                        
+
+Sabkha                        http://purl.obolibrary.org/obo/ENVO_00000151                                                        Feature                  Alkaline Flat >  Sabkha                                                                             
+Sabkha                        http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#Sabkha                                           Realm                    Salt Flat >  Sabkha                                                                                 
+
+Alluvial Plain                http://purl.obolibrary.org/obo/ENVO_00000258                                                        Feature                  Plain >  Alluvial Plain                                                                             
+Alluvial Plain                http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#AlluvialPlain                                    Realm                    Fluvial Plain >  Alluvial Plain                                                                     
+
+Geology                       http://www.vocabularyserver.com/usgs/index.php?tema=666&/geology                                    Science Domain           Earth Science >  Geology                                                                            
+GEOLOGY                       http://gcmdservices.gsfc.nasa.gov/kms/concept/4150db4f-5ef2-4623-9b17-d11bdf62a571                  Organization             COMMERCIAL >  GEOLOGY                                                                               
+
+Wind                          http://www.vocabularyserver.com/usgs/index.php?tema=1896&/wind                                      Process                  Atmospheric And Climatic Processes >  Wind                                                          
+WIND                          http://gcmdservices.gsfc.nasa.gov/kms/concept/0aad04f5-5438-4800-a0c9-6155656a720e                  Equipment                Solar/Space Observation Satellites >  WIND                                                          
+
+Evaporation                   http://www.vocabularyserver.com/usgs/index.php?tema=527&/evaporation                                Process                  Atmospheric And Climatic Processes >  Evaporation                                                   
+Evaporation                   http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Evaporation                                    Property                 Vaporization >  Evaporation                                                                         
+
+TIMED                         http://gcmdservices.gsfc.nasa.gov/kms/concept/5ab193bc-b931-41ac-819b-e49391abd272                  Equipment                Earth Observation Satellites >  TIMED                                                               
+Time                          http://sweet.jpl.nasa.gov/2.3/propTime.owl#Time                                                     Property                 Physical Quantity >  Time                                                                           
+
+age                           http://purl.obolibrary.org/obo/PATO_0000011                                                         Property                 time >  age                                                                                         
+advanced glycation end-producthttp://purl.obolibrary.org/obo/CHEBI_84123                                                          Material                 carbohydrate derivative >  advanced glycation end-product                                           
+
+'CAMERA'                      http://www.ebi.ac.uk/efo/swo/SWO_0000080                                                            Resource Type            Software >  'CAMERA'                                                                                
+Cameras                       http://gcmdservices.gsfc.nasa.gov/kms/concept/d322ae9d-bde0-448f-948d-777aef096eb6                  Equipment                Photon/Optical Detectors >  Cameras                                                                 
+CAMERA                        http://gcmdservices.gsfc.nasa.gov/kms/concept/33de4965-928a-45d5-acfc-79e006842431                  Equipment                Cameras >  CAMERA                                                                                   
+
+'CAMERA'                      http://www.ebi.ac.uk/efo/swo/SWO_0000080                                                            Resource Type            Software >  'CAMERA'                                                                                
+Cameras                       http://gcmdservices.gsfc.nasa.gov/kms/concept/d322ae9d-bde0-448f-948d-777aef096eb6                  Equipment                Photon/Optical Detectors >  Cameras                                                                 
+CAMERA                        http://gcmdservices.gsfc.nasa.gov/kms/concept/33de4965-928a-45d5-acfc-79e006842431                  Equipment                Cameras >  CAMERA                                                                                   
+
+'CAMERA'                      http://www.ebi.ac.uk/efo/swo/SWO_0000080                                                            Resource Type            Software >  'CAMERA'                                                                                
+Cameras                       http://gcmdservices.gsfc.nasa.gov/kms/concept/d322ae9d-bde0-448f-948d-777aef096eb6                  Equipment                Photon/Optical Detectors >  Cameras                                                                 
+CAMERA                        http://gcmdservices.gsfc.nasa.gov/kms/concept/33de4965-928a-45d5-acfc-79e006842431                  Equipment                Cameras >  CAMERA                                                                                   
+
+radium atom                   http://purl.obolibrary.org/obo/CHEBI_33325                                                          Material                 alkaline earth metal atom >  radium atom                                                            
+Radio                         http://gcmdservices.gsfc.nasa.gov/kms/concept/7561d126-2baf-4583-a6cc-f8159ebf8e94                  Equipment                Positioning/Navigation >  Radio                                                                     
+
+DIFFERENTIAL PRESSURE GAUGE   http://gcmdservices.gsfc.nasa.gov/kms/concept/39feceb3-722b-4ddb-935b-0c0e6e80410e                  Equipment                Pressure/Height Meters >  DIFFERENTIAL PRESSURE GAUGE                                               
+cardiolipin                   http://purl.obolibrary.org/obo/CHEBI_28494                                                          Material                 phosphatidylglycerol >  cardiolipin                                                                 
+
+'CAMERA'                      http://www.ebi.ac.uk/efo/swo/SWO_0000080                                                            Resource Type            Software >  'CAMERA'                                                                                
+Cameras                       http://gcmdservices.gsfc.nasa.gov/kms/concept/d322ae9d-bde0-448f-948d-777aef096eb6                  Equipment                Photon/Optical Detectors >  Cameras                                                                 
+CAMERA                        http://gcmdservices.gsfc.nasa.gov/kms/concept/33de4965-928a-45d5-acfc-79e006842431                  Equipment                Cameras >  CAMERA                                                                                   
+
+'CAMERA'                      http://www.ebi.ac.uk/efo/swo/SWO_0000080                                                            Resource Type            Software >  'CAMERA'                                                                                
+Cameras                       http://gcmdservices.gsfc.nasa.gov/kms/concept/d322ae9d-bde0-448f-948d-777aef096eb6                  Equipment                Photon/Optical Detectors >  Cameras                                                                 
+CAMERA                        http://gcmdservices.gsfc.nasa.gov/kms/concept/33de4965-928a-45d5-acfc-79e006842431                  Equipment                Cameras >  CAMERA                                                                                   
+
+chlordiazepoxide hydrochloridehttp://purl.obolibrary.org/obo/CHEBI_3612                                                           Material                 hydrochloride >  chlordiazepoxide hydrochloride                                                     
+BALANCE                       http://gcmdservices.gsfc.nasa.gov/kms/concept/7ce49fe7-db96-44cf-a242-fdfca6337087                  Equipment                Gauges >  BALANCE                                                                                   
+
+Geology                       http://www.vocabularyserver.com/usgs/index.php?tema=666&/geology                                    Science Domain           Earth Science >  Geology                                                                            
+GEOLOGY                       http://gcmdservices.gsfc.nasa.gov/kms/concept/4150db4f-5ef2-4623-9b17-d11bdf62a571                  Organization             COMMERCIAL >  GEOLOGY                                                                               
+
+Global Biodiversity Information Facilityhttp://www.gbif.org/                                                                                Resource Type            Information Repository >  Global Biodiversity Information Facility                                  
+Global Biodiversity Information Facilityhttp://gcmdservices.gsfc.nasa.gov/kms/concept/73d5c799-e957-453c-9c52-5f690287b44b                  Organization             MULTINATIONAL ORGANIZATIONS >  Global Biodiversity Information Facility                             
+
+MAPS                          http://gcmdservices.gsfc.nasa.gov/kms/concept/8d56ab86-f13a-423b-b209-eca2baeb73ee                  Material                 Maps/Charts/Photographs >  MAPS                                                                     
+Mapping                       http://edamontology.org/operation_2429                                                              Process                  Analysis >  Mapping                                                                                 
+Mapping                       http://edamontology.org/topic_0102                                                                  Science Domain           Sequence Analysis >  Mapping                                                                        
+Measurement of Air Pollution from Satellitehttp://gcmdservices.gsfc.nasa.gov/kms/concept/bc9a1191-24df-4d8c-afa7-da5948f79d20                  Equipment                Spectrometers >  Measurement of Air Pollution from Satellite                                        
+
+heme                          http://purl.obolibrary.org/obo/CHEBI_30413                                                          Material                 metalloporphyrin >  heme                                                                            
+HEM                           http://www.ebi.ac.uk/efo/swo/SWO_0000214                                                            Resource Type            Software >  HEM                                                                                     
+
+Atmospheric Density Accelerometerhttp://gcmdservices.gsfc.nasa.gov/kms/concept/e4dc8264-c6b4-4ff9-923d-1babc2f41dd6                  Equipment                Accelerometers >  Atmospheric Density Accelerometer                                                 
+ADA                           http://purl.obolibrary.org/obo/CHEBI_39048                                                          Material                 oxygen molecular entity >  ADA                                                                      
+
+Process                       http://purl.obolibrary.org/obo/BFO_0000015                                                          Process                  Occurrent >  Process                                                                                
+PROcess                       http://www.ebi.ac.uk/efo/swo/SWO_0000322                                                            Resource Type            Software >  PROcess                                                                                 
+
+SMAP                          http://gcmdservices.gsfc.nasa.gov/kms/concept/7ee03239-24ff-433e-ab7e-8be8b9b2636b                  Equipment                NASA Decadal Survey >  SMAP                                                                         
+SMAP                          http://www.ebi.ac.uk/efo/swo/SWO_0000385                                                            Resource Type            Software >  SMAP                                                                                    
+
+protein polypeptide chain     http://purl.obolibrary.org/obo/CHEBI_16541                                                          Material                 polypeptide >  protein polypeptide chain                                                            
+Proteins                      http://edamontology.org/topic_0078                                                                  Science Domain           Biochemistry >  Proteins                                                                            
+
+Stratospheric and Mesospheric Sounderhttp://gcmdservices.gsfc.nasa.gov/kms/concept/88b88e80-fc8a-4724-825f-47eeac7f6ff3                  Equipment                Profilers/Sounders >  Stratospheric and Mesospheric Sounder                                         
+S-adenosyl-L-methioninate     http://purl.obolibrary.org/obo/CHEBI_67040                                                          Material                 sulfonium betaine >  S-adenosyl-L-methioninate                                                      
+
+2'-O-methylguanosine          http://purl.obolibrary.org/obo/CHEBI_19229                                                          Material                 methylguanosine >  2'-O-methylguanosine                                                             
+GMS                           http://gcmdservices.gsfc.nasa.gov/kms/concept/acf612e2-fcf8-40a5-a08a-dd59d689ef0b                  Equipment                GMS (Japan Geostationary Meteorological Satellite) >  GMS                                           
+GMS                           http://www.ebi.ac.uk/efo/swo/SWO_0000167                                                            Resource Type            Software >  GMS                                                                                     
+
+Q                             http://www.ebi.ac.uk/swo/SWO_0000073                                                                Resource Type            Software >  Q                                                                                       
+queuosine                     http://purl.obolibrary.org/obo/CHEBI_60193                                                          Material                 7-deazaguanine ribonucleoside >  queuosine                                                          
+
+Nucleic Acid Structure Predictionhttp://edamontology.org/operation_0475                                                              Process                  Structure Prediction >  Nucleic Acid Structure Prediction                                           
+Nucleic Acid Structure Predictionhttp://edamontology.org/topic_0173                                                                  Science Domain           Structure Prediction >  Nucleic Acid Structure Prediction                                           
+
+Sequence Classification       http://edamontology.org/operation_2995                                                              Process                  Sequence Analysis >  Sequence Classification                                                        
+Sequence Classification       http://edamontology.org/topic_0594                                                                  Science Domain           Sequence Analysis >  Sequence Classification                                                        
+
+MAPS                          http://gcmdservices.gsfc.nasa.gov/kms/concept/8d56ab86-f13a-423b-b209-eca2baeb73ee                  Material                 Maps/Charts/Photographs >  MAPS                                                                     
+Mapping                       http://edamontology.org/operation_2429                                                              Process                  Analysis >  Mapping                                                                                 
+Mapping                       http://edamontology.org/topic_0102                                                                  Science Domain           Sequence Analysis >  Mapping                                                                        
+Measurement of Air Pollution from Satellitehttp://gcmdservices.gsfc.nasa.gov/kms/concept/bc9a1191-24df-4d8c-afa7-da5948f79d20                  Equipment                Spectrometers >  Measurement of Air Pollution from Satellite                                        
+
+ribonucleic acid              http://purl.obolibrary.org/obo/CHEBI_33697                                                          Material                 nucleic acid >  ribonucleic acid                                                                    
+RNA                           http://edamontology.org/topic_0099                                                                  Science Domain           Nucleic Acids >  RNA                                                                                
+
+Nem                           http://www.ebi.ac.uk/efo/swo/SWO_0000632                                                            Resource Type            Software >  Nem                                                                                     
+N-ethylmaleimide              http://purl.obolibrary.org/obo/CHEBI_44485                                                          Material                 maleimides >  N-ethylmaleimide                                                                      
+
+Stratospheric and Mesospheric Sounderhttp://gcmdservices.gsfc.nasa.gov/kms/concept/88b88e80-fc8a-4724-825f-47eeac7f6ff3                  Equipment                Profilers/Sounders >  Stratospheric and Mesospheric Sounder                                         
+S-adenosyl-L-methioninate     http://purl.obolibrary.org/obo/CHEBI_67040                                                          Material                 sulfonium betaine >  S-adenosyl-L-methioninate                                                      
+
+protein polypeptide chain     http://purl.obolibrary.org/obo/CHEBI_16541                                                          Material                 polypeptide >  protein polypeptide chain                                                            
+Proteins                      http://edamontology.org/topic_0078                                                                  Science Domain           Biochemistry >  Proteins                                                                            
+
+Ctc                           http://www.ebi.ac.uk/efo/swo/SWO_0000512                                                            Resource Type            Software >  Ctc                                                                                     
+CyberTracker Conservation     http://gcmdservices.gsfc.nasa.gov/kms/concept/9e281275-2e28-4b6a-906d-688c62cdbcff                  Organization             NON-GOVERNMENT/NON-PROFIT ORGANIZATIONS >  CyberTracker Conservation                                
+
+Arizona Imager Spectrograph   http://gcmdservices.gsfc.nasa.gov/kms/concept/97038277-b048-40fd-ab36-8bb04a92adf0                  Equipment                Imaging Spectrometers/Radiometers >  Arizona Imager Spectrograph                                    
+1-archaetidyl-D-myo-inositol  http://purl.obolibrary.org/obo/CHEBI_74088                                                          Material                 glycerophosphoinositol >  1-archaetidyl-D-myo-inositol                                              
+
+DNA                           http://edamontology.org/topic_0654                                                                  Science Domain           Nucleic Acids >  DNA                                                                                
+deoxyribonucleic acid         http://purl.obolibrary.org/obo/CHEBI_16991                                                          Material                 nucleic acid >  deoxyribonucleic acid                                                               
+
+MAPS                          http://gcmdservices.gsfc.nasa.gov/kms/concept/8d56ab86-f13a-423b-b209-eca2baeb73ee                  Material                 Maps/Charts/Photographs >  MAPS                                                                     
+Mapping                       http://edamontology.org/operation_2429                                                              Process                  Analysis >  Mapping                                                                                 
+Mapping                       http://edamontology.org/topic_0102                                                                  Science Domain           Sequence Analysis >  Mapping                                                                        
+Measurement of Air Pollution from Satellitehttp://gcmdservices.gsfc.nasa.gov/kms/concept/bc9a1191-24df-4d8c-afa7-da5948f79d20                  Equipment                Spectrometers >  Measurement of Air Pollution from Satellite                                        
+
+cluster                       http://purl.obolibrary.org/obo/CHEBI_33731                                                          Material                 polyatomic entity >  cluster                                                                        
+Clustering                    http://edamontology.org/operation_3432                                                              Process                  Analysis >  Clustering                                                                              
+
+ACES                          http://purl.obolibrary.org/obo/CHEBI_39061                                                          Material                 acetamides >  ACES                                                                                  
+ACE                           http://gcmdservices.gsfc.nasa.gov/kms/concept/a60eb82b-e058-4b1d-bc09-864d886e8c48                  Equipment                Solar/Space Observation Satellites >  ACE                                                           
+
+DNA                           http://edamontology.org/topic_0654                                                                  Science Domain           Nucleic Acids >  DNA                                                                                
+deoxyribonucleic acid         http://purl.obolibrary.org/obo/CHEBI_16991                                                          Material                 nucleic acid >  deoxyribonucleic acid                                                               
+
+Sequence Classification       http://edamontology.org/operation_2995                                                              Process                  Sequence Analysis >  Sequence Classification                                                        
+Sequence Classification       http://edamontology.org/topic_0594                                                                  Science Domain           Sequence Analysis >  Sequence Classification                                                        
+
+Nucleic Acid Structure Predictionhttp://edamontology.org/operation_0475                                                              Process                  Structure Prediction >  Nucleic Acid Structure Prediction                                           
+Nucleic Acid Structure Predictionhttp://edamontology.org/topic_0173                                                                  Science Domain           Structure Prediction >  Nucleic Acid Structure Prediction                                           
+
+Xps                           http://www.ebi.ac.uk/efo/swo/SWO_0000730                                                            Resource Type            Software >  Xps                                                                                     
+XUV Photometer System         http://gcmdservices.gsfc.nasa.gov/kms/concept/f1be03db-82e3-42a2-a763-3a6331aac9a8                  Equipment                Photon/Optical Detectors >  XUV Photometer System                                                   
+
+nucleic acid                  http://purl.obolibrary.org/obo/CHEBI_33696                                                          Material                 polynucleotide >  nucleic acid                                                                      
+Nucleic Acids                 http://edamontology.org/topic_0077                                                                  Science Domain           Biochemistry >  Nucleic Acids                                                                       
+
+carbohydrate                  http://purl.obolibrary.org/obo/CHEBI_16646                                                          Material                 carbohydrates and carbohydrate derivatives >  carbohydrate                                          
+Carbohydrates                 http://edamontology.org/topic_0152                                                                  Science Domain           Biochemistry >  Carbohydrates                                                                       
+
+SIM                           http://www.ebi.ac.uk/efo/swo/SWO_0000382                                                            Resource Type            Software >  SIM                                                                                     
+Secondary Ion Mass Spectrometershttp://gcmdservices.gsfc.nasa.gov/kms/concept/dc965068-fe7b-42bd-84cf-9b251b2397ea                  Equipment                Spectrometers/Radiometers >  Secondary Ion Mass Spectrometers                                       
+
+lipid A(4-)                   http://purl.obolibrary.org/obo/CHEBI_58712                                                          Material                 organophosphate oxoanion >  lipid A(4-)                                                             
+Lipids                        http://edamontology.org/topic_0153                                                                  Science Domain           Biochemistry >  Lipids                                                                              
+
+'CAMERA'                      http://www.ebi.ac.uk/efo/swo/SWO_0000080                                                            Resource Type            Software >  'CAMERA'                                                                                
+Cameras                       http://gcmdservices.gsfc.nasa.gov/kms/concept/d322ae9d-bde0-448f-948d-777aef096eb6                  Equipment                Photon/Optical Detectors >  Cameras                                                                 
+CAMERA                        http://gcmdservices.gsfc.nasa.gov/kms/concept/33de4965-928a-45d5-acfc-79e006842431                  Equipment                Cameras >  CAMERA                                                                                   
+
+Glu-Pro                       http://purl.obolibrary.org/obo/CHEBI_73508                                                          Material                 dipeptide >  Glu-Pro                                                                                
+EcoPort                       http://gcmdservices.gsfc.nasa.gov/kms/concept/8bc782a3-333a-4f93-83cf-bedf34a0ad85                  Organization             CONSORTIA/INSTITUTIONS >  EcoPort                                                                   
+
+Process                       http://purl.obolibrary.org/obo/BFO_0000015                                                          Process                  Occurrent >  Process                                                                                
+PROcess                       http://www.ebi.ac.uk/efo/swo/SWO_0000322                                                            Resource Type            Software >  PROcess                                                                                 
+
+ribonucleic acid              http://purl.obolibrary.org/obo/CHEBI_33697                                                          Material                 nucleic acid >  ribonucleic acid                                                                    
+RNA                           http://edamontology.org/topic_0099                                                                  Science Domain           Nucleic Acids >  RNA                                                                                
+
+MAPS                          http://gcmdservices.gsfc.nasa.gov/kms/concept/8d56ab86-f13a-423b-b209-eca2baeb73ee                  Material                 Maps/Charts/Photographs >  MAPS                                                                     
+Mapping                       http://edamontology.org/operation_2429                                                              Process                  Analysis >  Mapping                                                                                 
+Mapping                       http://edamontology.org/topic_0102                                                                  Science Domain           Sequence Analysis >  Mapping                                                                        
+Measurement of Air Pollution from Satellitehttp://gcmdservices.gsfc.nasa.gov/kms/concept/bc9a1191-24df-4d8c-afa7-da5948f79d20                  Equipment                Spectrometers >  Measurement of Air Pollution from Satellite                                        
+
+MAPS                          http://gcmdservices.gsfc.nasa.gov/kms/concept/8d56ab86-f13a-423b-b209-eca2baeb73ee                  Material                 Maps/Charts/Photographs >  MAPS                                                                     
+Mapping                       http://edamontology.org/operation_2429                                                              Process                  Analysis >  Mapping                                                                                 
+Mapping                       http://edamontology.org/topic_0102                                                                  Science Domain           Sequence Analysis >  Mapping                                                                        
+Measurement of Air Pollution from Satellitehttp://gcmdservices.gsfc.nasa.gov/kms/concept/bc9a1191-24df-4d8c-afa7-da5948f79d20                  Equipment                Spectrometers >  Measurement of Air Pollution from Satellite                                        
+
+APOLLO                        http://gcmdservices.gsfc.nasa.gov/kms/concept/c6cf9028-9a62-4a0d-8cce-a2a5b1262758                  Equipment                Space Stations/Manned Spacecraft >  APOLLO                                                          
+clofentezine                  http://purl.obolibrary.org/obo/CHEBI_39315                                                          Material                 ring assembly >  clofentezine                                                                       
+
+mercury atom                  http://purl.obolibrary.org/obo/CHEBI_25195                                                          Material                 zinc group element atom >  mercury atom                                                             
+MERCURY                       http://gcmdservices.gsfc.nasa.gov/kms/concept/b0e515cf-ed97-4870-bdde-6c00b0c998ee                  Equipment                Space Stations/Manned Spacecraft >  MERCURY                                                         
+
+TIMED                         http://gcmdservices.gsfc.nasa.gov/kms/concept/5ab193bc-b931-41ac-819b-e49391abd272                  Equipment                Earth Observation Satellites >  TIMED                                                               
+Time                          http://sweet.jpl.nasa.gov/2.3/propTime.owl#Time                                                     Property                 Physical Quantity >  Time                                                                           
+
+MIO                           http://gcmdservices.gsfc.nasa.gov/kms/concept/a8cf26fe-dcfb-462b-ae0e-5d7280ecfa38                  Equipment                SOLAR/SPACE MONITORING STATIONS >  MIO                                                              
+4-methylideneimidazole-5-one cofactorhttp://purl.obolibrary.org/obo/CHEBI_50997                                                          Material                 polypeptide-derived cofactor >  4-methylideneimidazole-5-one cofactor                               
+
+Ser-Val                       http://purl.obolibrary.org/obo/CHEBI_74823                                                          Material                 dipeptide >  Ser-Val                                                                                
+SV                            http://gcmdservices.gsfc.nasa.gov/kms/concept/eb24a648-bc31-48ad-935a-bbd2621da456                  Equipment                MOBILE STATIONS/VEHICLES >  SV                                                                      
+
+ACES                          http://purl.obolibrary.org/obo/CHEBI_39061                                                          Material                 acetamides >  ACES                                                                                  
+ACE                           http://gcmdservices.gsfc.nasa.gov/kms/concept/a60eb82b-e058-4b1d-bc09-864d886e8c48                  Equipment                Solar/Space Observation Satellites >  ACE                                                           
+
+ESSA                          http://gcmdservices.gsfc.nasa.gov/kms/concept/65cb3e7c-d4d8-46df-a5fc-aec63e58e8df                  Equipment                Earth Observation Satellites >  ESSA                                                                
+ESSA Technologies             http://gcmdservices.gsfc.nasa.gov/kms/concept/267b7dc6-ffae-4d76-a145-bca4e80313b3                  Organization             COMMERCIAL >  ESSA Technologies                                                                     
+
+APOLLO                        http://gcmdservices.gsfc.nasa.gov/kms/concept/c6cf9028-9a62-4a0d-8cce-a2a5b1262758                  Equipment                Space Stations/Manned Spacecraft >  APOLLO                                                          
+clofentezine                  http://purl.obolibrary.org/obo/CHEBI_39315                                                          Material                 ring assembly >  clofentezine                                                                       
+
+SMAP                          http://gcmdservices.gsfc.nasa.gov/kms/concept/7ee03239-24ff-433e-ab7e-8be8b9b2636b                  Equipment                NASA Decadal Survey >  SMAP                                                                         
+SMAP                          http://www.ebi.ac.uk/efo/swo/SWO_0000385                                                            Resource Type            Software >  SMAP                                                                                    
+
+CORONA                        http://gcmdservices.gsfc.nasa.gov/kms/concept/14bedb8d-7d18-4ae6-9882-9cf87bd3824e                  Equipment                Earth Observation Satellites >  CORONA                                                              
+crown compound                http://purl.obolibrary.org/obo/CHEBI_37409                                                          Material                 organic heterocyclic compound >  crown compound                                                     
+
+Wind                          http://www.vocabularyserver.com/usgs/index.php?tema=1896&/wind                                      Process                  Atmospheric And Climatic Processes >  Wind                                                          
+WIND                          http://gcmdservices.gsfc.nasa.gov/kms/concept/0aad04f5-5438-4800-a0c9-6155656a720e                  Equipment                Solar/Space Observation Satellites >  WIND                                                          
+
+OCO                           http://gcmdservices.gsfc.nasa.gov/kms/concept/3e77610e-bb50-4c45-a62a-c50194ec16c2                  Equipment                Earth Observation Satellites >  OCO                                                                 
+octanoyl group                http://purl.obolibrary.org/obo/CHEBI_25650                                                          Material                 fatty-acyl group >  octanoyl group                                                                  
+
+AQUA                          http://gcmdservices.gsfc.nasa.gov/kms/concept/ea7fd15d-190d-43f3-bdd3-75f5d88dc3f8                  Equipment                Earth Observation Satellites >  AQUA                                                                
+water                         http://purl.obolibrary.org/obo/CHEBI_15377                                                          Material                 oxygen hydride >  water                                                                             
+
+PMS                           http://gcmdservices.gsfc.nasa.gov/kms/concept/465b92cd-6189-4a04-8ee7-484a1da7722f                  Equipment                HYDROLOGICAL STATIONS >  PMS                                                                        
+Particle Measuring System     http://gcmdservices.gsfc.nasa.gov/kms/concept/9fb77604-82f9-4ad1-9995-c0a99df09629                  Equipment                Chemical Meters/Analyzers >  Particle Measuring System                                              
+5-methylphenazinium methyl sulfatehttp://purl.obolibrary.org/obo/CHEBI_8055                                                           Material                 azaheterocycle sulfate salt >  5-methylphenazinium methyl sulfate                                   
+
+Digital Elevation Model       http://gcmdservices.gsfc.nasa.gov/kms/concept/4a56783a-932e-4ca7-acea-af82a9fe5626                  Resource Type            Models/Analyses >  Digital Elevation Model                                                          
+Digital Elevation Models      http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#digital_elevation_models                       Realm                    Earth Surface >  Digital Elevation Models                                                           
+
+2'-O-methylguanosine          http://purl.obolibrary.org/obo/CHEBI_19229                                                          Material                 methylguanosine >  2'-O-methylguanosine                                                             
+GMS                           http://gcmdservices.gsfc.nasa.gov/kms/concept/acf612e2-fcf8-40a5-a08a-dd59d689ef0b                  Equipment                GMS (Japan Geostationary Meteorological Satellite) >  GMS                                           
+GMS                           http://www.ebi.ac.uk/efo/swo/SWO_0000167                                                            Resource Type            Software >  GMS                                                                                     
+
+argon atom                    http://purl.obolibrary.org/obo/CHEBI_49475                                                          Material                 noble gas atom >  argon atom                                                                        
+ARGON                         http://gcmdservices.gsfc.nasa.gov/kms/concept/d35399a9-d4dc-45f2-b69d-55160ac26d10                  Equipment                Earth Observation Satellites >  ARGON                                                               
+
+SATELLITES                    http://gcmdservices.gsfc.nasa.gov/kms/concept/17b1489c-fba7-4252-bf23-b981148343f1                  Equipment                platform >  SATELLITES                                                                              
+Satellite                     http://sweet.jpl.nasa.gov/2.3/realmAstroBody.owl#Satellite                                          Realm                    Planetary Structure >  Satellite                                                                    
+
+poly(acrylamide) polymer      http://purl.obolibrary.org/obo/CHEBI_60882                                                          Material                 homopolymer >  poly(acrylamide) polymer                                                             
+PORTABLE FLUORESCENCE ANALYZERShttp://gcmdservices.gsfc.nasa.gov/kms/concept/972dae4e-73b2-46d1-8817-3789bef4e11b                  Equipment                Chemical Meters/Analyzers >  PORTABLE FLUORESCENCE ANALYZERS                                        
+
+S,S-dimethyl-beta-propiothetinhttp://purl.obolibrary.org/obo/CHEBI_16457                                                          Material                 sulfonium betaine >  S,S-dimethyl-beta-propiothetin                                                 
+DMSP                          http://gcmdservices.gsfc.nasa.gov/kms/concept/64dfed70-dca2-4656-83d9-63e74c1b0740                  Equipment                DMSP (Defense Meteorological Satellite Program) >  DMSP                                             
+
+monosodium L-glutamate        http://purl.obolibrary.org/obo/CHEBI_64243                                                          Material                 monosodium glutamate >  monosodium L-glutamate                                                      
+MSG                           http://gcmdservices.gsfc.nasa.gov/kms/concept/5aac06ef-6ade-49b6-a98c-45516a9a646a                  Equipment                METEOSAT >  MSG                                                                                     
+
+triton                        http://purl.obolibrary.org/obo/CHEBI_29234                                                          Material                 hydron >  triton                                                                                    
+TRITON                        http://gcmdservices.gsfc.nasa.gov/kms/concept/22946f69-ea37-451d-afe5-409b42dcd983                  Equipment                BUOYS >  TRITON                                                                                     
+
+pH                            http://sweet.jpl.nasa.gov/2.3/propChemical.owl#pH                                                   Property                 Dimensionless Measures >  pH                                                                        
+phenyl group                  http://purl.obolibrary.org/obo/CHEBI_30396                                                          Material                 aryl group >  phenyl group                                                                          
+
+Terracette                    http://purl.obolibrary.org/obo/ENVO_00000441                                                        Feature                  Ridge >  Terracette                                                                                 
+Terracette                    http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Terracette                                       Realm                    Coastal Region >  Terracette                                                                        
+
+Ridge                         http://purl.obolibrary.org/obo/ENVO_00000283                                                        Feature                  Elevation >  Ridge                                                                                  
+Ridge                         http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Ridge                                         Realm                    Mountain Region >  Ridge                                                                            
+
+Sound                         http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Sound_Energy                                   Property                 Energy >  Sound                                                                                     
+Sound                         http://sweet.jpl.nasa.gov/2.3/realmHydroBody.owl#Sound                                              Feature                  Body Of Water >  Sound                                                                              
+
+Mountain                      http://purl.obolibrary.org/obo/ENVO_00000081                                                        Feature                  Mount >  Mountain                                                                                   
+Mountain                      http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Mountain                                      Realm                    Landform >  Mountain                                                                                
+
+Guyot                         http://purl.obolibrary.org/obo/ENVO_00000265                                                        Feature                  Seamount >  Guyot                                                                                   
+Guyot                         http://sweet.jpl.nasa.gov/2.3/realmOceanFloor.owl#Guyot                                             Realm                    Seamount >  Guyot                                                                                   
+
+Sabkha                        http://purl.obolibrary.org/obo/ENVO_00000151                                                        Feature                  Alkaline Flat >  Sabkha                                                                             
+Sabkha                        http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#Sabkha                                           Realm                    Salt Flat >  Sabkha                                                                                 
+
+Sabkha                        http://purl.obolibrary.org/obo/ENVO_00000151                                                        Feature                  Alkaline Flat >  Sabkha                                                                             
+Sabkha                        http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#Sabkha                                           Realm                    Salt Flat >  Sabkha                                                                                 
+
+Ocean Current                 http://purl.obolibrary.org/obo/ENVO_00000147                                                        Feature                  Marine Current >  Ocean Current                                                                     
+Ocean Current                 http://sweet.jpl.nasa.gov/2.3/phenOceanDynamics.owl#OceanCurrent                                    Process                  Ocean Circulation >  Ocean Current                                                                  
+
+Reef                          http://sweet.jpl.nasa.gov/2.3/realmOceanFloor.owl#Reef                                              Feature                  Ocean Ridge >  Reef                                                                                 
+Reef Environmental Education Foundationhttp://gcmdservices.gsfc.nasa.gov/kms/concept/b982f71a-b33e-4d2e-ade0-7b1d40b9cfc5                  Organization             NON-GOVERNMENT/NON-PROFIT ORGANIZATIONS >  Reef Environmental Education Foundation                  
+
+Atoll                         http://purl.obolibrary.org/obo/ENVO_00000166                                                        Feature                  Oceanic Island >  Atoll                                                                             
+Atoll                         http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Atoll                                            Realm                    Island >  Atoll                                                                                     
+
+Seamount                      http://purl.obolibrary.org/obo/ENVO_00000264                                                        Feature                  Mountain >  Seamount                                                                                
+Seamount                      http://sweet.jpl.nasa.gov/2.3/realmOceanFloor.owl#Seamount                                          Realm                    Mountain >  Seamount                                                                                
+
+Dune                          http://purl.obolibrary.org/obo/ENVO_00000170                                                        Feature                  Hill >  Dune                                                                                        
+Dune                          http://sweet.jpl.nasa.gov/2.3/realmLandAeolian.owl#Dune                                             Realm                    Aeolian Landform >  Dune                                                                            
+
+Ridge                         http://purl.obolibrary.org/obo/ENVO_00000283                                                        Feature                  Elevation >  Ridge                                                                                  
+Ridge                         http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Ridge                                         Realm                    Mountain Region >  Ridge                                                                            
+
+Flood Plain                   http://purl.obolibrary.org/obo/ENVO_00000255                                                        Feature                  Plain >  Flood Plain                                                                                
+Flood Plain                   http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#FloodPlain                                       Realm                    Fluvial Plain >  Flood Plain                                                                        
+
+TIMED                         http://gcmdservices.gsfc.nasa.gov/kms/concept/5ab193bc-b931-41ac-819b-e49391abd272                  Equipment                Earth Observation Satellites >  TIMED                                                               
+Time                          http://sweet.jpl.nasa.gov/2.3/propTime.owl#Time                                                     Property                 Physical Quantity >  Time                                                                           
+
+Hill                          http://purl.obolibrary.org/obo/ENVO_00000083                                                        Feature                  Mount >  Hill                                                                                       
+Hill                          http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Hill                                          Realm                    Landform >  Hill                                                                                    
+
+Crater                        http://purl.obolibrary.org/obo/ENVO_00000514                                                        Feature                  Depression >  Crater                                                                                
+Crater                        http://sweet.jpl.nasa.gov/2.3/realmLandform.owl#Crater                                              Realm                    Landform >  Crater                                                                                  
+
+Tombolo                       http://purl.obolibrary.org/obo/ENVO_00000420                                                        Feature                  Bar >  Tombolo                                                                                      
+Tombolo                       http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Tombolo                                          Realm                    Bar >  Tombolo                                                                                      
+
+Impact Crater                 http://purl.obolibrary.org/obo/ENVO_00000310                                                        Feature                  Crater >  Impact Crater                                                                             
+Impact Cratering              http://www.vocabularyserver.com/usgs/index.php?tema=818&/impact-cratering                           Process                  Natural Processes >  Impact Cratering                                                               
+Impact Crater                 http://sweet.jpl.nasa.gov/2.3/realmLandform.owl#ImpactCrater                                        Realm                    Crater >  Impact Crater                                                                             
+
+Cirque                        http://purl.obolibrary.org/obo/ENVO_00000155                                                        Feature                  Glacial Valley >  Cirque                                                                            
+Cirque                        http://sweet.jpl.nasa.gov/2.3/realmLandGlacial.owl#Cirque                                           Process                  Glacial Plain >  Cirque                                                                             
+
+Valley                        http://purl.obolibrary.org/obo/ENVO_00000100                                                        Feature                  Depression >  Valley                                                                                
+Valley                        http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#Valley                                           Realm                    Fluvial Landform >  Valley                                                                          
+
+Coastal Plain                 http://purl.obolibrary.org/obo/ENVO_00000090                                                        Feature                  Plain >  Coastal Plain                                                                              
+Coastal Plain                 http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#CoastalPlain                                     Realm                    Coastal Region >  Coastal Plain                                                                     
+
+Upwelling                     http://purl.obolibrary.org/obo/ENVO_01000005                                                        Feature                  Hydroform >  Upwelling                                                                              
+Upwelling                     http://sweet.jpl.nasa.gov/2.3/phenOceanDynamics.owl#Upwelling                                       Process                  Ocean Circulation >  Upwelling                                                                      
+
+Prairie                       http://purl.obolibrary.org/obo/ENVO_00000260                                                        Feature                  Grassland >  Prairie                                                                                
+Prairie                       http://sweet.jpl.nasa.gov/2.3/realmLandform.owl#Prarie                                              Realm                    Plain >  Prairie                                                                                    
+
+Esker                         http://purl.obolibrary.org/obo/ENVO_00000282                                                        Feature                  Elevation >  Esker                                                                                  
+Esker                         http://sweet.jpl.nasa.gov/2.3/realmLandGlacial.owl#Esker                                            Process                  Glacial Landform >  Esker                                                                           
+
+Ridge                         http://purl.obolibrary.org/obo/ENVO_00000283                                                        Feature                  Elevation >  Ridge                                                                                  
+Ridge                         http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Ridge                                         Realm                    Mountain Region >  Ridge                                                                            
+
+Canyon                        http://purl.obolibrary.org/obo/ENVO_00000169                                                        Feature                  Valley >  Canyon                                                                                    
+Canyon                        http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#Canyon                                           Realm                    Fluvial Landform >  Canyon                                                                          
+
+Cliff                         http://purl.obolibrary.org/obo/ENVO_00000087                                                        Feature                  Elevation >  Cliff                                                                                  
+Cliff                         http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Cliff                                         Realm                    Hill >  Cliff                                                                                       
+
+Spit                          http://purl.obolibrary.org/obo/ENVO_00000306                                                        Feature                  Bar >  Spit                                                                                         
+Spit                          http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Spit                                             Realm                    Coastal Region >  Spit                                                                              
+
+Climate                       http://sweet.jpl.nasa.gov/2.3/phenPlanetClimate.owl#Climate                                         Science Domain           Natural Processes >  Climate                                                                        
+Atmospheric And Climatic Processeshttp://www.vocabularyserver.com/usgs/index.php?tema=100&/atmospheric-and-climatic-processes         Process                  Natural Processes >  Atmospheric And Climatic Processes                                             
+
+Crater                        http://purl.obolibrary.org/obo/ENVO_00000514                                                        Feature                  Depression >  Crater                                                                                
+Crater                        http://sweet.jpl.nasa.gov/2.3/realmLandform.owl#Crater                                              Realm                    Landform >  Crater                                                                                  
+
+Plateau                       http://purl.obolibrary.org/obo/ENVO_00000182                                                        Feature                  Elevation >  Plateau                                                                                
+Plateau                       http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Plateau                                       Realm                    Mountain Region >  Plateau                                                                          
+
+Mesa                          http://purl.obolibrary.org/obo/ENVO_00000179                                                        Feature                  Elevation >  Mesa                                                                                   
+Miniature Electrostatic Analyzerhttp://gcmdservices.gsfc.nasa.gov/kms/concept/46f0f371-af6e-4125-9b26-edcedad523ac                  Equipment                Electrical Meters >  Miniature Electrostatic Analyzer                                               
+Mesa                          http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Mesa                                          Realm                    Mountain Region >  Mesa                                                                             
+
+Planetary Surface             http://purl.obolibrary.org/obo/ENVO_01000324                                                        Feature                  Surface Layer >  Planetary Surface                                                                  
+Planetary Surface             http://sweet.jpl.nasa.gov/2.3/realm.owl#PlanetarySurface                                            Realm                    Planetrary Surface Level >  Planetary Surface                                                       
+
+Spit                          http://purl.obolibrary.org/obo/ENVO_00000306                                                        Feature                  Bar >  Spit                                                                                         
+Spit                          http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Spit                                             Realm                    Coastal Region >  Spit                                                                              
+
+Delta                         http://purl.obolibrary.org/obo/ENVO_00000101                                                        Feature                  River Mouth >  Delta                                                                                
+Delta                         http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Delta                                            Realm                    Coastal Landform >  Delta                                                                           
+Delta baryon                  http://purl.obolibrary.org/obo/CHEBI_36375                                                          Material                 hyperon >  Delta baryon                                                                             
+
+Hill                          http://purl.obolibrary.org/obo/ENVO_00000083                                                        Feature                  Mount >  Hill                                                                                       
+Hill                          http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Hill                                          Realm                    Landform >  Hill                                                                                    
+
+SATELLITES                    http://gcmdservices.gsfc.nasa.gov/kms/concept/17b1489c-fba7-4252-bf23-b981148343f1                  Equipment                platform >  SATELLITES                                                                              
+Satellite                     http://sweet.jpl.nasa.gov/2.3/realmAstroBody.owl#Satellite                                          Realm                    Planetary Structure >  Satellite                                                                    
+
+Dune                          http://purl.obolibrary.org/obo/ENVO_00000170                                                        Feature                  Hill >  Dune                                                                                        
+Dune                          http://sweet.jpl.nasa.gov/2.3/realmLandAeolian.owl#Dune                                             Realm                    Aeolian Landform >  Dune                                                                            
+
+Sill                          http://purl.obolibrary.org/obo/ENVO_00000539                                                        Feature                  Elevation >  Sill                                                                                   
+Sill                          http://sweet.jpl.nasa.gov/2.3/realmGeol.owl#Sill                                                    Realm                    Plutonic Structure >  Sill                                                                          
+
+River Bed                     http://purl.obolibrary.org/obo/ENVO_00000384                                                        Feature                  Stream Bed >  River Bed                                                                             
+River bed                     http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#RiverBed                                         Realm                    Bedform >  River bed                                                                                
+
+Pelagic Zone                  http://purl.obolibrary.org/obo/ENVO_00000208                                                        Feature                  Marine Layer >  Pelagic Zone                                                                        
+Pelagic Zone                  http://sweet.jpl.nasa.gov/2.3/realmOcean.owl#PelagicZone                                            Realm                    Ocean Region >  Pelagic Zone                                                                        
+
+Digital Elevation Model       http://gcmdservices.gsfc.nasa.gov/kms/concept/4a56783a-932e-4ca7-acea-af82a9fe5626                  Resource Type            Models/Analyses >  Digital Elevation Model                                                          
+Digital Elevation Models      http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#digital_elevation_models                       Realm                    Earth Surface >  Digital Elevation Models                                                           
+
+Global Biodiversity Information Facilityhttp://www.gbif.org/                                                                                Resource Type            Information Repository >  Global Biodiversity Information Facility                                  
+Global Biodiversity Information Facilityhttp://gcmdservices.gsfc.nasa.gov/kms/concept/73d5c799-e957-453c-9c52-5f690287b44b                  Organization             MULTINATIONAL ORGANIZATIONS >  Global Biodiversity Information Facility                             
+
+Dike                          http://sweet.jpl.nasa.gov/2.3/realmHydro.owl#Dike                                                   Feature                  Bank >  Dike                                                                                        
+Dyke                          http://sweet.jpl.nasa.gov/2.3/realmGeol.owl#Dike                                                    Realm                    Plutonic Structure >  Dyke                                                                          
+
+Sill                          http://purl.obolibrary.org/obo/ENVO_00000539                                                        Feature                  Elevation >  Sill                                                                                   
+Sill                          http://sweet.jpl.nasa.gov/2.3/realmGeol.owl#Sill                                                    Realm                    Plutonic Structure >  Sill                                                                          
+
+Pass                          http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Pass                                          Realm                    Mountain Region >  Pass                                                                             
+Payload Autonomous Star Sensorhttp://gcmdservices.gsfc.nasa.gov/kms/concept/14c1a460-556d-4526-a758-08d828057350                  Equipment                Cameras >  Payload Autonomous Star Sensor                                                           
+
+Lacustrine Plain              http://purl.obolibrary.org/obo/ENVO_00000259                                                        Feature                  Plain >  Lacustrine Plain                                                                           
+Lacustrine Plain              http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#LacustrinePlain                                  Realm                    Fluvial Plain >  Lacustrine Plain                                                                   
+
+Delta                         http://purl.obolibrary.org/obo/ENVO_00000101                                                        Feature                  River Mouth >  Delta                                                                                
+Delta                         http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Delta                                            Realm                    Coastal Landform >  Delta                                                                           
+Delta baryon                  http://purl.obolibrary.org/obo/CHEBI_36375                                                          Material                 hyperon >  Delta baryon                                                                             
+
+IRS Panchromatic Camera       http://gcmdservices.gsfc.nasa.gov/kms/concept/ad85a45a-06c4-43f5-9e98-9a4b5e31c7f6                  Equipment                Cameras >  IRS Panchromatic Camera                                                                  
+poly(acrylonitrile) macromoleculehttp://purl.obolibrary.org/obo/CHEBI_53571                                                          Material                 vinyl polymer macromolecule >  poly(acrylonitrile) macromolecule                                    
+Pesticide Action Network      http://gcmdservices.gsfc.nasa.gov/kms/concept/7276f031-eba7-49b0-9a8c-d19b90d9e4e9                  Organization             NON-GOVERNMENT/NON-PROFIT ORGANIZATIONS >  Pesticide Action Network                                 
+poly(acrylonitrile) polymer   http://purl.obolibrary.org/obo/CHEBI_61639                                                          Material                 homopolymer >  poly(acrylonitrile) polymer                                                          
+
+Canyon                        http://purl.obolibrary.org/obo/ENVO_00000169                                                        Feature                  Valley >  Canyon                                                                                    
+Canyon                        http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#Canyon                                           Realm                    Fluvial Landform >  Canyon                                                                          
+
+Sound                         http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Sound_Energy                                   Property                 Energy >  Sound                                                                                     
+Sound                         http://sweet.jpl.nasa.gov/2.3/realmHydroBody.owl#Sound                                              Feature                  Body Of Water >  Sound                                                                              
+
+Butte                         http://purl.obolibrary.org/obo/ENVO_00000287                                                        Feature                  Elevation >  Butte                                                                                  
+Butte                         http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Butte                                         Realm                    Hill >  Butte                                                                                       
+
+Bajada                        http://purl.obolibrary.org/obo/ENVO_00000315                                                        Feature                  Alluvial Fan >  Bajada                                                                              
+Bajada                        http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#Bajada                                           Realm                    Piedmont Slope >  Bajada                                                                            
+
+Sound                         http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Sound_Energy                                   Property                 Energy >  Sound                                                                                     
+Sound                         http://sweet.jpl.nasa.gov/2.3/realmHydroBody.owl#Sound                                              Feature                  Body Of Water >  Sound                                                                              
+
+Reef                          http://sweet.jpl.nasa.gov/2.3/realmOceanFloor.owl#Reef                                              Feature                  Ocean Ridge >  Reef                                                                                 
+Reef Environmental Education Foundationhttp://gcmdservices.gsfc.nasa.gov/kms/concept/b982f71a-b33e-4d2e-ade0-7b1d40b9cfc5                  Organization             NON-GOVERNMENT/NON-PROFIT ORGANIZATIONS >  Reef Environmental Education Foundation                  
+
+Canyon                        http://purl.obolibrary.org/obo/ENVO_00000169                                                        Feature                  Valley >  Canyon                                                                                    
+Canyon                        http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#Canyon                                           Realm                    Fluvial Landform >  Canyon                                                                          
+
+Plateau                       http://purl.obolibrary.org/obo/ENVO_00000182                                                        Feature                  Elevation >  Plateau                                                                                
+Plateau                       http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Plateau                                       Realm                    Mountain Region >  Plateau                                                                          
+
+Sandur                        http://purl.obolibrary.org/obo/ENVO_00000312                                                        Feature                  Plain >  Sandur                                                                                     
+Sandur                        http://sweet.jpl.nasa.gov/2.3/realmLandGlacial.owl#Sandur                                           Process                  Glacial Outwash Plain >  Sandur                                                                     
+
+Alluvial Plain                http://purl.obolibrary.org/obo/ENVO_00000258                                                        Feature                  Plain >  Alluvial Plain                                                                             
+Alluvial Plain                http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#AlluvialPlain                                    Realm                    Fluvial Plain >  Alluvial Plain                                                                     
+
+Reef                          http://sweet.jpl.nasa.gov/2.3/realmOceanFloor.owl#Reef                                              Feature                  Ocean Ridge >  Reef                                                                                 
+Reef Environmental Education Foundationhttp://gcmdservices.gsfc.nasa.gov/kms/concept/b982f71a-b33e-4d2e-ade0-7b1d40b9cfc5                  Organization             NON-GOVERNMENT/NON-PROFIT ORGANIZATIONS >  Reef Environmental Education Foundation                  
+
+Butte                         http://purl.obolibrary.org/obo/ENVO_00000287                                                        Feature                  Elevation >  Butte                                                                                  
+Butte                         http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Butte                                         Realm                    Hill >  Butte                                                                                       
+
+Pass                          http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Pass                                          Realm                    Mountain Region >  Pass                                                                             
+Payload Autonomous Star Sensorhttp://gcmdservices.gsfc.nasa.gov/kms/concept/14c1a460-556d-4526-a758-08d828057350                  Equipment                Cameras >  Payload Autonomous Star Sensor                                                           
+
+Cirque                        http://purl.obolibrary.org/obo/ENVO_00000155                                                        Feature                  Glacial Valley >  Cirque                                                                            
+Cirque                        http://sweet.jpl.nasa.gov/2.3/realmLandGlacial.owl#Cirque                                           Process                  Glacial Plain >  Cirque                                                                             
+
+Seamount                      http://purl.obolibrary.org/obo/ENVO_00000264                                                        Feature                  Mountain >  Seamount                                                                                
+Seamount                      http://sweet.jpl.nasa.gov/2.3/realmOceanFloor.owl#Seamount                                          Realm                    Mountain >  Seamount                                                                                
+
+Island Arc                    http://purl.obolibrary.org/obo/ENVO_00000353                                                        Feature                  Archipelago >  Island Arc                                                                           
+Island Arc                    http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#IslandArc                                        Realm                    Coastal Landform >  Island Arc                                                                      
+
+Cove                          http://purl.obolibrary.org/obo/ENVO_00000138                                                        Feature                  Coastal Inlet >  Cove                                                                               
+Cove                          http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Cove                                             Realm                    Coastal Region >  Cove                                                                              
+
+Kame                          http://purl.obolibrary.org/obo/ENVO_00000542                                                        Feature                  Elevation >  Kame                                                                                   
+Kame                          http://sweet.jpl.nasa.gov/2.3/realmLandGlacial.owl#Kame                                             Process                  Glacial Landform >  Kame                                                                            
+
+Mountain                      http://purl.obolibrary.org/obo/ENVO_00000081                                                        Feature                  Mount >  Mountain                                                                                   
+Mountain                      http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Mountain                                      Realm                    Landform >  Mountain                                                                                
+
+Dike                          http://sweet.jpl.nasa.gov/2.3/realmHydro.owl#Dike                                                   Feature                  Bank >  Dike                                                                                        
+Dyke                          http://sweet.jpl.nasa.gov/2.3/realmGeol.owl#Dike                                                    Realm                    Plutonic Structure >  Dyke                                                                          
+
+Cove                          http://purl.obolibrary.org/obo/ENVO_00000138                                                        Feature                  Coastal Inlet >  Cove                                                                               
+Cove                          http://sweet.jpl.nasa.gov/2.3/realmLandCoastal.owl#Cove                                             Realm                    Coastal Region >  Cove                                                                              
+
+Cliff                         http://purl.obolibrary.org/obo/ENVO_00000087                                                        Feature                  Elevation >  Cliff                                                                                  
+Cliff                         http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Cliff                                         Realm                    Hill >  Cliff                                                                                       
+
+Evaporation                   http://www.vocabularyserver.com/usgs/index.php?tema=527&/evaporation                                Process                  Atmospheric And Climatic Processes >  Evaporation                                                   
+Evaporation                   http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl#Evaporation                                    Property                 Vaporization >  Evaporation                                                                         
+
+Mesa                          http://purl.obolibrary.org/obo/ENVO_00000179                                                        Feature                  Elevation >  Mesa                                                                                   
+Miniature Electrostatic Analyzerhttp://gcmdservices.gsfc.nasa.gov/kms/concept/46f0f371-af6e-4125-9b26-edcedad523ac                  Equipment                Electrical Meters >  Miniature Electrostatic Analyzer                                               
+Mesa                          http://sweet.jpl.nasa.gov/2.3/realmLandOrographic.owl#Mesa                                          Realm                    Mountain Region >  Mesa                                                                             
+
+Valley                        http://purl.obolibrary.org/obo/ENVO_00000100                                                        Feature                  Depression >  Valley                                                                                
+Valley                        http://sweet.jpl.nasa.gov/2.3/realmLandFluvial.owl#Valley                                           Realm                    Fluvial Landform >  Valley                                                                          
+
+lipid A(4-)                   http://purl.obolibrary.org/obo/CHEBI_58712                                                          Material                 organophosphate oxoanion >  lipid A(4-)                                                             
+Lipids                        http://edamontology.org/topic_0153                                                                  Science Domain           Biochemistry >  Lipids                                                                              
+
+Cloud Droplet Probe           http://gcmdservices.gsfc.nasa.gov/kms/concept/e7bfa032-f9e9-452b-b2b1-ebd79a1df9ba                  Equipment                Probes >  Cloud Droplet Probe                                                                       
+CDP                           http://purl.obolibrary.org/obo/CHEBI_17239                                                          Material                 cytidine 5'-phosphate >  CDP                                                                        
+chlordiazepoxide              http://purl.obolibrary.org/obo/CHEBI_3611                                                           Material                 benzodiazepine >  chlordiazepoxide                                                                  
+
+Tropospheric Emission Spectrometerhttp://gcmdservices.gsfc.nasa.gov/kms/concept/5207aaad-b875-40ed-b2cc-69c1b112fe37                  Equipment                Spectrometers >  Tropospheric Emission Spectrometer                                                 
+TES                           http://purl.obolibrary.org/obo/CHEBI_39035                                                          Material                 triol >  TES                                                                                        
+
+lipid A(4-)                   http://purl.obolibrary.org/obo/CHEBI_58712                                                          Material                 organophosphate oxoanion >  lipid A(4-)                                                             
+Lipids                        http://edamontology.org/topic_0153                                                                  Science Domain           Biochemistry >  Lipids                                                                              
+
+Atmospheric Density Accelerometerhttp://gcmdservices.gsfc.nasa.gov/kms/concept/e4dc8264-c6b4-4ff9-923d-1babc2f41dd6                  Equipment                Accelerometers >  Atmospheric Density Accelerometer                                                 
+ADA                           http://purl.obolibrary.org/obo/CHEBI_39048                                                          Material                 oxygen molecular entity >  ADA                                                                      
+
+lipid A(4-)                   http://purl.obolibrary.org/obo/CHEBI_58712                                                          Material                 organophosphate oxoanion >  lipid A(4-)                                                             
+Lipids                        http://edamontology.org/topic_0153                                                                  Science Domain           Biochemistry >  Lipids                                                                              
+
+ACES                          http://purl.obolibrary.org/obo/CHEBI_39061                                                          Material                 acetamides >  ACES                                                                                  
+ACE                           http://gcmdservices.gsfc.nasa.gov/kms/concept/a60eb82b-e058-4b1d-bc09-864d886e8c48                  Equipment                Solar/Space Observation Satellites >  ACE                                                           
+
+protein polypeptide chain     http://purl.obolibrary.org/obo/CHEBI_16541                                                          Material                 polypeptide >  protein polypeptide chain                                                            
+Proteins                      http://edamontology.org/topic_0078                                                                  Science Domain           Biochemistry >  Proteins                                                                            
+
+FMNH(.)                       http://purl.obolibrary.org/obo/CHEBI_50528                                                          Material                 flavin mononucleotide >  FMNH(.)                                                                    
+THE FIELD MUSEUM OF NATURAL HISTORYhttp://gcmdservices.gsfc.nasa.gov/kms/concept/8fc8b78b-4875-4c9a-8fb2-ec7309e489a4                  Organization             CONSORTIA/INSTITUTIONS >  THE FIELD MUSEUM OF NATURAL HISTORY                                       
+
+triton                        http://purl.obolibrary.org/obo/CHEBI_29234                                                          Material                 hydron >  triton                                                                                    
+TRITON                        http://gcmdservices.gsfc.nasa.gov/kms/concept/22946f69-ea37-451d-afe5-409b42dcd983                  Equipment                BUOYS >  TRITON                                                                                     
+
+carbohydrate                  http://purl.obolibrary.org/obo/CHEBI_16646                                                          Material                 carbohydrates and carbohydrate derivatives >  carbohydrate                                          
+Carbohydrates                 http://edamontology.org/topic_0152                                                                  Science Domain           Biochemistry >  Carbohydrates                                                                       
+
+cluster                       http://purl.obolibrary.org/obo/CHEBI_33731                                                          Material                 polyatomic entity >  cluster                                                                        
+Clustering                    http://edamontology.org/operation_3432                                                              Process                  Analysis >  Clustering                                                                              
+
+PAL                           http://purl.obolibrary.org/obo/CHEBI_59043                                                          Material                 polyamide >  PAL                                                                                    
+Passive Active L-band System  http://gcmdservices.gsfc.nasa.gov/kms/concept/240304d3-2cf8-40e0-b65f-670be88fdf4e                  Equipment                Radar Sounders >  Passive Active L-band System                                                      
+
+nucleic acid                  http://purl.obolibrary.org/obo/CHEBI_33696                                                          Material                 polynucleotide >  nucleic acid                                                                      
+Nucleic Acids                 http://edamontology.org/topic_0077                                                                  Science Domain           Biochemistry >  Nucleic Acids                                                                       
+
+TIMED                         http://gcmdservices.gsfc.nasa.gov/kms/concept/5ab193bc-b931-41ac-819b-e49391abd272                  Equipment                Earth Observation Satellites >  TIMED                                                               
+Time                          http://sweet.jpl.nasa.gov/2.3/propTime.owl#Time                                                     Property                 Physical Quantity >  Time                                                                           
+
+age                           http://purl.obolibrary.org/obo/PATO_0000011                                                         Property                 time >  age                                                                                         
+advanced glycation end-producthttp://purl.obolibrary.org/obo/CHEBI_84123                                                          Material                 carbohydrate derivative >  advanced glycation end-product                                           

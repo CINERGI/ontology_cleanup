@@ -7,11 +7,14 @@ import java.io.PrintWriter;
 
 import org.semanticweb.owlapi.apibinding.OWLManager;
 import org.semanticweb.owlapi.io.OWLOntologyDocumentSource;
+import org.semanticweb.owlapi.io.OWLXMLOntologyFormat;
 import org.semanticweb.owlapi.model.AddImport;
 import org.semanticweb.owlapi.model.IRI;
+import org.semanticweb.owlapi.model.OWLClass;
 import org.semanticweb.owlapi.model.OWLDataFactory;
 import org.semanticweb.owlapi.model.OWLImportsDeclaration;
 import org.semanticweb.owlapi.model.OWLOntology;
+import org.semanticweb.owlapi.model.OWLOntologyFormat;
 import org.semanticweb.owlapi.model.OWLOntologyIRIMapper;
 import org.semanticweb.owlapi.model.OWLOntologyManager;
 import org.semanticweb.owlapi.util.AutoIRIMapper;
@@ -19,7 +22,8 @@ import org.semanticweb.owlapi.util.AutoIRIMapper;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-		OutputStream os = new FileOutputStream(new File("cinergiExtensions.owl"));
+		OutputStream os = new FileOutputStream(new File("cinergi_elsst.owl"));
+	//	OutputStream os = new FileOutputStream(new File("cinergiExtensions.owl"));
 	/*	PrintWriter writer1 = new PrintWriter("mappings ids unsorted.txt", "UTF-8");
 		PrintWriter writer2 = new PrintWriter("preferredLabels unsorted.txt", "UTF-8");
 		PrintWriter writer3 = new PrintWriter("facets unsorted.txt", "UTF-8");
@@ -27,24 +31,31 @@ public class Main {
 		PrintWriter writer5 = new PrintWriter("parentEdges unsorted.txt", "UTF-8");
 	*/	
 		PrintWriter writer = new PrintWriter("description.txt", "UTF-8");
-		PrintWriter filterList = new PrintWriter("filter.txt", "UTF-8");
-		PrintWriter nullPaths = new PrintWriter("nullPaths.txt", "UTF-8");
+	//	PrintWriter writer2 = new PrintWriter("description2.txt", "UTF-8");
+	//	PrintWriter writer2 = new PrintWriter("remove list.txt", "UTF-8");
+	//	PrintWriter filterList = new PrintWriter("filter.txt", "UTF-8");
+	//	PrintWriter nullPaths = new PrintWriter("nullPaths.txt", "UTF-8");
 		OWLOntologyManager manager = OWLManager.createOWLOntologyManager();
 	//	OWLOntologyManager manager2 = OWLManager.createOWLOntologyManager();
 		OWLDataFactory df = manager.getOWLDataFactory();
 		System.out.println(manager.getClass());
 	//	OWLDataFactory df2 = manager2.getOWLDataFactory();	
 		manager.setSilentMissingImportsHandling(true);
-		System.out.println("loading ontology");
+		
+	//	System.out.println("loading ontology");
+		
+		
 //		OWLOntology ont = manager.loadOntologyFromOntologyDocument(new File("C:/eclipse/workspace/Cinergi/ontologies/cinergiExtensions.owl"));
 //		OWLOntology ont = manager.loadOntologyFromOntologyDocument(IRI.create("http://www.rsc.org/ontologies/CMO/CMO_OWL.owl"));
 //		OWLOntology ont = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl"));
-		OWLOntology cinergi_ont = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl"));
-//		OWLOntology extensions_ont = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl"));
+	//	OWLOntology cinergi_ont = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergi.owl"));
+		
+		OWLOntology elsst_ont = manager.createOntology(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergi_elsst.owl"));
+	//	OWLOntology extensions_ont = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl"));
 //		OWLOntology geochronology2 = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/geochronology2.owl"));
 //		OWLOntology geochronologyImpure = manager2.loadOntologyFromOntologyDocument(new File("C:/Users/Adam/Desktop/geochronologyImpure.owl"));
 //		OWLOntology extensions = manager.loadOntologyFromOntologyDocument(IRI.create("http://hydro10.sdsc.edu/cinergi_ontology/cinergiExtensions.owl"));
-		System.out.println("ontology loaded");
+	//	System.out.println("ontology loaded");
 		//CinergiLabelFixer labelFixer = new CinergiLabelFixer(os, writer, manager1, manager2, df, cinergiOntology, old_ontology);
 //		CinergiLabelFixer labelFixer = new CinergiLabelFixer(os, writer, manager, df, cinergiOntology);
 //		labelFixer.fixLabels();
@@ -62,7 +73,7 @@ public class Main {
 		Tester.printFacets(writer3, extensions_ont, manager, df);
 */
 //		Tester.printEquivalentClasses(writer, extensions, manager, df);
-//		Tester.addMissingFacets(writer, extensionsOntology, manager, df);
+//		Tester.addMissingFacets(writer, extensions_ont, manager, df);
 		
 //		Tester.geologicTimeImpure(os, writer, manager, manager2, geochronology2, geochronologyImpure, df, df2);
 //		Tester.printTop3Levels(writer, ont, manager, df);
@@ -76,13 +87,27 @@ public class Main {
 //		manager.saveOntology(extensions_ont, os);
 		//manager2.saveOntology(geochronologyImpure, os);		
 		
-		Tester.printSameLabels(writer, filterList, nullPaths, cinergi_ont, manager, df);
-		writer.println("finished");
+//		Tester.printSameLabels(writer, filterList, nullPaths, cinergi_ont, manager, df);
+	//	Tester.printUnassignedTerms(writer,cinergi_ont, manager, df);
+		//Tester.printEquivalentFacets(writer,cinergi_ont, manager, df);
+
+	//	Tester.printTermsNotInTheOntology(writer, writer2);
+
 		
-//		os.close();	
+		Tester.addToOntology(writer, elsst_ont, manager, df);
+		manager.saveOntology(elsst_ont, new OWLXMLOntologyFormat(), os);
+	//	manager.saveOntology(extensions_ont, os);
+		
+		
+	//	Tester.secondLevelFacetPrint(manager, df, writer);
+	//	writer.println("\n\nfinished");
+	
+		os.close();	
 		writer.close();
-		filterList.close();
-		nullPaths.close();
+	
+		//	writer2.close();
+	/*	filterList.close();
+		nullPaths.close(); */
 /*		writer1.close();
 		writer2.close();
 		writer3.close();
