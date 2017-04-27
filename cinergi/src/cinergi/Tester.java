@@ -1900,6 +1900,152 @@ public static void secondLevelFacetPrint(final OWLOntologyManager manager, final
 				
 		
 	}
+
+	public static void addDatasetSynonyms(final OWLOntologyManager manager, final OWLOntology cinergi_ont, final OWLDataFactory df,
+			final PrintWriter writer) {
+	
+		final Set<IRI> iri = new HashSet<IRI>();
+		
+		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
+	    OWLOntologyWalkerVisitor<Object> visitor = 
+	    		
+			new OWLOntologyWalkerVisitor<Object>(walker)    
+	    	{
+	        	@Override
+	        	public Object visit(OWLClass c)
+	        	{
+        			String labelToUse = ""; // new string for each class
+        			String partToUse = "";
+	        		if (!iri.contains(c.getIRI()))
+					{	
+	        			
+        				iri.add(c.getIRI());
+        				ArrayList<String> reg = new ArrayList<String>(4);
+        				reg.add("Dataset");
+        				reg.add("Data Set");
+        				reg.add("Database");
+						reg.add("Data Base");
+						
+        				for (OWLOntology ont : manager.getOntologies())
+        				{
+        					for (OWLAnnotation a : c.getAnnotations(ont, df.getRDFSLabel()))
+        					{
+        						String label =((OWLLiteral)a.getValue()).getLiteral();
+				
+        						for (int i = 0 ; i < reg.size(); i++)
+   								{
+   									if (label.toLowerCase().contains(reg.get(i).toLowerCase())) 
+   									{
+   										if (partToUse != "")
+   											return null;
+   										partToUse = reg.get(i);
+   										labelToUse = label;
+										//System.out.println(label);
+   										reg.remove(i);
+   										i--;
+										break;
+   									}   									
+   								}
+        					}	 
+        				}
+        				
+        				if (partToUse == "") 
+						{
+							return null;
+						}
+        				int index = labelToUse.toLowerCase().indexOf(partToUse.toLowerCase());
+    					String toAdd = "";
+    					
+    					toAdd += labelToUse.substring(0, index);    				
+    					
+    					if (partToUse.equals("Dataset"))
+						{    						
+							toAdd += "Data Set";
+							
+						}  
+    					else if (partToUse.equals("Data Set"))
+						{
+							toAdd += "Dataset";
+							
+						}  
+    					else if (partToUse.equals("Database"))
+						{
+							toAdd += "Data Base";
+						}  
+    					else if (partToUse.equals("Data Base"))
+						{
+							toAdd += "Database";
+						}
+    					
+    					if (index + partToUse.length() < labelToUse.length())
+						{
+							toAdd += labelToUse.substring(index + partToUse.length());
+							System.out.println("remainder added in class: " + c.getIRI());
+						}
+    					
+    					OWLAnnotation labelAnnotation = df.getOWLAnnotation(			
+								df.getRDFSLabel(), df.getOWLLiteral(toAdd));
+	        			
+	        			OWLAxiom axiom = df.getOWLAnnotationAssertionAxiom(c.getIRI(), labelAnnotation);
+        				AddAxiom addAxiom = new AddAxiom(cinergi_ont, axiom);
+        				manager.applyChange(addAxiom);	        						
+        				writer.println(c.getIRI().getShortForm() + " label added in class: " + toAdd );
+    				}
+	        		return null;
+	        	}
+	    	};
+	    	
+		walker.walkStructure(visitor);
+		
+	}
+
+	public static void addHyphenSynonyms(final OWLOntologyManager manager, final OWLOntology cinergi_ont, final OWLDataFactory df,
+			final PrintWriter writer) {
+		// TODO Auto-generated method stub
+		final Set<IRI> iri = new HashSet<IRI>();
+		
+		OWLOntologyWalker walker = new OWLOntologyWalker(manager.getOntologies());
+	    OWLOntologyWalkerVisitor<Object> visitor = 
+	    		
+			new OWLOntologyWalkerVisitor<Object>(walker)    
+	    	{
+	        	@Override
+	        	public Object visit(OWLClass c)
+	        	{
+	        		if (!iri.contains(c.getIRI()))
+					{	
+	        			String toAdd = "";	        			
+	        			for (OWLOntology ont : manager.getOntologies())
+        				{
+        					for (OWLAnnotation a : c.getAnnotations(ont, df.getRDFSLabel()))
+        					{
+        						String label = ((OWLLiteral)a.getValue()).getLiteral();
+				
+        						if (label.contains("-")) {
+        				            // if there is a hyphen then separate it there
+        				            int i = label.indexOf("-");
+        				            String[] substr = {label.substring(0, i), label.substring(i + 1)};
+        				            toAdd = (substr[0] + " " + substr[1]);
+        						}
+        					}	 
+        				}
+        			
+	        			if (toAdd == "")
+	        				return null;
+	        			
+	        			OWLAnnotation labelAnnotation = df.getOWLAnnotation(			
+								df.getRDFSLabel(), df.getOWLLiteral(toAdd));
+	        			
+	        			OWLAxiom axiom = df.getOWLAnnotationAssertionAxiom(c.getIRI(), labelAnnotation);
+        				AddAxiom addAxiom = new AddAxiom(cinergi_ont, axiom);
+        				manager.applyChange(addAxiom);	        						
+        				writer.println(c.getIRI().getShortForm() + " label added in class: " + toAdd );
+					}
+					return null;
+	        	}
+	    	};
+    	walker.walkStructure(visitor);
+	}
 }
 	
 
